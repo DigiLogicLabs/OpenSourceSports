@@ -1,0 +1,7 @@
+{
+  "name": "Mini Sports",
+  "description": "Small-scale sports and games that require minimal space and equipment",
+  "type": "CUSTOM",
+  "maintainers": ["OpenSourceSports"],
+  "created_at": "2025-02-26T00:00:00Z"
+}

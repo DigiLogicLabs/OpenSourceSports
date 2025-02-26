@@ -1,0 +1,10 @@
+{
+  "name": "PowerSlap",
+  "category": "Combat Sports",
+  "type": "OFFICIAL",
+  "description": "A combat sport focused on competitive open-handed striking",
+  "governing_bodies": ["PowerSlap"],
+  "tags": ["slap fighting", "professional", "combat", "striking"],
+  "created_at": "2025-02-26T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Football",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "American football, a team sport played with an oval ball on a rectangular field with goalposts at each end",
+  "governing_bodies": ["NFL", "NCAA", "IFAF"],
+  "tags": ["american football", "professional", "team sport", "contact sport"],
+  "created_at": "2025-02-26T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

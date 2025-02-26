@@ -2,188 +2,421 @@
 
 A collaborative platform for standardized sports rules and regulations, featuring both official and custom sports through a modern web interface and GitHub version control.
 
-### About OSS
+## About OSS
 
-OSS provides a structured, version-controlled repository of sports rules with an accompanying web platform at opensourcesports.io. We combine GitHub's robust tracking capabilities with a user-friendly interface to make sports rules accessible and maintainable.
+OpenSourceSports provides a structured, version-controlled repository of sports rules with an accompanying web platform at opensourcesports.io. We combine GitHub's robust tracking capabilities with a user-friendly interface to make sports rules accessible and maintainable.
 
 **Official Sports**: Professionally regulated sports with established governing bodies (FIFA, NBA, UFC, NFL, NHL). Rules are strictly maintained according to official standards and regulatory requirements.
 
 **Custom Sports**: Community-created sports and variations, developed through collaborative effort and real-world testing. These represent innovation in gameplay and community-driven rule development.
 
-### Rule Submission Process
+## Repository Structure Guidelines
 
-#### Official Sports
-Official rule changes follow a strict review process:
-- Changes require review by designated maintainers
-- Pull requests must include:
-  - Reference to official source
-  - Regulatory body verification
-  - Impact assessment
-  - Compliance check
+### Core Structure
 
-#### Custom Sports
-Submit through our user-friendly web interface:
-- Interactive rule creation wizard
-- Dynamic template with guided sections
-- Live preview functionality
-- Automatic repository structure generation
-- No technical knowledge required
-- Instant preview and publishing
-- Community voting and feedback system
+The repository follows a two-branch structure for Official and Custom sports:
 
-### File Organization Standards
+```
+OpenSourceSports/
+├── Official/
+│   ├── metadata.json
+│   ├── [Category]/
+│   │   ├── metadata.json
+│   │   ├── [Sport]/
+│   │   │   ├── metadata.json
+│   │   │   ├── [Organization]_[RuleType].html
+│   │   │   └── archive/
+│   │   │       └── [Organization]_[RuleType]_[Year].html
+└── Custom/
+    ├── metadata.json
+    ├── [Category]/
+    │   ├── metadata.json
+    │   └── [Sport]/
+    │       ├── metadata.json
+    │       └── [SportName]_[RuleType].html
+```
 
-#### Official Sports Structure
+### Metadata Files
+
+Each directory should contain a `metadata.json` file with information about its contents:
+
+**Root metadata.json example:**
+```json
+{
+  "repository_name": "OpenSourceSports",
+  "description": "A collaborative platform for standardized sports rules and regulations",
+  "maintainers": ["username1", "username2"],
+  "last_updated": "2024-02-26"
+}
+```
+
+**Category metadata.json example:**
+```json
+{
+  "name": "Combat Sports",
+  "description": "Sports that involve one-on-one combat",
+  "type": "OFFICIAL",
+  "maintainers": ["username1", "username2"],
+  "created_at": "2023-06-15T00:00:00Z"
+}
+```
+
+**Sport metadata.json example:**
+```json
+{
+  "name": "Boxing",
+  "category": "Combat Sports",
+  "type": "OFFICIAL",
+  "description": "A combat sport in which two people compete using only their fists.",
+  "governing_bodies": ["WBA", "WBC", "IBF", "WBO"],
+  "tags": ["olympic", "professional", "amateur"],
+  "created_at": "2023-06-15T00:00:00Z",
+  "created_by": "admin"
+}
+```
+
+## Naming Conventions
+
+### Directory Names
+
+- **Categories**: Use Title Case with spaces (e.g., "Combat Sports", "Team Sports")
+- **Sport Names**: Use Title Case with spaces (e.g., "Boxing", "Soccer")
+- **Special Characters**: Avoid special characters except hyphens for complex names (e.g., "End-Zone-Exchange")
+
+### File Names
+
+#### Official Sports Files
+
+Pattern: `[Organization]_[RuleType]_[OptionalYear].html`
+
+Examples:
+- `WBA_Official_Rulebook.html` (current rules)
+- `NFL_Official_Rulebook_2024.html` (specific year version)
+- `FIFA_Laws_of_Game.html` (type-specific rules)
+- `IIHF_Competition_Rules.html` (competition-specific rules)
+
+Rule Types include:
+- `Official_Rulebook`: Primary rulebook for the sport
+- `Competition_Rules`: Rules specific to competitions
+- `Officials_Manual`: Guidelines for referees/officials
+- `Safety_Protocol`: Safety-related rules and guidelines
+
+#### Custom Sports Files
+
+Pattern: `[SportName]_[RuleType].html`
+
+Examples:
+- `End_Zone_Exchange_Game_Rules.html` (basic rules)
+- `Thumb_Wrestling_Tournament_Rules.html` (tournament format)
+- `Beerpong_Variant_College.html` (specific variant)
+
+Rule Types include:
+- `Game_Rules`: Basic rules for playing the sport
+- `Tournament_Rules`: Rules for tournament formats
+- `Variant_[VariantName]`: Specific variations of the sport
+
+### Archive Structure
+
+For Official sports, archived versions should be stored in an `archive` subdirectory:
+
 ```
 Official/
-├── Combat Sports/
-│   ├── Boxing/
-│   │   ├── WBA_Official_Rulebook.html
-│   │   ├── WBC_Official_Rulebook.html
-│   │   └── Unified_Boxing_Rules.html
-│   └── MMA/
-│       ├── UFC_Unified_Rulebook.html
-│       └── Athletic_Commission_Standards.html
 └── Team Sports/
-    ├── Football/
-    │   └── NFL_Official_Rulebook.html
-    └── Soccer/
-        ├── FIFA_Laws_of_Game.html
-        └── FIFA_Competition_Rules.html
+    └── Football/
+        ├── NFL_Official_Rulebook.html (current version)
+        └── archive/
+            ├── NFL_Official_Rulebook_2023.html
+            ├── NFL_Official_Rulebook_2022.html
 ```
 
-#### Custom Sports Structure
-Automatically organized based on submission metadata:
+## HTML Content Structure
+
+Every rule file should follow this basic structure:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sport Name - Rule Type</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <!--
+  METADATA
+  {
+    "sport": "Sport Name",
+    "category": "Sport Category",
+    "type": "OFFICIAL/CUSTOM",
+    "governingBody": "Organization Name",
+    "version": "1.0",
+    "lastUpdated": "2024-02-26",
+    "author": "Author Name",
+    "tags": ["tag1", "tag2"]
+  }
+  -->
+  
+  <header>
+    <h1>Sport Name - Official Rulebook</h1>
+    <p class="governing-body">Governing Body: Organization Name</p>
+    <p class="last-updated">Last Updated: February 26, 2024</p>
+  </header>
+  
+  <main>
+    <!-- Rule content sections -->
+    <section id="section-1">
+      <h2>Section 1: Introduction</h2>
+      <p>Content goes here...</p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>© 2024 OpenSourceSports</p>
+  </footer>
+</body>
+</html>
 ```
-Custom/
-├── [Category]/
-│   └── [Sport Name]/
-│       └── Game_Rules.html
+
+### Required Metadata
+
+The HTML metadata section is required and should be placed in an HTML comment at the top of the `<body>` tag. This metadata is used by the sync system to properly categorize and index the content.
+
+```html
+<!--
+METADATA
+{
+  "sport": "Boxing",
+  "category": "Combat Sports",
+  "type": "OFFICIAL",
+  "governingBody": "WBA",
+  "version": "1.0",
+  "lastUpdated": "2024-02-26",
+  "author": "admin",
+  "tags": ["professional", "championship", "sanctioned"]
+}
+-->
 ```
 
-### Naming Conventions
+### Required Sections
 
-#### Official Sports
-- Main rules: `Organization_Official_Rulebook.html`
-- Competition rules: `Organization_Competition_Rules.html`
-- Supporting documents: `Category_Protocol.html`
-- Use underscores for spacing
+Each HTML file should include these standard sections:
 
-#### Custom Sports
-- System-generated naming based on web submission
-- Consistent format: `Game_Rules.html`
-- Optional variations: `Game_Rules_Variant.html`
-- Tournament formats: `Game_Tournament_Rules.html`
+1. **Introduction**: Overview and basic information
+2. **Equipment**: Required equipment and specifications
+3. **Playing Area**: Field/court/ring dimensions and setup
+4. **Players/Officials**: Number of players, roles, officials
+5. **Rules of Play**: Core rules and mechanics
+6. **Scoring**: How points are awarded
+7. **Violations/Penalties**: Rules infractions and consequences
+8. **Safety Considerations**: Safety guidelines and precautions
 
-### Web Platform Features
+## Rule Submission Process
 
-- Interactive rule browsing with category filtering
-- Version comparison and change tracking
-- Community discussion and proposals
-- Mobile-responsive design
-- User authentication and contribution tracking
-- Rule creation wizard for custom sports
-- Live preview system
-- Automatic formatting and organization
-- Version control without Git knowledge
-- Community voting and feedback system
+### Official Sports
 
-### Quality Standards
+Official rule changes follow a strict review process:
 
-1. **Official Sports Requirements**:
-   - Accurate reflection of governing body rules
-   - Proper citation of sources
-   - Complete regulation coverage
-   - Regular updates tracking official changes
+1. **Fork the Repository**: Create a fork of the OpenSourceSports repository
+2. **Create a Branch**: Name it following the pattern `official/[sport]/[description]`
+3. **Make Changes**: Update the HTML file with the new rules
+4. **Create metadata.json**: If not already present
+5. **Archive Old Version**: Move the previous version to the archive folder with the year
+6. **Submit a Pull Request**: Include the following information:
+   - Reference to official source
+   - Regulatory body verification
+   - Impact assessment
+   - Compliance check
 
-2. **Custom Sports Requirements**:
-   - Clear setup instructions
-   - Equipment specifications
-   - Player counts and roles
-   - Scoring system
-   - Safety considerations
-   - Optional variations
+### Custom Sports
 
-3. **Technical Standards**:
-   - Valid HTML5
-   - Semantic markup for accessibility
-   - Required metadata sections
-   - Responsive design principles
-   - Dark/light theme compatibility
+Custom sports can be submitted through:
 
-### Localization
+1. **Web Interface** (Recommended):
+   - Use the rule creation wizard on opensourcesports.io
+   - Complete all required sections
+   - Preview and publish directly
 
-- Primary language: English
-- Official sports: `Organization_Official_Rulebook_LANG.html`
-- Custom sports: `Game_Rules_LANG.html`
-- Language code in metadata
+2. **Manual Submission**:
+   - Fork the repository
+   - Create a branch following the pattern `custom/[category]/[sport-name]`
+   - Create the appropriate directory structure
+   - Add metadata.json files at each level
+   - Create the HTML rule file following the naming conventions
+   - Submit a pull request
 
-### HTML Templates
+## Versioning System
 
-- `official-sport-template.html`: For regulated sports
-- `custom-sport-template.html`: For community sports
-- `tournament-template.html`: For competition formats
-- Dynamic web-based template system for custom sports
+### Official Sports
 
-### Community Guidelines
+Version tracking for official sports follows the annual rulebook updates:
 
-1. **Respectful Communication**
-   - Constructive feedback
-   - Inclusive language
-   - Clear documentation
+1. **Current Version**: Always stored in the main rule file (e.g., `NFL_Official_Rulebook.html`)
+2. **Historical Versions**: Stored in the archive directory with year suffix
+3. **Mid-Year Updates**: Handled via version field in metadata (e.g., "2024.2")
 
-2. **Support Channels**
-   - GitHub Issues for bugs
-   - Discussions for ideas
-   - Discord community
-   - Web platform feedback system
+### Custom Sports
 
-### Commit Message Standards
+Version tracking for custom sports:
 
-Commits must follow this format:
+1. **Semantic Versioning**: Use `major.minor.patch` format
+   - Major: Significant rule changes that affect gameplay
+   - Minor: Clarifications or minor adjustments
+   - Patch: Typo corrections or formatting changes
+2. **Version History**: Tracked via commit history
+
+## Commit Message Standards
+
+All commits must follow this format:
 ```
 [type]: <scope> - description
 
 [optional body]
+
+[metadata]
 ```
 
-Types:
+### Types
+
 - `[OFFICIAL]`: Official sport rule updates
 - `[CUSTOM]`: New custom sport or rule changes
 - `[UPDATE]`: General repository updates
 - `[REVIEW]`: Review process related changes
 - `[ADMIN]`: Administrative changes
 
-Scopes:
+### Scopes
+
 - Sport name (e.g., `NFL`, `FIFA`, `PowerSlap`)
 - Category (e.g., `Combat`, `Team`, `Ball Games`)
 - System area (e.g., `template`, `docs`, `structure`)
 
-Examples:
+### Metadata Section
+
+For rule updates, include these fields in the commit message body:
+
+```
+Version: 2024.1
+Author: username
+Reference: URL or document reference
+Governing Body: Organization name
+Change Summary: Brief list of major changes
+```
+
+### Examples
+
+Official rule update:
 ```
 [OFFICIAL]: NFL - Update 2024 rulebook with new targeting rules
 
+Updates the NFL rulebook with the new targeting rules approved by the Competition Committee.
+
+Version: 2024.1
+Author: admin
 Reference: NFL Competition Committee Report 2024
-Section: Player Safety
-Link: official-source-url
+Governing Body: NFL
+Change Summary:
+- Modified Rule 12, Section 2, Article 8 (Targeting)
+- Added new language on player safety
+- Updated referee signal illustrations
 ```
 
+Custom sport addition:
 ```
 [CUSTOM]: Ball Games - Add End Zone Exchange sport
 
-Created via web interface
-Category: Ball Games
+Created new custom sport "End Zone Exchange" with complete ruleset.
+
+Version: 1.0.0
 Author: username
+Category: Ball Games
+Players: 6-10 per team
+Equipment: Football, cones
 ```
 
-These commit messages enable:
-- Automated changelog generation
-- Rule version tracking
-- Category-based filtering
-- API event triggers
-- Automated testing workflows
+## Template System
 
-### License
+The repository includes standard templates for creating new rule documents:
+
+1. **official-template.html**: For regulated sports rulebooks
+2. **custom-template.html**: For community sports rules
+3. **tournament-template.html**: For competition formats
+
+Templates are located in the `Templates/` directory at the repository root.
+
+## Localization Guidelines
+
+### File Naming for Translations
+
+- Official sports: `[Organization]_[RuleType]_[LANG].html`
+- Custom sports: `[SportName]_[RuleType]_[LANG].html`
+- Language codes should use ISO 639-1 format (e.g., `en`, `es`, `fr`)
+
+### Metadata for Translations
+
+Include additional fields in the metadata section:
+
+```json
+{
+  "language": "es",
+  "translator": "username",
+  "originalVersion": "1.2.0",
+  "translationDate": "2024-02-26"
+}
+```
+
+## Technical Implementation
+
+### Sync Process
+
+The repository is synchronized with the OpenSourceSports database through:
+
+1. **Manual Sync**: Run via command `pnpm run sync:sports`
+2. **Webhook Sync**: Automatic updates when changes are pushed to main
+
+The sync process:
+1. Scans the repository structure
+2. Parses metadata files and HTML metadata
+3. Creates or updates database records for categories, sports, and rules
+4. Tracks versions and creates audit logs
+
+### Parsing Logic
+
+The system parses repository content using these rules:
+
+1. **Path Analysis**: Extracts category, sport, and file type information from the file path
+2. **Metadata Extraction**: Reads metadata.json files and HTML metadata comments
+3. **Content Processing**: Processes HTML content for rules and sections
+4. **Version Tracking**: Compares content to detect changes and update versions
+
+## Contributing Guidelines
+
+1. **Getting Started**:
+   - Fork the repository
+   - Clone locally
+   - Set up the development environment
+   - Read documentation
+
+2. **Code of Conduct**:
+   - Be respectful and inclusive
+   - Provide constructive feedback
+   - Follow the established guidelines
+   - Collaborate positively
+
+3. **Pull Request Process**:
+   - Create a descriptive branch name
+   - Make focused changes
+   - Update relevant documentation
+   - Submit a pull request with detailed description
+   - Respond to review feedback
+
+## Community Resources
+
+- **Documentation**: Complete guides at docs.opensourcesports.io
+- **Issue Tracker**: Report bugs and request features on GitHub
+- **Discussions**: Join conversations in the GitHub Discussions
+- **Discord**: Real-time community chat at discord.gg/opensourcesports
+- **Contribution Guide**: Detailed guide at CONTRIBUTING.md
+
+## License
 
 This project is licensed under the MIT License, which permits:
 - Commercial use

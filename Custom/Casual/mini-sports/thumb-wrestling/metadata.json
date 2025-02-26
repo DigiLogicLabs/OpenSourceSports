@@ -1,0 +1,10 @@
+{
+  "name": "Thumb Wrestling",
+  "category": "Mini Sports",
+  "type": "CUSTOM",
+  "description": "A hand-based game of skill where players attempt to pin each other's thumb",
+  "governing_bodies": [],
+  "tags": ["hand game", "mini sport", "casual", "dexterity", "children"],
+  "created_at": "2025-02-26T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

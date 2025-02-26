@@ -1,0 +1,7 @@
+{
+  "name": "Combat Sports",
+  "description": "Sports that involve one-on-one combat",
+  "type": "OFFICIAL",
+  "maintainers": ["OpenSourceSports"],
+  "created_at": "2025-02-26T00:00:00Z"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Hockey",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Ice hockey, a team sport played on ice with skates and sticks",
+  "governing_bodies": ["NHL", "IIHF"],
+  "tags": ["ice hockey", "professional", "team sport", "winter sport"],
+  "created_at": "2025-02-26T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

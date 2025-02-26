@@ -1,0 +1,10 @@
+{
+  "name": "Hide and Seek",
+  "category": "Playground Games",
+  "type": "CUSTOM",
+  "description": "A classic children's game where players hide while one person seeks",
+  "governing_bodies": [],
+  "tags": ["children", "playground", "casual", "outdoor", "indoor"],
+  "created_at": "2025-02-26T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

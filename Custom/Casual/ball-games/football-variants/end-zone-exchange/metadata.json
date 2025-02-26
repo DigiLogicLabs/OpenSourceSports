@@ -1,0 +1,10 @@
+{
+  "name": "End Zone Exchange",
+  "category": "Ball Games",
+  "type": "CUSTOM",
+  "description": "A strategic and athletic game that combines throwing accuracy and catching prowess",
+  "governing_bodies": [],
+  "tags": ["football", "variant", "casual", "throwing", "catching"],
+  "created_at": "2025-02-26T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

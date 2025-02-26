@@ -1,0 +1,10 @@
+{
+  "name": "MMA",
+  "category": "Combat Sports",
+  "type": "OFFICIAL",
+  "description": "Mixed Martial Arts, a full-contact combat sport that allows striking and grappling techniques",
+  "governing_bodies": ["UFC", "Bellator", "ONE Championship", "PFL"],
+  "tags": ["mixed martial arts", "professional", "combat", "striking", "grappling"],
+  "created_at": "2025-02-26T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Boxing",
+  "category": "Combat Sports",
+  "type": "OFFICIAL",
+  "description": "A combat sport in which two people compete using only their fists",
+  "governing_bodies": ["WBA", "WBC", "IBF", "WBO"],
+  "tags": ["olympic", "professional", "amateur", "combat"],
+  "created_at": "2025-02-26T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Beer Pong",
+  "category": "Party Games",
+  "type": "CUSTOM",
+  "description": "A drinking game where players throw ping pong balls across a table into cups of beer",
+  "governing_bodies": [],
+  "tags": ["party", "drinking", "casual", "college"],
+  "created_at": "2025-02-26T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

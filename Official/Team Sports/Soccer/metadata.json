@@ -1,0 +1,10 @@
+{
+  "name": "Soccer",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Association football, a team sport played with a spherical ball between two teams of 11 players",
+  "governing_bodies": ["FIFA", "UEFA", "CONMEBOL", "CONCACAF"],
+  "tags": ["football", "soccer", "professional", "team sport", "olympic"],
+  "created_at": "2025-02-26T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
