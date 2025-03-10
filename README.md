@@ -210,39 +210,34 @@ Each HTML file should include these standard sections:
 7. **Violations/Penalties**: Rules infractions and consequences
 8. **Safety Considerations**: Safety guidelines and precautions
 
-## Rule Submission Process
+## Repository Management & Contribution Flow
 
-### Official Sports
+### Source of Truth
 
-Official rule changes follow a strict review process:
+This repository serves as the **official source of truth** for all OpenSourceSports rules and regulations. To maintain consistency and quality:
 
-1. **Fork the Repository**: Create a fork of the OpenSourceSports repository
-2. **Create a Branch**: Name it following the pattern `official/[sport]/[description]`
-3. **Make Changes**: Update the HTML file with the new rules
-4. **Create metadata.json**: If not already present
-5. **Archive Old Version**: Move the previous version to the archive folder with the year
-6. **Submit a Pull Request**: Include the following information:
-   - Reference to official source
-   - Regulatory body verification
-   - Impact assessment
-   - Compliance check
+- **No Direct PRs**: Do not fork this repository or create pull requests directly against it unless explicitly authorized by the OpenSourceSports team.
+- **No Direct Edits**: Direct edits to this repository are restricted to authorized maintainers only.
 
-### Custom Sports
+### Official Submission Process
 
-Custom sports can be submitted through:
+All submissions and updates must be made through the **opensourcesports.io application**:
 
-1. **Web Interface** (Recommended):
-   - Use the rule creation wizard on opensourcesports.io
-   - Complete all required sections
-   - Preview and publish directly
+1. **Web Platform Submission**:
+   - Create an account on [opensourcesports.io](https://opensourcesports.io)
+   - Use the dedicated submission interface
+   - Complete all required fields and sections
+   - Submit for review through the platform
 
-2. **Manual Submission**:
-   - Fork the repository
-   - Create a branch following the pattern `custom/[category]/[sport-name]`
-   - Create the appropriate directory structure
-   - Add metadata.json files at each level
-   - Create the HTML rule file following the naming conventions
-   - Submit a pull request
+2. **Technical Implementation**:
+   - The opensourcesports.io app (React/Supabase) interacts with this repository via GitHub webhooks and tokens
+   - All submissions are validated, formatted, and standardized before being committed
+   - Changes are tracked and attributed to the submitting user
+   - Versioning is handled automatically by the system
+
+3. **Manual Interventions**:
+   - In rare cases, the OpenSourceSports team may make direct updates to address critical issues
+   - These interventions follow strict internal protocols and approval processes
 
 ## Versioning System
 
@@ -390,10 +385,10 @@ The system parses repository content using these rules:
 ## Contributing Guidelines
 
 1. **Getting Started**:
-   - Fork the repository
-   - Clone locally
-   - Set up the development environment
-   - Read documentation
+   - Create an account on [opensourcesports.io](https://opensourcesports.io)
+   - Familiarize yourself with the platform interface
+   - Read the documentation and existing rules
+   - Understand the submission standards
 
 2. **Code of Conduct**:
    - Be respectful and inclusive
@@ -401,12 +396,11 @@ The system parses repository content using these rules:
    - Follow the established guidelines
    - Collaborate positively
 
-3. **Pull Request Process**:
-   - Create a descriptive branch name
-   - Make focused changes
-   - Update relevant documentation
-   - Submit a pull request with detailed description
-   - Respond to review feedback
+3. **Submission Process**:
+   - Use the opensourcesports.io platform for all submissions
+   - Follow the guided submission process
+   - Provide complete and accurate information
+   - Respond to review feedback through the platform
 
 ## Community Resources
 
@@ -431,6 +425,16 @@ Requirements:
 
 For full license terms, see the LICENSE file.
 
+### Important Licensing Note
+
+While this repository uses the MIT license (allowing anyone to take the source and use it for their own purposes), the **official OpenSourceSports repository** is specifically managed through our application workflow. The license allows you to:
+
+- Create your own fork for personal or commercial use
+- Develop your own sports rules platform based on our structure
+- Incorporate our standards into your own projects
+
+However, contributions to the official OpenSourceSports repository must follow our established submission process through the opensourcesports.io platform.
+
 ---
 
-Join us in building the world's most comprehensive and accessible sports rule repository! Visit opensourcesports.io to get started.
+Join us in building the world's most comprehensive and accessible sports rule repository! Visit [opensourcesports.io](https://opensourcesports.io) to get started with our streamlined submission process.
