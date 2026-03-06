@@ -1,0 +1,10 @@
+{
+  "name": "Cricket",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Cricket as governed by ICC",
+  "governing_bodies": ["ICC"],
+  "tags": ["olympic", "professional", "cricket", "icc"],
+  "created_at": "2026-03-06T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
