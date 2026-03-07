@@ -1,0 +1,10 @@
+{
+  "name": "Rugby",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Rugby as governed by World Rugby",
+  "governing_bodies": ["World Rugby"],
+  "tags": ["olympic", "professional", "rugby", "world rugby"],
+  "created_at": "2026-03-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
