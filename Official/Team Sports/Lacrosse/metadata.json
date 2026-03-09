@@ -1,0 +1,10 @@
+{
+  "name": "Lacrosse",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Lacrosse as governed by World Lacrosse",
+  "governing_bodies": ["World Lacrosse"],
+  "tags": ["olympic", "professional", "lacrosse", "world lacrosse"],
+  "created_at": "2026-03-09T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
