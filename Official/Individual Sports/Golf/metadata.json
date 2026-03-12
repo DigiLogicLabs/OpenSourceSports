@@ -1,0 +1,10 @@
+{
+  "name": "Golf",
+  "category": "Individual Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Golf as governed by R&A",
+  "governing_bodies": ["R&A"],
+  "tags": ["olympic", "professional", "golf", "r&a", "usga"],
+  "created_at": "2026-03-12T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
