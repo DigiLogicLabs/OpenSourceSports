@@ -1,0 +1,10 @@
+{
+  "name": "Tennis",
+  "category": "Individual Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Tennis as governed by ITF",
+  "governing_bodies": ["ITF"],
+  "tags": ["olympic", "professional", "tennis", "itf", "grand slam"],
+  "created_at": "2026-03-11T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
