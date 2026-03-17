@@ -1,0 +1,10 @@
+{
+  "name": "Table Tennis",
+  "category": "Racquet Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Table Tennis as governed by ITTF",
+  "governing_bodies": ["ITTF"],
+  "tags": ["olympic", "professional", "table tennis", "ping pong", "ittf"],
+  "created_at": "2026-03-17T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
