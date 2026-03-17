@@ -1,0 +1,10 @@
+{
+  "name": "Badminton",
+  "category": "Racquet Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Badminton as governed by BWF",
+  "governing_bodies": ["BWF"],
+  "tags": ["olympic", "professional", "badminton", "bwf"],
+  "created_at": "2026-03-17T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
