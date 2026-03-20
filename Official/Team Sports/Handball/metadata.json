@@ -1,0 +1,17 @@
+{
+  "name": "Handball",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Handball as governed by IHF",
+  "governing_bodies": [
+    "IHF"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "handball",
+    "ihf"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

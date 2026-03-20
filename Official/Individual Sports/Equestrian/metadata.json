@@ -1,0 +1,20 @@
+{
+  "name": "Equestrian",
+  "category": "Individual Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Equestrian as governed by FEI",
+  "governing_bodies": [
+    "FEI"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "equestrian",
+    "fei",
+    "dressage",
+    "show jumping",
+    "eventing"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

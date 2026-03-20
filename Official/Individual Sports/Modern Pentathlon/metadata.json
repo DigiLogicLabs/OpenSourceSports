@@ -1,0 +1,17 @@
+{
+  "name": "Modern Pentathlon",
+  "category": "Individual Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Modern Pentathlon as governed by UIPM",
+  "governing_bodies": [
+    "UIPM"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "modern pentathlon",
+    "uipm"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

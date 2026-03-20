@@ -1,0 +1,19 @@
+{
+  "name": "Cross-Country Skiing",
+  "category": "Winter Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Cross-Country Skiing as governed by FIS",
+  "governing_bodies": [
+    "FIS"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "cross-country skiing",
+    "fis",
+    "nordic",
+    "xc skiing"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

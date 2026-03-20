@@ -1,0 +1,21 @@
+{
+  "name": "Snowboard",
+  "category": "Winter Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Snowboard as governed by FIS",
+  "governing_bodies": [
+    "FIS"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "snowboard",
+    "fis",
+    "halfpipe",
+    "slopestyle",
+    "snowboard cross",
+    "parallel giant slalom"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

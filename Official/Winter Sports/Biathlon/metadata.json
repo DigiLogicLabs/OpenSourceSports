@@ -1,0 +1,19 @@
+{
+  "name": "Biathlon",
+  "category": "Winter Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Biathlon as governed by IBU",
+  "governing_bodies": [
+    "IBU"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "biathlon",
+    "ibu",
+    "shooting",
+    "skiing"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

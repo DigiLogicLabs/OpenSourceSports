@@ -1,0 +1,20 @@
+{
+  "name": "Canoeing",
+  "category": "Water Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Canoeing as governed by ICF",
+  "governing_bodies": [
+    "ICF"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "canoeing",
+    "kayak",
+    "icf",
+    "canoe sprint",
+    "canoe slalom"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

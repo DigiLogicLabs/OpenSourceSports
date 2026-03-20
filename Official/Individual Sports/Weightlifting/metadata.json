@@ -1,0 +1,20 @@
+{
+  "name": "Weightlifting",
+  "category": "Individual Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Weightlifting as governed by IWF",
+  "governing_bodies": [
+    "IWF"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "weightlifting",
+    "iwf",
+    "olympic lifting",
+    "clean and jerk",
+    "snatch"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

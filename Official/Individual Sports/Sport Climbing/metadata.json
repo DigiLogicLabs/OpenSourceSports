@@ -1,0 +1,20 @@
+{
+  "name": "Sport Climbing",
+  "category": "Individual Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Sport Climbing as governed by IFSC",
+  "governing_bodies": [
+    "IFSC"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "sport climbing",
+    "ifsc",
+    "bouldering",
+    "lead",
+    "speed"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

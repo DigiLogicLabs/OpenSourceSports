@@ -1,0 +1,18 @@
+{
+  "name": "Surfing",
+  "category": "Water Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Surfing as governed by ISA",
+  "governing_bodies": [
+    "ISA"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "surfing",
+    "isa",
+    "shortboard"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

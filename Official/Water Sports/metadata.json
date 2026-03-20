@@ -1,0 +1,8 @@
+{
+  "name": "Water Sports",
+  "type": "category",
+  "description": "Water Sports governed by international federations",
+  "maintainers": [
+    "OpenSourceSports"
+  ]
+}

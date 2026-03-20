@@ -1,0 +1,17 @@
+{
+  "name": "Beach Volleyball",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Beach Volleyball as governed by FIVB",
+  "governing_bodies": [
+    "FIVB"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "beach volleyball",
+    "fivb"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

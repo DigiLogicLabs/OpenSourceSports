@@ -1,0 +1,8 @@
+{
+  "name": "Winter Sports",
+  "type": "category",
+  "description": "Winter Sports governed by international federations",
+  "maintainers": [
+    "OpenSourceSports"
+  ]
+}

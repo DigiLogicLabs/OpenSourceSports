@@ -1,0 +1,18 @@
+{
+  "name": "Judo",
+  "category": "Combat Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Judo as governed by IJF",
+  "governing_bodies": [
+    "IJF"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "judo",
+    "ijf",
+    "martial arts"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

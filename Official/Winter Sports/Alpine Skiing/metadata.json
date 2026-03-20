@@ -1,0 +1,21 @@
+{
+  "name": "Alpine Skiing",
+  "category": "Winter Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Alpine Skiing as governed by FIS",
+  "governing_bodies": [
+    "FIS"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "alpine skiing",
+    "fis",
+    "slalom",
+    "downhill",
+    "giant slalom",
+    "super-g"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

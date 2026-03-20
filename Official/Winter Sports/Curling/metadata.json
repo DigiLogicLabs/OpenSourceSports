@@ -1,0 +1,17 @@
+{
+  "name": "Curling",
+  "category": "Winter Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Curling as governed by WCF",
+  "governing_bodies": [
+    "WCF"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "curling",
+    "wcf"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

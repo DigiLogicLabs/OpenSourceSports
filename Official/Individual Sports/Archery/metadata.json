@@ -1,0 +1,19 @@
+{
+  "name": "Archery",
+  "category": "Individual Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Archery as governed by World Archery",
+  "governing_bodies": [
+    "World Archery"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "archery",
+    "world archery",
+    "wa",
+    "recurve"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

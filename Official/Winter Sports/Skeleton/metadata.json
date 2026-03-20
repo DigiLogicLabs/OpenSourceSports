@@ -1,0 +1,17 @@
+{
+  "name": "Skeleton",
+  "category": "Winter Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Skeleton as governed by IBSF",
+  "governing_bodies": [
+    "IBSF"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "skeleton",
+    "ibsf"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

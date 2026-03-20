@@ -1,0 +1,19 @@
+{
+  "name": "Wrestling",
+  "category": "Combat Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Wrestling as governed by UWW",
+  "governing_bodies": [
+    "UWW"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "wrestling",
+    "uww",
+    "freestyle",
+    "greco-roman"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

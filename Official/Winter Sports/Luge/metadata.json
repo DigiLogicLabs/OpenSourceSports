@@ -1,0 +1,17 @@
+{
+  "name": "Luge",
+  "category": "Winter Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Luge as governed by FIL",
+  "governing_bodies": [
+    "FIL"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "luge",
+    "fil"
+  ],
+  "created_at": "2026-03-20T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
