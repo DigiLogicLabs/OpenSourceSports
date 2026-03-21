@@ -2,9 +2,10 @@
   "name": "Football",
   "category": "Team Sports",
   "type": "OFFICIAL",
-  "description": "American football, a team sport played with an oval ball on a rectangular field with goalposts at each end",
-  "governing_bodies": ["NFL", "NCAA", "IFAF"],
-  "tags": ["american football", "professional", "team sport", "contact sport"],
+  "description": "Gridiron football, a family of team sports played with an oval ball on a rectangular field with goalposts at each end",
+  "governing_bodies": ["NFL", "NCAA", "CFL", "IFAF"],
+  "tags": ["american-football", "canadian-football", "professional", "college", "team-sport", "contact-sport"],
+  "files": ["NFL_Official_Rulebook.html", "NCAA_Official_Rules.html", "CFL_Official_Rules.html"],
   "created_at": "2025-02-26T00:00:00Z",
   "created_by": "OpenSourceSports"
 }
