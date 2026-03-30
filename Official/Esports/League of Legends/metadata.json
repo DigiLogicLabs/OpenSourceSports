@@ -1,0 +1,10 @@
+{
+  "sport_name": "League of Legends",
+  "category": "Esports",
+  "type": "official",
+  "organization": "Riot Games",
+  "source_name": "Riot Games Esports",
+  "source_url": "https://lolesports.com",
+  "version_label": "2026 Season",
+  "tags": ["esports", "moba", "league of legends", "riot games", "competitive"]
+}
