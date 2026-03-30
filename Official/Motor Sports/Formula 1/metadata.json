@@ -1,0 +1,10 @@
+{
+  "name": "Formula 1",
+  "category": "Motor Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Formula 1 as governed by FIA",
+  "governing_bodies": ["FIA"],
+  "tags": ["professional", "formula 1", "f1", "fia", "motor racing"],
+  "created_at": "2026-03-30T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

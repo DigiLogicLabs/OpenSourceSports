@@ -1,0 +1,7 @@
+{
+  "name": "Motor Sports",
+  "description": "Motor Sports with established governing bodies",
+  "type": "OFFICIAL",
+  "maintainers": ["OpenSourceSports"],
+  "created_at": "2026-03-30T00:00:00Z"
+}
