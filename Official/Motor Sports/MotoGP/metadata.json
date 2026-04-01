@@ -1,0 +1,10 @@
+{
+  "name": "MotoGP",
+  "category": "Motor Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for MotoGP as governed by FIM",
+  "governing_bodies": ["FIM"],
+  "tags": ["professional", "motogp", "fim", "motorcycle racing"],
+  "created_at": "2026-04-01T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
