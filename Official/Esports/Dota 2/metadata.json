@@ -1,0 +1,10 @@
+{
+  "sport_name": "Dota 2",
+  "category": "Esports",
+  "type": "official",
+  "organization": "Valve",
+  "source_name": "Valve Corporation",
+  "source_url": "https://www.dota2.com",
+  "version_label": "2026 Competitive Season",
+  "tags": ["esports", "moba", "dota", "valve", "competitive", "the international"]
+}

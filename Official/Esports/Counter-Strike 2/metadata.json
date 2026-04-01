@@ -1,0 +1,10 @@
+{
+  "sport_name": "Counter-Strike 2",
+  "category": "Esports",
+  "type": "official",
+  "organization": "Valve / ESL FACEIT Group",
+  "source_name": "Valve Corporation",
+  "source_url": "https://www.counter-strike.net",
+  "version_label": "2026 Major Cycle",
+  "tags": ["esports", "fps", "counter-strike", "valve", "competitive", "tactical shooter"]
+}
