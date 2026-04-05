@@ -1,0 +1,31 @@
+name: Sync to OpenSourceSports App
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Official/**'
+      - 'Custom/**'
+      - 'metadata.json'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Trigger sync
+        run: |
+          response=$(curl -s -o /dev/null -w "%{http_code}" \
+            -X POST "https://opensourcesports.io/api/sync" \
+            -H "Authorization: Bearer ${{ secrets.SYNC_SECRET }}" \
+            -H "Content-Type: application/json" \
+            --max-time 120)
+          echo "Sync response: $response"
+          if [ "$response" -ge 200 ] && [ "$response" -lt 300 ]; then
+            echo "Sync triggered successfully"
+          elif [ "$response" = "409" ]; then
+            echo "Sync already in progress — OK"
+          else
+            echo "Sync failed with status $response"
+            exit 1
+          fi
