@@ -124,6 +124,12 @@ METADATA
 | `lastUpdated` | Yes | ISO date `YYYY-MM-DD` |
 | `author` | Yes | `OpenSourceSports` or contributor name |
 | `tags` | Yes | Array of searchable tags |
+| `season` | No | `spring`, `summer`, `fall`, `winter`, or `all` (year-round). Inferred from category if omitted. |
+| `location` | No | `indoor`, `outdoor`, or `both`. Used by Game Finder. |
+| `vibe` | No | `chill`, `competitive`, `party`, or `athletic`. Used by Game Finder to match games to player mood. |
+| `time_estimate` | No | `quick` (<15m), `medium` (15–60m), or `long` (60m+). Used by Game Finder to match games to a time budget. |
+
+> **Game Finder fields.** `vibe`, `time_estimate`, `location`, and `season` power the `/play` Game Finder on opensourcesports.io. They're optional — sports without them still render and still appear in search/browse, they just won't surface to filtered Game Finder results. If you're adding a new sport and the values are obvious, please include them.
 
 ### Relative Asset Paths
 
