@@ -1,0 +1,10 @@
+{
+  "name": "H.O.R.S.E. (Basketball)",
+  "category": "Court Games",
+  "type": "CUSTOM",
+  "description": "A casual basketball shooting game where players match creative shots; missing earns a letter (H-O-R-S-E), and the last player without all five letters wins.",
+  "governing_bodies": [],
+  "tags": ["basketball", "court", "shooting", "casual", "skill-game", "trick-shot"],
+  "created_at": "2026-05-10T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
