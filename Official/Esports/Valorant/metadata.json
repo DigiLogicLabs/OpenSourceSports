@@ -3,6 +3,7 @@
   "category": "Esports",
   "type": "official",
   "organization": "Riot Games",
+  "governing_bodies": ["Riot Games"],
   "source_name": "Riot Games Esports",
   "source_url": "https://valorantesports.com",
   "version_label": "2026 Season",
