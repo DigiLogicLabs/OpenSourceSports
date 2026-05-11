@@ -3,9 +3,9 @@
   "category": "Team Sports",
   "type": "OFFICIAL",
   "description": "Basketball, a fast-paced team sport played with a round ball on a rectangular court with elevated hoops at each end",
-  "governing_bodies": ["NBA", "FIBA"],
+  "governing_bodies": ["NBA", "FIBA", "WNBA"],
   "tags": ["basketball", "team-sport", "indoor", "olympic"],
-  "files": ["NBA_Official_Rulebook.html", "FIBA_Official_Rules.html"],
+  "files": ["NBA_Official_Rulebook.html", "FIBA_Official_Rules.html", "WNBA_Official_Rulebook.html"],
   "created_at": "2026-03-04T00:00:00Z",
   "created_by": "OpenSourceSports"
 }
