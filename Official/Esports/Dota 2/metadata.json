@@ -6,5 +6,8 @@
   "source_name": "Valve Corporation",
   "source_url": "https://www.dota2.com",
   "version_label": "2026 Competitive Season",
-  "tags": ["esports", "moba", "dota", "valve", "competitive", "the international"]
+  "tags": ["esports", "moba", "dota", "valve", "competitive", "the international"],
+  "files": [
+    "Valve_Official_Ruleset.html"
+  ]
 }

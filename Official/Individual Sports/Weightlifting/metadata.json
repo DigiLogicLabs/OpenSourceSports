@@ -15,6 +15,9 @@
     "clean and jerk",
     "snatch"
   ],
+  "files": [
+    "IWF_Weightlifting_Rules.html"
+  ],
   "created_at": "2026-03-20T00:00:00Z",
   "created_by": "OpenSourceSports"
 }

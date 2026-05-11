@@ -5,6 +5,9 @@
   "description": "Official rules for Breaking (breakdancing) as governed by the World DanceSport Federation (WDSF)",
   "governing_bodies": ["WDSF"],
   "tags": ["olympic","professional","breaking","breakdancing","wdsf","dance sport"],
+  "files": [
+    "WDSF_Breaking_Rules.html"
+  ],
   "created_at": "2026-03-22T00:00:00Z",
   "created_by": "OpenSourceSports"
 }

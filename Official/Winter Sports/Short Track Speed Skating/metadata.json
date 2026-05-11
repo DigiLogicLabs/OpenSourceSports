@@ -13,6 +13,9 @@
     "isu",
     "speed skating"
   ],
+  "files": [
+    "ISU_Short_Track_Rules.html"
+  ],
   "created_at": "2026-03-20T00:00:00Z",
   "created_by": "OpenSourceSports"
 }

@@ -5,6 +5,9 @@
   "description": "Association football, a team sport played with a spherical ball between two teams of 11 players",
   "governing_bodies": ["FIFA", "UEFA", "CONMEBOL", "CONCACAF"],
   "tags": ["football", "soccer", "professional", "team sport", "olympic"],
+  "files": [
+    "FIFA_Laws_of_Game.html"
+  ],
   "created_at": "2025-02-26T00:00:00Z",
   "created_by": "OpenSourceSports"
 }

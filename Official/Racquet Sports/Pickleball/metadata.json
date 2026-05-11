@@ -5,6 +5,9 @@
   "description": "Official rules for Pickleball as governed by USA Pickleball (USAP)",
   "governing_bodies": ["USA Pickleball"],
   "tags": ["professional", "pickleball", "usap", "paddle", "net-sport"],
+  "files": [
+    "USAP_Official_Rulebook.html"
+  ],
   "created_at": "2026-03-22T00:00:00Z",
   "created_by": "OpenSourceSports"
 }

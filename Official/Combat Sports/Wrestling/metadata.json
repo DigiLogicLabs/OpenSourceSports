@@ -15,6 +15,10 @@
     "freestyle",
     "greco-roman"
   ],
+  "files": [
+    "NCAA_Folkstyle_Rules.html",
+    "UWW_Wrestling_Rules.html"
+  ],
   "created_at": "2026-03-20T00:00:00Z",
   "created_by": "OpenSourceSports"
 }

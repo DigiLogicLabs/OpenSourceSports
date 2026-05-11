@@ -6,5 +6,8 @@
   "source_name": "Riot Games Esports",
   "source_url": "https://lolesports.com",
   "version_label": "2026 Season",
-  "tags": ["esports", "moba", "league of legends", "riot games", "competitive"]
+  "tags": ["esports", "moba", "league of legends", "riot games", "competitive"],
+  "files": [
+    "Riot_Games_Official_Ruleset.html"
+  ]
 }

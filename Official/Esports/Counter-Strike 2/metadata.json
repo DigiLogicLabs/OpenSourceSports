@@ -6,5 +6,8 @@
   "source_name": "Valve Corporation",
   "source_url": "https://www.counter-strike.net",
   "version_label": "2026 Major Cycle",
-  "tags": ["esports", "fps", "counter-strike", "valve", "competitive", "tactical shooter"]
+  "tags": ["esports", "fps", "counter-strike", "valve", "competitive", "tactical shooter"],
+  "files": [
+    "Valve_ESL_Official_Ruleset.html"
+  ]
 }

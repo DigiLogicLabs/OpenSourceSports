@@ -12,6 +12,9 @@
     "curling",
     "wcf"
   ],
+  "files": [
+    "WCF_Curling_Rules.html"
+  ],
   "created_at": "2026-03-20T00:00:00Z",
   "created_by": "OpenSourceSports"
 }

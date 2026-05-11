@@ -5,6 +5,9 @@
   "description": "Official rules for Rugby as governed by World Rugby",
   "governing_bodies": ["World Rugby"],
   "tags": ["olympic", "professional", "rugby", "world rugby"],
+  "files": [
+    "WorldRugby_Laws_of_Game.html"
+  ],
   "created_at": "2026-03-07T00:00:00Z",
   "created_by": "OpenSourceSports"
 }

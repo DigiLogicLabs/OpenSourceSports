@@ -5,6 +5,9 @@
   "description": "Official rules for NASCAR as governed by NASCAR",
   "governing_bodies": ["NASCAR"],
   "tags": ["professional", "nascar", "stock car", "motor racing"],
+  "files": [
+    "NASCAR_Rule_Book.html"
+  ],
   "created_at": "2026-03-31T00:00:00Z",
   "created_by": "OpenSourceSports"
 }

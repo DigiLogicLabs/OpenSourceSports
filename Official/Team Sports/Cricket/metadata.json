@@ -5,6 +5,9 @@
   "description": "Official rules for Cricket as governed by ICC",
   "governing_bodies": ["ICC"],
   "tags": ["olympic", "professional", "cricket", "icc"],
+  "files": [
+    "ICC_Laws_of_Cricket.html"
+  ],
   "created_at": "2026-03-06T00:00:00Z",
   "created_by": "OpenSourceSports"
 }
