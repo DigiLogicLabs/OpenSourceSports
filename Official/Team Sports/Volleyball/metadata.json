@@ -3,10 +3,11 @@
   "category": "Team Sports",
   "type": "OFFICIAL",
   "description": "Official rules for Volleyball as governed by FIVB",
-  "governing_bodies": ["FIVB"],
-  "tags": ["olympic", "professional", "volleyball", "fivb"],
+  "governing_bodies": ["FIVB", "NCAA"],
+  "tags": ["olympic", "professional", "volleyball", "fivb", "college"],
   "files": [
-    "FIVB_Official_Rulebook.html"
+    "FIVB_Official_Rulebook.html",
+    "NCAA_Womens_Volleyball_Rules.html"
   ],
   "created_at": "2026-03-08T00:00:00Z",
   "created_by": "OpenSourceSports"

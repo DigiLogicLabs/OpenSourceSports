@@ -1,0 +1,13 @@
+{
+  "name": "Bowling",
+  "category": "Individual Sports",
+  "type": "OFFICIAL",
+  "description": "Tenpin bowling, an indoor sport in which players roll a ball down a lane to knock down 10 pins arranged in a triangular formation",
+  "governing_bodies": ["NCAA"],
+  "tags": ["bowling", "ncaa", "college", "indoor", "individual sport", "team sport", "women"],
+  "files": [
+    "NCAA_Womens_Bowling_Rules.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
