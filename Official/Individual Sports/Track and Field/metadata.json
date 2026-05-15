@@ -3,10 +3,11 @@
   "category": "Individual Sports",
   "type": "OFFICIAL",
   "description": "Official rules for Track and Field as governed by World Athletics",
-  "governing_bodies": ["World Athletics"],
-  "tags": ["olympic", "professional", "track and field", "athletics", "world athletics"],
+  "governing_bodies": ["World Athletics", "NCAA"],
+  "tags": ["olympic", "professional", "track and field", "athletics", "world athletics", "college"],
   "files": [
-    "WorldAthletics_Competition_Rules.html"
+    "WorldAthletics_Competition_Rules.html",
+    "NCAA_Outdoor_Track_Field_Rules.html"
   ],
   "created_at": "2026-03-14T00:00:00Z",
   "created_by": "OpenSourceSports"
