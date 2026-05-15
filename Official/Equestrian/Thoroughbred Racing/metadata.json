@@ -1,0 +1,11 @@
+{
+  "name": "Thoroughbred Racing",
+  "category": "Equestrian",
+  "type": "OFFICIAL",
+  "description": "Official rules for Thoroughbred Racing as governed by HISA",
+  "governing_bodies": ["HISA"],
+  "tags": ["professional", "thoroughbred-racing", "hisa", "horse-racing", "equestrian"],
+  "files": ["HISA_Racing_Rules.html"],
+  "created_at": "2026-05-14T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

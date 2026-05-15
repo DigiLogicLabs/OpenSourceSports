@@ -1,0 +1,7 @@
+{
+  "name": "Equestrian",
+  "description": "Equestrian sports with established governing bodies",
+  "type": "OFFICIAL",
+  "maintainers": ["OpenSourceSports"],
+  "created_at": "2026-05-14T00:00:00Z"
+}
