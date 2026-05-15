@@ -1,0 +1,13 @@
+{
+  "name": "Netball",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "A fast indoor team sport played by two teams of seven on a thirds-divided court, in which players move the ball by passing and attempt to score by shooting through an elevated ring",
+  "governing_bodies": ["World Netball"],
+  "tags": ["netball", "team sport", "indoor", "commonwealth", "women"],
+  "files": [
+    "WorldNetball_Rules.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
