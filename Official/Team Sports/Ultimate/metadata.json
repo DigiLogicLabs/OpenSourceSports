@@ -1,0 +1,13 @@
+{
+  "name": "Ultimate",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Ultimate (flying-disc team sport) as governed by USA Ultimate (USAU) — 7-on-7 outdoor format with Spirit of the Game self-officiation",
+  "governing_bodies": ["USA Ultimate", "WFDF"],
+  "tags": ["ultimate", "frisbee", "flying disc", "usau", "wfdf", "self-officiated", "spirit of the game", "non-contact"],
+  "files": [
+    "USAU_Official_Rules.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
