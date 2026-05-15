@@ -3,10 +3,11 @@
   "category": "Combat Sports",
   "type": "OFFICIAL",
   "description": "Official rules for Jiu-Jitsu — IBJJF (sport BJJ, gi + no-gi) and AJP (Abu Dhabi-based, professional circuit) governance",
-  "governing_bodies": ["IBJJF"],
-  "tags": ["jiu-jitsu", "brazilian jiu-jitsu", "bjj", "ibjjf", "grappling", "combat", "gi", "no-gi", "submission grappling"],
+  "governing_bodies": ["IBJJF", "AJP"],
+  "tags": ["jiu-jitsu", "brazilian jiu-jitsu", "bjj", "ibjjf", "ajp", "uaejjf", "grappling", "combat", "gi", "no-gi", "submission grappling"],
   "files": [
-    "IBJJF_Rules.html"
+    "IBJJF_Rules.html",
+    "AJP_Jiu_Jitsu_Rules.html"
   ],
   "created_at": "2026-05-15T00:00:00Z",
   "created_by": "OpenSourceSports"
