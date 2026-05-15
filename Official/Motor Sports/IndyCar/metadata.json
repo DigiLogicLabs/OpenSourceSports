@@ -1,0 +1,11 @@
+{
+  "name": "INDYCAR",
+  "category": "Motor Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for the NTT INDYCAR SERIES as governed by INDYCAR",
+  "governing_bodies": ["INDYCAR"],
+  "tags": ["professional", "indycar", "motor-racing", "open-wheel"],
+  "files": ["INDYCAR_Rulebook.html"],
+  "created_at": "2026-05-14T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
