@@ -2,12 +2,13 @@
   "name": "Armwrestling",
   "category": "Combat Sports",
   "type": "OFFICIAL",
-  "description": "Official rules for Armwrestling — WAF (international), CAWF (Canadian), TAWF (team) governance",
-  "governing_bodies": ["WAF", "CAWF"],
-  "tags": ["armwrestling", "waf", "cawf", "international", "national", "table sport", "combat", "strength sport"],
+  "description": "Official rules for Armwrestling — WAF (international individual), CAWF (Canadian national), TAWF (team format) governance",
+  "governing_bodies": ["WAF", "CAWF", "TAWF"],
+  "tags": ["armwrestling", "waf", "cawf", "tawf", "international", "national", "team", "table sport", "combat", "strength sport"],
   "files": [
     "WAF_Armwrestling_Rules.html",
-    "CAWF_Armwrestling_Rules.html"
+    "CAWF_Armwrestling_Rules.html",
+    "TAWF_Team_Armwrestling_Rules.html"
   ],
   "created_at": "2026-05-15T00:00:00Z",
   "created_by": "OpenSourceSports"
