@@ -2,11 +2,12 @@
   "name": "Cricket",
   "category": "Team Sports",
   "type": "OFFICIAL",
-  "description": "Official rules for Cricket as governed by ICC",
+  "description": "Official rules for Cricket as governed by ICC — MCC Laws of Cricket (long format / Test) plus T20 International Playing Conditions (LA 2028 Olympic format)",
   "governing_bodies": ["ICC"],
-  "tags": ["olympic", "professional", "cricket", "icc"],
+  "tags": ["olympic 2028", "professional", "cricket", "icc", "t20", "twenty20"],
   "files": [
-    "ICC_Laws_of_Cricket.html"
+    "ICC_Laws_of_Cricket.html",
+    "ICC_T20_Playing_Conditions.html"
   ],
   "created_at": "2026-03-06T00:00:00Z",
   "created_by": "OpenSourceSports"

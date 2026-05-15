@@ -1,0 +1,14 @@
+{
+  "name": "Flag Football",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Flag Football — non-contact football variant; NFHS (U.S. high school) and IFAF (international + LA 2028 Olympics) governance",
+  "governing_bodies": ["NFHS", "IFAF"],
+  "tags": ["olympic 2028", "flag football", "nfhs", "ifaf", "high school", "international", "non-contact", "fast-growing"],
+  "files": [
+    "NFHS_Flag_Football_Rules.html",
+    "IFAF_Flag_Football_Rules.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

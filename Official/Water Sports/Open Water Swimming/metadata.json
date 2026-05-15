@@ -1,0 +1,13 @@
+{
+  "name": "Open Water Swimming",
+  "category": "Water Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Open Water Swimming as governed by World Aquatics (formerly FINA) — 5 km, 10 km (Olympic marathon swim), and 25 km distances",
+  "governing_bodies": ["World Aquatics"],
+  "tags": ["olympic", "open water swimming", "marathon swim", "world aquatics", "fina", "endurance", "swimming"],
+  "files": [
+    "WorldAquatics_Open_Water_Rules.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
