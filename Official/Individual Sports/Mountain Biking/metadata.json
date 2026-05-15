@@ -2,11 +2,12 @@
   "name": "Mountain Biking",
   "category": "Individual Sports",
   "type": "OFFICIAL",
-  "description": "Official rules for Mountain Biking as governed by UCI — Cross-Country (XCO/XCM/XCE/XCC), Downhill (DHI), Pump Track, 4X, and Enduro disciplines",
+  "description": "Official rules for Mountain Biking as governed by UCI — Cross-Country (XCO/XCM/XCE/XCC), Downhill (DHI), Pump Track, 4X, and Enduro disciplines; plus the integrated WHOOP UCI Mountain Bike World Series",
   "governing_bodies": ["UCI"],
-  "tags": ["olympic", "professional", "mountain biking", "mtb", "uci", "cycling", "off-road"],
+  "tags": ["olympic", "professional", "mountain biking", "mtb", "uci", "cycling", "off-road", "world series"],
   "files": [
-    "UCI_Mountain_Bike_Rules.html"
+    "UCI_Mountain_Bike_Rules.html",
+    "UCI_Mountain_Bike_World_Series_Rules.html"
   ],
   "created_at": "2026-05-15T00:00:00Z",
   "created_by": "OpenSourceSports"
