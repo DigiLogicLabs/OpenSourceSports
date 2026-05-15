@@ -1,0 +1,13 @@
+{
+  "name": "CarJitsu",
+  "category": "Combat Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for CarJitsu — novelty submission-grappling format held inside the cabin of a stationary 4-door sedan; Pro League Network (PLN) sanctioned",
+  "governing_bodies": ["Pro League Network"],
+  "tags": ["carjitsu", "submission grappling", "no-gi", "pro league network", "pln", "novelty sport", "combat", "viral"],
+  "files": [
+    "PLN_CarJitsu_Rules.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
