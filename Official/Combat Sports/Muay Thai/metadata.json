@@ -1,0 +1,13 @@
+{
+  "name": "Muay Thai",
+  "category": "Combat Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Muay Thai — ONE Championship modern pro ruleset (4oz MMA gloves, 3x3 format with Western 10-point-must scoring)",
+  "governing_bodies": ["ONE Championship"],
+  "tags": ["muay thai", "one championship", "professional", "stand-up", "combat", "eight limbs", "ring sport"],
+  "files": [
+    "ONE_Global_Muay_Thai_Rules.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
