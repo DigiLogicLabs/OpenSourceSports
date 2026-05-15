@@ -3,10 +3,11 @@
   "category": "Individual Sports",
   "type": "OFFICIAL",
   "description": "Official rules for Swimming as governed by World Aquatics",
-  "governing_bodies": ["World Aquatics"],
-  "tags": ["olympic", "professional", "swimming", "world aquatics", "fina"],
+  "governing_bodies": ["World Aquatics", "NCAA"],
+  "tags": ["olympic", "professional", "swimming", "world aquatics", "fina", "college"],
   "files": [
-    "WorldAquatics_Swimming_Rules.html"
+    "WorldAquatics_Swimming_Rules.html",
+    "NCAA_Swimming_Rules.html"
   ],
   "created_at": "2026-03-13T00:00:00Z",
   "created_by": "OpenSourceSports"

@@ -4,7 +4,8 @@
   "type": "OFFICIAL",
   "description": "Official rules for Diving as governed by World Aquatics",
   "governing_bodies": [
-    "World Aquatics"
+    "World Aquatics",
+    "NCAA"
   ],
   "tags": [
     "olympic",
@@ -12,10 +13,12 @@
     "diving",
     "world aquatics",
     "springboard",
-    "platform"
+    "platform",
+    "college"
   ],
   "files": [
-    "WorldAquatics_Diving_Rules.html"
+    "WorldAquatics_Diving_Rules.html",
+    "NCAA_Diving_Rules.html"
   ],
   "created_at": "2026-03-20T00:00:00Z",
   "created_by": "OpenSourceSports"

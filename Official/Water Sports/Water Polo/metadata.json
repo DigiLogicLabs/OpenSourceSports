@@ -4,16 +4,19 @@
   "type": "OFFICIAL",
   "description": "Official rules for Water Polo as governed by World Aquatics",
   "governing_bodies": [
-    "World Aquatics"
+    "World Aquatics",
+    "NCAA"
   ],
   "tags": [
     "olympic",
     "professional",
     "water polo",
-    "world aquatics"
+    "world aquatics",
+    "college"
   ],
   "files": [
-    "WorldAquatics_Water_Polo_Rules.html"
+    "WorldAquatics_Water_Polo_Rules.html",
+    "NCAA_Water_Polo_Rules.html"
   ],
   "created_at": "2026-03-20T00:00:00Z",
   "created_by": "OpenSourceSports"
