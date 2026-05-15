@@ -2,11 +2,12 @@
   "name": "Grappling",
   "category": "Combat Sports",
   "type": "OFFICIAL",
-  "description": "Official rules for Submission Grappling — ADCC (premier no-gi event with all-submissions-legal rules) and UWW (Olympic-recognized international grappling) governance",
+  "description": "Official rules for Submission Grappling — ADCC (premier no-gi event with all-submissions-legal rules) and UWW (Olympic-affiliated international governing body) governance",
   "governing_bodies": ["ADCC", "UWW"],
-  "tags": ["grappling", "submission grappling", "no-gi", "adcc", "uww", "international", "combat"],
+  "tags": ["grappling", "submission grappling", "no-gi", "adcc", "uww", "united world wrestling", "international", "combat"],
   "files": [
-    "ADCC_Rules.html"
+    "ADCC_Rules.html",
+    "UWW_Grappling_Rules.html"
   ],
   "created_at": "2026-05-15T00:00:00Z",
   "created_by": "OpenSourceSports"
