@@ -2,13 +2,14 @@
   "name": "Jiu-Jitsu",
   "category": "Combat Sports",
   "type": "OFFICIAL",
-  "description": "Official rules for Jiu-Jitsu — IBJJF (sport BJJ, gi + no-gi), AJP (Abu Dhabi-based professional circuit), AJP Para (adaptive)",
-  "governing_bodies": ["IBJJF", "AJP"],
-  "tags": ["jiu-jitsu", "brazilian jiu-jitsu", "bjj", "ibjjf", "ajp", "uaejjf", "para jiu-jitsu", "grappling", "combat", "gi", "no-gi", "submission grappling"],
+  "description": "Official rules for Jiu-Jitsu — IBJJF (sport BJJ, gi + no-gi), AJP (Abu Dhabi-based professional circuit), AJP Para (adaptive), JJIF Ne-Waza (traditional Japanese groundwork)",
+  "governing_bodies": ["IBJJF", "AJP", "JJIF"],
+  "tags": ["jiu-jitsu", "brazilian jiu-jitsu", "bjj", "ibjjf", "ajp", "uaejjf", "jjif", "ne-waza", "para jiu-jitsu", "grappling", "combat", "gi", "no-gi", "submission grappling"],
   "files": [
     "IBJJF_Rules.html",
     "AJP_Jiu_Jitsu_Rules.html",
-    "AJP_Para_Jiu_Jitsu_Rules.html"
+    "AJP_Para_Jiu_Jitsu_Rules.html",
+    "JJIF_Ne_Waza_Rules.html"
   ],
   "created_at": "2026-05-15T00:00:00Z",
   "created_by": "OpenSourceSports"
