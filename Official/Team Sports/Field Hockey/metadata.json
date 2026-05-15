@@ -1,0 +1,11 @@
+{
+  "name": "Field Hockey",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Eleven-a-side outdoor stick-and-ball team sport played on artificial turf, in which players use J-shaped sticks to score by sending a hard ball into a 3.66m goal",
+  "governing_bodies": ["NCAA"],
+  "tags": ["field-hockey", "hockey", "ncaa", "college", "team sport", "women", "fall"],
+  "files": ["NCAA_Field_Hockey_Rules.html"],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

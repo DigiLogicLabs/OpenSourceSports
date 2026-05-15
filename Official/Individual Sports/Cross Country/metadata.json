@@ -1,0 +1,11 @@
+{
+  "name": "Cross Country",
+  "category": "Individual Sports",
+  "type": "OFFICIAL",
+  "description": "Long-distance running competition over outdoor terrain (grass, dirt, hills); team-scored by sum of individual finish places",
+  "governing_bodies": ["NCAA"],
+  "tags": ["cross-country", "running", "ncaa", "college", "individual sport", "team sport"],
+  "files": ["NCAA_Cross_Country_Rules.html"],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
