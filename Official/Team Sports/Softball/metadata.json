@@ -1,0 +1,11 @@
+{
+  "name": "Softball",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Softball as governed by the NCAA",
+  "governing_bodies": ["NCAA"],
+  "tags": ["softball", "ncaa", "team-sport", "college"],
+  "files": ["NCAA_Softball_Rules.html"],
+  "created_at": "2026-05-14T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
