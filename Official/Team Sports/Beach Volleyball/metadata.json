@@ -4,16 +4,19 @@
   "type": "OFFICIAL",
   "description": "Official rules for Beach Volleyball as governed by FIVB",
   "governing_bodies": [
-    "FIVB"
+    "FIVB",
+    "NCAA"
   ],
   "tags": [
     "olympic",
     "professional",
     "beach volleyball",
-    "fivb"
+    "fivb",
+    "college"
   ],
   "files": [
-    "FIVB_Beach_Volleyball_Rules.html"
+    "FIVB_Beach_Volleyball_Rules.html",
+    "NCAA_Beach_Volleyball_Rules.html"
   ],
   "created_at": "2026-03-20T00:00:00Z",
   "created_by": "OpenSourceSports"
