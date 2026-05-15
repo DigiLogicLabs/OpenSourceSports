@@ -2,11 +2,12 @@
   "name": "Pickleball",
   "category": "Racquet Sports",
   "type": "OFFICIAL",
-  "description": "Official rules for Pickleball as governed by USA Pickleball (USAP)",
-  "governing_bodies": ["USA Pickleball"],
-  "tags": ["professional", "pickleball", "usap", "paddle", "net-sport"],
+  "description": "Official rules for Pickleball — USA Pickleball (USAP) amateur framework and UPA-A pro tour (PPA + MLP merger)",
+  "governing_bodies": ["USA Pickleball", "UPA-A"],
+  "tags": ["professional", "pickleball", "usap", "upa-a", "ppa", "mlp", "paddle", "net-sport"],
   "files": [
-    "USAP_Official_Rulebook.html"
+    "USAP_Official_Rulebook.html",
+    "UPA_A_Pro_Pickleball_Rules.html"
   ],
   "created_at": "2026-03-22T00:00:00Z",
   "created_by": "OpenSourceSports"
