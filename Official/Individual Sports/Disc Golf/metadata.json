@@ -1,0 +1,13 @@
+{
+  "name": "Disc Golf",
+  "category": "Individual Sports",
+  "type": "OFFICIAL",
+  "description": "An individual flying-disc target sport played by throwing a disc from a tee toward a chain-and-basket target in the fewest throws",
+  "governing_bodies": ["PDGA"],
+  "tags": ["disc-golf", "individual sport", "outdoor", "target sport"],
+  "files": [
+    "PDGA_Official_Rules.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
