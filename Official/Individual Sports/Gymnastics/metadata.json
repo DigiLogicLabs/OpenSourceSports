@@ -3,10 +3,11 @@
   "category": "Individual Sports",
   "type": "OFFICIAL",
   "description": "Official rules for Gymnastics as governed by FIG",
-  "governing_bodies": ["FIG"],
-  "tags": ["olympic", "professional", "gymnastics", "fig"],
+  "governing_bodies": ["FIG", "NCAA"],
+  "tags": ["olympic", "professional", "gymnastics", "fig", "college"],
   "files": [
-    "FIG_Code_of_Points.html"
+    "FIG_Code_of_Points.html",
+    "NCAA_Gymnastics_Rules.html"
   ],
   "created_at": "2026-03-17T00:00:00Z",
   "created_by": "OpenSourceSports"

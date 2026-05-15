@@ -4,7 +4,8 @@
   "type": "OFFICIAL",
   "description": "Official rules for Alpine Skiing as governed by FIS",
   "governing_bodies": [
-    "FIS"
+    "FIS",
+    "NCAA"
   ],
   "tags": [
     "olympic",
@@ -14,10 +15,12 @@
     "slalom",
     "downhill",
     "giant slalom",
-    "super-g"
+    "super-g",
+    "college"
   ],
   "files": [
-    "FIS_Alpine_Skiing_Rules.html"
+    "FIS_Alpine_Skiing_Rules.html",
+    "NCAA_Alpine_Skiing_Rules.html"
   ],
   "created_at": "2026-03-20T00:00:00Z",
   "created_by": "OpenSourceSports"

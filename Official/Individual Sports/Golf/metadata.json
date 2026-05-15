@@ -3,13 +3,14 @@
   "category": "Individual Sports",
   "type": "OFFICIAL",
   "description": "Official rules for Golf as governed by R&A, USGA, PGA TOUR, and PGA of America (KPMG Women's PGA Championship)",
-  "governing_bodies": ["R&A", "USGA", "PGA TOUR", "PGA of America"],
-  "tags": ["olympic", "professional", "golf", "r&a", "usga", "pga-tour", "championship", "lpga"],
+  "governing_bodies": ["R&A", "USGA", "PGA TOUR", "PGA of America", "NCAA"],
+  "tags": ["olympic", "professional", "golf", "r&a", "usga", "pga-tour", "championship", "lpga", "college"],
   "files": [
     "RA_Rules_of_Golf.html",
     "PGA_TOUR_Tournament_Regulations.html",
     "USGA_Championship_Local_Rules.html",
-    "KPMG_Womens_PGA_Championship_Rules.html"
+    "KPMG_Womens_PGA_Championship_Rules.html",
+    "NCAA_Golf_Rules.html"
   ],
   "created_at": "2026-03-12T00:00:00Z",
   "created_by": "OpenSourceSports"

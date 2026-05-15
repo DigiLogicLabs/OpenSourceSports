@@ -1,0 +1,11 @@
+{
+  "name": "Rifle",
+  "category": "Individual Sports",
+  "type": "OFFICIAL",
+  "description": "Co-educational precision shooting sport contested with smallbore .22 LR + 4.5mm air rifles in 3-position (prone, standing, kneeling) and standing-only formats",
+  "governing_bodies": ["NCAA"],
+  "tags": ["rifle", "shooting", "ncaa", "college", "individual sport", "team sport", "co-ed"],
+  "files": ["NCAA_Rifle_Rules.html"],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

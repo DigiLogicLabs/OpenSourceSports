@@ -4,7 +4,8 @@
   "type": "OFFICIAL",
   "description": "Official rules for Fencing as governed by FIE",
   "governing_bodies": [
-    "FIE"
+    "FIE",
+    "NCAA"
   ],
   "tags": [
     "olympic",
@@ -13,10 +14,12 @@
     "fie",
     "epee",
     "foil",
-    "sabre"
+    "sabre",
+    "college"
   ],
   "files": [
-    "FIE_Fencing_Rules.html"
+    "FIE_Fencing_Rules.html",
+    "NCAA_Fencing_Rules.html"
   ],
   "created_at": "2026-03-20T00:00:00Z",
   "created_by": "OpenSourceSports"
