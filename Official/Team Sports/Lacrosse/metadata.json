@@ -3,10 +3,12 @@
   "category": "Team Sports",
   "type": "OFFICIAL",
   "description": "Official rules for Lacrosse as governed by World Lacrosse",
-  "governing_bodies": ["World Lacrosse"],
-  "tags": ["olympic", "professional", "lacrosse", "world lacrosse"],
+  "governing_bodies": ["World Lacrosse", "NCAA"],
+  "tags": ["olympic", "professional", "lacrosse", "world lacrosse", "college"],
   "files": [
-    "WorldLacrosse_Official_Rulebook.html"
+    "WorldLacrosse_Official_Rulebook.html",
+    "NCAA_Mens_Lacrosse_Rules.html",
+    "NCAA_Womens_Lacrosse_Rules.html"
   ],
   "created_at": "2026-03-09T00:00:00Z",
   "created_by": "OpenSourceSports"
