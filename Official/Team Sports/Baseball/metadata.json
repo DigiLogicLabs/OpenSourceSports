@@ -2,11 +2,12 @@
   "name": "Baseball",
   "category": "Team Sports",
   "type": "OFFICIAL",
-  "description": "Official rules for Baseball as governed by MLB",
-  "governing_bodies": ["MLB"],
-  "tags": ["olympic", "professional", "baseball", "mlb"],
+  "description": "Official rules for Baseball as governed by MLB and the NCAA",
+  "governing_bodies": ["MLB", "NCAA"],
+  "tags": ["olympic", "professional", "baseball", "mlb", "ncaa", "college"],
   "files": [
-    "MLB_Official_Rulebook.html"
+    "MLB_Official_Rulebook.html",
+    "NCAA_Baseball_Rules.html"
   ],
   "created_at": "2026-03-05T00:00:00Z",
   "created_by": "OpenSourceSports"
