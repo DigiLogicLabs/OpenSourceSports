@@ -1,0 +1,13 @@
+{
+  "name": "Ju-Jitsu",
+  "category": "Combat Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for traditional Japanese Ju-Jitsu — JJIF Fighting (3-phase combat) and Ne-Waza (groundwork) disciplines under the IOC-recognized international federation",
+  "governing_bodies": ["JJIF"],
+  "tags": ["ju-jitsu", "jjif", "international", "ioc-recognized", "combat", "japanese", "strike", "throw", "grappling"],
+  "files": [
+    "JJIF_Fighting_Rules.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

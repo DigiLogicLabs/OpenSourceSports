@@ -1,0 +1,13 @@
+{
+  "name": "Karate Combat",
+  "category": "Combat Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Karate Combat — US-based full-contact professional stand-up karate promotion (founded 2018), fights in the proprietary Pit arena",
+  "governing_bodies": ["Karate Combat"],
+  "tags": ["karate", "karate combat", "full contact", "stand-up", "professional", "combat", "the pit"],
+  "files": [
+    "Karate_Combat_Unified_Rules.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sambo",
+  "category": "Combat Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Sambo as governed by FIAS (International Sambo Federation, IOC-recognized) — Sport Sambo (indoor mat, no strikes), Combat Sambo (strikes permitted), and Beach Sambo (outdoor sand-court)",
+  "governing_bodies": ["FIAS"],
+  "tags": ["sambo", "sport sambo", "combat sambo", "beach sambo", "fias", "international", "ioc-recognized", "combat", "throw", "grappling", "soviet origin"],
+  "files": [
+    "FIAS_Sport_Sambo_Rules.html",
+    "FIAS_Combat_Sambo_Rules.html",
+    "FIAS_Beach_Sambo_Rules.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
