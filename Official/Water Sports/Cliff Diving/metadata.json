@@ -1,0 +1,13 @@
+{
+  "name": "Cliff Diving",
+  "category": "Water Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for the Red Bull Cliff Diving World Series — premier high-platform diving competition (27m men / 21m women) at iconic global locations since 2009",
+  "governing_bodies": ["Red Bull"],
+  "tags": ["cliff diving", "high diving", "red bull", "extreme sport", "diving", "water sport", "professional", "world series"],
+  "files": [
+    "Red_Bull_Cliff_Diving_Rules.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

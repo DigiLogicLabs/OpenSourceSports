@@ -1,0 +1,13 @@
+{
+  "name": "Calcio Storico Fiorentino",
+  "category": "Combat Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Calcio Storico Fiorentino — 16th-century Florentine combat-football, 27-on-27, played annually in Piazza Santa Croce, regulated by Comune di Firenze",
+  "governing_bodies": ["Comune Firenze"],
+  "tags": ["calcio storico", "calcio fiorentino", "florence", "italy", "historic", "combat", "football", "team sport", "tradition"],
+  "files": [
+    "Comune_Firenze_Regolamento.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

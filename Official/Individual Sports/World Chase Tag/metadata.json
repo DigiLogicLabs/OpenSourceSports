@@ -1,0 +1,13 @@
+{
+  "name": "World Chase Tag",
+  "category": "Individual Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for World Chase Tag (WCT) — competitive tag-meets-parkour sport in the 12m x 12m Quad obstacle arena, founded 2011, Pro World Tour",
+  "governing_bodies": ["WCT"],
+  "tags": ["world chase tag", "wct", "tag", "parkour", "obstacle", "team sport", "viral"],
+  "files": [
+    "WCT_Rules.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
