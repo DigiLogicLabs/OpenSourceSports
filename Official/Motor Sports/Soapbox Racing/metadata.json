@@ -1,0 +1,13 @@
+{
+  "name": "Soapbox Racing",
+  "category": "Motor Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Red Bull Soapbox Race — amateur gravity-powered downhill race in custom-themed non-motorized vehicles; scored on time, creativity, showmanship",
+  "governing_bodies": ["Red Bull"],
+  "tags": ["soapbox", "soapbox racing", "red bull", "gravity racing", "non-motorized", "creative", "festival", "viral", "amateur"],
+  "files": [
+    "Red_Bull_Soapbox_Race_Rules.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
