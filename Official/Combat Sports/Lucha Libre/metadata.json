@@ -1,0 +1,13 @@
+{
+  "name": "Lucha Libre",
+  "category": "Combat Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Lucha Libre — Mexican professional wrestling regulated by Comisión de Box y Lucha Libre del Estado de México (state commission); masks, técnicos vs rudos, trios tradition",
+  "governing_bodies": ["Estado de Mexico Commission"],
+  "tags": ["lucha libre", "professional wrestling", "mexico", "estado de mexico", "cmll", "aaa", "mask", "combat", "tradition"],
+  "files": [
+    "Estado_Mexico_Reglamento_Box_Lucha_Libre.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
