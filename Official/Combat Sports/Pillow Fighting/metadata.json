@@ -1,0 +1,13 @@
+{
+  "name": "Pillow Fighting",
+  "category": "Combat Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Pillow Fight Championship (PFC) — professional pillow-fighting promotion with regulation weighted pillows, 3x90sec format, KO + judges' decision possible",
+  "governing_bodies": ["PFC"],
+  "tags": ["pillow fighting", "pfc", "novelty sport", "combat", "professional", "viral"],
+  "files": [
+    "PFC_Rules.html"
+  ],
+  "created_at": "2026-05-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
