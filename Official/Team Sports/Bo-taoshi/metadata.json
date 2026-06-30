@@ -1,0 +1,13 @@
+{
+  "name": "Bo-taoshi",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Japanese large-scale pole-toppling team sport played annually at the National Defense Academy; 150v150, 2-minute matches, 30-degree pole-tilt victory condition",
+  "governing_bodies": ["National Defense Academy"],
+  "tags": ["bo-taoshi", "pole toppling", "japan", "nda", "military academy", "festival", "棒倒し"],
+  "files": [
+    "NDA_Bo_taoshi_Rules.html"
+  ],
+  "created_at": "2026-06-30T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
