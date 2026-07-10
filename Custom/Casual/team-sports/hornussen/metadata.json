@@ -1,0 +1,15 @@
+{
+  "name": "Hornussen",
+  "category": "Team Sports",
+  "type": "CUSTOM",
+  "description": "Hornussen is an indigenous Swiss sport played by two teams of 16 to 20 players which alternate in striking a puck known as a \"Hornuss\" (hornet) or \"Nouss\" and attempting to deflect it. When hit, the Hornuss can fly at up to 300 km/h and create a buzzing sound.",
+  "governing_bodies": [],
+  "tags": [
+    "team sports",
+    "custom",
+    "community"
+  ],
+  "season": "summer",
+  "created_at": "2026-07-10T23:06:18.865Z",
+  "created_by": "osstest"
+}
