@@ -1,0 +1,15 @@
+{
+  "sport_name": "Chess",
+  "category": "Board Games",
+  "type": "official",
+  "archetype": "physical",
+  "organization": "FIDE",
+  "governing_bodies": ["FIDE"],
+  "source_name": "FIDE Handbook, Section E.I.01",
+  "source_url": "https://handbook.fide.com/chapter/E012023",
+  "version_label": "Laws of Chess, in force from 1 January 2023",
+  "tags": ["chess", "board games", "mind sports", "fide", "strategy", "competitive"],
+  "files": [
+    "FIDE_Laws_of_Chess.html"
+  ]
+}
