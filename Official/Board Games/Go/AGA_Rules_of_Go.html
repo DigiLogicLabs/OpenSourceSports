@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Go - AGA Rules of Go</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../../../assets/images/favicon.ico">
+  <link rel="stylesheet" href="../../../assets/css/opensourcesports.css">
+</head>
+<body>
+  <!--
+  METADATA
+  {
+    "sport_name": "Go",
+    "category": "Board Games",
+    "type": "official",
+    "organization": "AGA",
+    "source_name": "American Go Association",
+    "source_url": "https://www.usgo.org/aga-concise-rules-go",
+    "version_label": "AGA Rules of Go (adopted April 1991; komi amended 2004, effective 2005)",
+    "effective_date": "2005-01-01",
+    "last_verified_at": "2026-07-30",
+    "confidence": "0.95",
+    "tags": ["go", "baduk", "weiqi", "board games", "mind sports", "aga", "strategy"]
+  }
+  -->
+
+  <header id="top">
+    <img src="../../../assets/images/logo.png" alt="OpenSourceSports" class="oss-header-logo">
+    <div class="oss-header-text">
+      <h1>Go - AGA Rules of Go</h1>
+      <p class="governing-body">Governing Body: American Go Association (AGA)</p>
+      <p class="last-updated">Last Updated: July 30, 2026</p>
+    </div>
+  </header>
+
+  <nav class="toc" aria-label="Table of Contents">
+    <h2>Table of Contents</h2>
+    <ol>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#components">Components</a></li>
+      <li><a href="#setup">Setup</a></li>
+      <li><a href="#gameplay">Gameplay</a></li>
+      <li><a href="#scoring">Scoring &amp; Winning</a></li>
+      <li><a href="#variants">Variants &amp; House Rules</a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <section id="introduction">
+      <h2>1. Introduction</h2>
+      <p>Go is a game of strategy between two sides, usually played on a 19x19 grid (AGA Rule 1). Known as <em>baduk</em> in Korea and <em>weiqi</em> in China, it is one of the oldest board games still played under codified rules.</p>
+      <p>Players alternate placing stones on the intersections of the grid, aiming to control more of the board than the opponent. The object of the game is to end with the greater total number of points (AGA Rule 12).</p>
+      <p>These are the rules of the American Go Association, adopted April 1991. The AGA rule set is designed so that a game scored by <em>territory</em> and the same game scored by <em>area</em> produce the same result — a property most other rule sets do not guarantee.</p>
+    </section>
+
+    <section id="components">
+      <h2>2. Components</h2>
+      <h3>The Board</h3>
+      <ul>
+        <li>A grid of <strong>19x19 lines</strong>, giving 361 playing points where lines intersect (AGA Rule 1)</li>
+        <li>Smaller boards are permitted, <strong>13x13 and 9x9</strong> being the two most common (AGA Rule 1)</li>
+        <li>Nine marked points (<em>star points</em> or <em>hoshi</em>) are used to place handicap stones</li>
+      </ul>
+      <h3>The Stones</h3>
+      <ul>
+        <li>Two sets of lens-shaped stones, one black and one white</li>
+        <li>A full set is 181 black and 180 white — enough to fill all 361 points, with Black holding the extra stone as Black plays first</li>
+        <li>Stones are placed <strong>on the intersections</strong>, including edges and corners, never inside the squares</li>
+      </ul>
+      <h3>Other Equipment</h3>
+      <ul>
+        <li>Two bowls or lids to hold stones and captured prisoners</li>
+        <li><strong>Pass stones</strong> — under AGA rules a player who passes hands the opponent a stone, which counts as a prisoner (AGA Rule 7)</li>
+        <li>A game clock for timed and tournament play</li>
+      </ul>
+    </section>
+
+    <section id="setup">
+      <h2>3. Setup</h2>
+      <h3>Starting Position</h3>
+      <ul>
+        <li>The board starts <strong>empty</strong>; there is no initial arrangement of stones in an even game</li>
+        <li><strong>Black moves first</strong> in an even game (AGA Rule 2)</li>
+      </ul>
+      <h3>Komi (Compensation)</h3>
+      <ul>
+        <li>Because Black plays first, White receives <em>komi</em> — compensation added to White's score</li>
+        <li>AGA komi in an even game is <strong>7&frac12; points</strong>. The AGA raised komi from 5&frac12; in August 2004, effective 2005; the half point prevents draws</li>
+        <li>In a handicap game White instead receives <strong>&frac12; point</strong>, again to avoid a tie (AGA Rule 3)</li>
+      </ul>
+      <h3>Handicap</h3>
+      <ul>
+        <li>The weaker player takes Black (AGA Rule 4)</li>
+        <li>Black either moves first normally, or places <strong>2 to 9 handicap stones</strong> on the star points before White's first move</li>
+        <li>Handicap games are the standard way for players of different ranks to play an even contest</li>
+      </ul>
+    </section>
+
+    <section id="gameplay">
+      <h2>4. Gameplay</h2>
+      <h3>Making a Move</h3>
+      <ul>
+        <li>Players alternate. A move is either placing one stone of your colour on any <strong>empty intersection</strong>, or <strong>passing</strong> (AGA Rule 2)</li>
+        <li>Passing is always legal, even when legal placements exist</li>
+        <li>Stones do not move once placed — they are only removed by capture</li>
+      </ul>
+      <h3>Liberties, Strings & Capture</h3>
+      <ul>
+        <li>Adjacent stones of the same colour form a <strong>string</strong> and share their liberties</li>
+        <li>A <strong>liberty</strong> is an empty point orthogonally adjacent to a stone in the string</li>
+        <li>A string with <strong>no remaining liberties is captured</strong> and removed from the board as prisoners (AGA Rule 5)</li>
+        <li><strong>Suicide is illegal</strong> — you may not play a stone that would leave your own string without liberties, unless the play captures first</li>
+      </ul>
+      <h3>The Ko Rule</h3>
+      <ul>
+        <li>It is illegal to play so as to <strong>recreate a previous board position from the game with the same player to move</strong> (AGA Rule 6)</li>
+        <li>This is a <em>positional superko</em>: it covers the classic single-point ko and also longer repeating cycles</li>
+        <li>In practice a player facing a ko must play elsewhere (a <em>ko threat</em>) before recapturing</li>
+      </ul>
+      <h3>Passing</h3>
+      <ul>
+        <li>A player who passes gives the opponent a <strong>pass stone</strong>, which counts as a prisoner (AGA Rule 7)</li>
+        <li>Pass stones are what keep AGA territory scoring and area scoring in agreement</li>
+        <li>Under AGA rules <strong>White must make the last pass</strong> ending the game</li>
+      </ul>
+    </section>
+
+    <section id="scoring">
+      <h2>5. Scoring &amp; Winning</h2>
+      <h3>Ending the Game</h3>
+      <ul>
+        <li><strong>Two consecutive passes</strong> normally signal the end of the game (AGA Rule 9)</li>
+        <li>The players then agree which stones on the board are <strong>dead</strong> — stones that could not avoid capture if play continued</li>
+        <li>Dead stones are removed and counted as prisoners; if the players cannot agree, play resumes to settle the position</li>
+      </ul>
+      <h3>Counting the Score</h3>
+      <ul>
+        <li>AGA rules permit either method, chosen before the game, and both give the same result (AGA Rule 12):</li>
+        <li><strong>Territory scoring:</strong> empty points you have surrounded, plus prisoners you hold</li>
+        <li><strong>Area scoring:</strong> your stones on the board, plus the empty points you have surrounded</li>
+        <li>White's komi is added to White's total</li>
+      </ul>
+      <h3>The Result</h3>
+      <ul>
+        <li>The player with the <strong>greater total is the winner</strong> (AGA Rule 12)</li>
+        <li>The half point in komi means an even game cannot end in a draw</li>
+        <li>Results are conventionally recorded as a margin, e.g. "B+3.5" — Black by three and a half points</li>
+      </ul>
+    </section>
+
+    <section id="variants">
+      <h2>6. Variants &amp; House Rules</h2>
+      <h3>Board Sizes</h3>
+      <ul>
+        <li><strong>13x13</strong> and <strong>9x9</strong> are the common smaller boards, standard for teaching and fast games (AGA Rule 1)</li>
+        <li>On boards smaller than 19x19 a non-integral komi should still be used, since avoiding a drawn game is part of the spirit of the AGA rules</li>
+      </ul>
+      <h3>Other Rule Sets</h3>
+      <ul>
+        <li><strong>Japanese rules</strong> use territory scoring and treat ko and life-and-death differently in rare positions</li>
+        <li><strong>Chinese rules</strong> use area scoring and a different komi convention</li>
+        <li>The differences change the result only in unusual endgames, but tournaments always announce which rule set applies</li>
+      </ul>
+      <h3>Common Tournament Conventions</h3>
+      <ul>
+        <li>Handicap stones let players of different ranks meet on even terms — one stone per rank difference is the usual guide</li>
+        <li>Timed games use byo-yomi (reserve periods) or Fischer increment; time is a tournament regulation, not part of the rules of play</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>This document is maintained by <a href="https://opensourcesports.io">OpenSourceSports</a> and summarises the publicly available Rules of Go of the American Go Association. Rule references point to the official AGA text.</p>
+    <p>&copy; 2026 OpenSourceSports. All rights reserved.</p>
+  </footer>
+</body>
+</html>

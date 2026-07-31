@@ -1,0 +1,14 @@
+{
+  "sport_name": "Duplicate Bridge",
+  "category": "Card Games",
+  "type": "official",
+  "organization": "ACBL",
+  "governing_bodies": ["ACBL", "WBF"],
+  "source_name": "American Contract Bridge League — Laws of Duplicate Bridge",
+  "source_url": "https://www.worldbridge.org/regulations/2017-laws-of-duplicate-bridge/",
+  "version_label": "Laws of Duplicate Bridge, 2017 Revised Authorized Edition",
+  "tags": ["bridge", "duplicate bridge", "card games", "mind sports", "acbl", "wbf", "trick-taking"],
+  "files": [
+    "ACBL_Laws_of_Duplicate_Bridge.html"
+  ]
+}

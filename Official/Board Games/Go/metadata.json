@@ -1,0 +1,14 @@
+{
+  "sport_name": "Go",
+  "category": "Board Games",
+  "type": "official",
+  "organization": "AGA",
+  "governing_bodies": ["AGA"],
+  "source_name": "American Go Association",
+  "source_url": "https://www.usgo.org/aga-concise-rules-go",
+  "version_label": "AGA Rules of Go (adopted April 1991; komi amended 2004, effective 2005)",
+  "tags": ["go", "baduk", "weiqi", "board games", "mind sports", "aga", "strategy"],
+  "files": [
+    "AGA_Rules_of_Go.html"
+  ]
+}
