@@ -1,0 +1,15 @@
+{
+  "sport_name": "Mahjong (Riichi)",
+  "category": "Tile Games",
+  "type": "official",
+  "organization": "EMA",
+  "governing_bodies": ["EMA", "WMO"],
+  "source_name": "European Mahjong Association",
+  "source_url": "http://mahjong-europe.org/portal/images/docs/Riichi-rules-2025-EN.pdf",
+  "version_label": "EMA Riichi Rules, 2025 edition (August 2025; supersedes the 2016 edition)",
+  "tags": ["mahjong", "riichi", "japanese mahjong", "tile games", "mind sports", "ema", "strategy"],
+  "files": [
+    "EMA_Riichi_Rules.html",
+    "WMO_MCR_2014.html"
+  ]
+}
