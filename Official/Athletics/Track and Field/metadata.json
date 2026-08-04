@@ -1,6 +1,6 @@
 {
   "name": "Track and Field",
-  "category": "Individual Sports",
+  "category": "Athletics",
   "type": "OFFICIAL",
   "description": "Official rules for Track and Field as governed by World Athletics",
   "governing_bodies": ["World Athletics", "NCAA"],
