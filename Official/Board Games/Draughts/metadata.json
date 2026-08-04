@@ -1,0 +1,14 @@
+{
+  "sport_name": "Draughts (International)",
+  "category": "Board Games",
+  "type": "official",
+  "organization": "FMJD",
+  "governing_bodies": ["FMJD"],
+  "source_name": "Fédération Mondiale du Jeu de Dames (World Draughts Federation)",
+  "source_url": "https://www.fmjd.org/downloads/FMJD_Annexes_2024_8-sig.pdf",
+  "version_label": "FMJD Annexes, Annex 1 — Official FMJD rules for international draughts (last update 21 August 2024)",
+  "tags": ["draughts", "international draughts", "checkers", "board games", "mind sports", "fmjd", "strategy"],
+  "files": [
+    "FMJD_Rules_of_International_Draughts.html"
+  ]
+}

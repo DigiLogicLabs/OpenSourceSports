@@ -1,0 +1,14 @@
+{
+  "sport_name": "Scrabble",
+  "category": "Board Games",
+  "type": "official",
+  "organization": "WESPA",
+  "governing_bodies": ["WESPA"],
+  "source_name": "World English-Language Scrabble Players Association",
+  "source_url": "https://wespa.org/docs/Rules-V5.1.pdf",
+  "version_label": "WESPA Game Rules, Version 5.1 (issued by the WESPA Rules Committee, 14 November 2021)",
+  "tags": ["scrabble", "word games", "board games", "mind sports", "wespa", "strategy"],
+  "files": [
+    "WESPA_Game_Rules.html"
+  ]
+}
