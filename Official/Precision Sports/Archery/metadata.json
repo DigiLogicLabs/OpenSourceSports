@@ -1,0 +1,15 @@
+{
+  "sport_name": "Archery (Target)",
+  "category": "Precision Sports",
+  "type": "official",
+  "organization": "World Archery",
+  "base_sport": "Archery",
+  "governing_bodies": ["World Archery"],
+  "source_name": "World Archery Federation",
+  "source_url": "https://storage.googleapis.com/rules-book.firebasestorage.app/RuleBooks/BOOK_003/EN/Official/official_version.pdf",
+  "version_label": "World Archery Rulebook, Book 3 Target Archery & Book 2 Events, Version 2026-03-13 (effective from 13 March 2026)",
+  "tags": ["archery", "target archery", "precision sports", "olympic", "world archery", "recurve", "compound", "barebow"],
+  "files": [
+    "WorldArchery_Target_Archery_Rules.html"
+  ]
+}
