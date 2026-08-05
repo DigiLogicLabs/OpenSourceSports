@@ -1,6 +1,6 @@
 {
   "name": "Gymnastics",
-  "category": "Individual Sports",
+  "category": "Gymnastics",
   "type": "OFFICIAL",
   "description": "Official rules for Gymnastics as governed by FIG",
   "governing_bodies": ["FIG", "NCAA"],
