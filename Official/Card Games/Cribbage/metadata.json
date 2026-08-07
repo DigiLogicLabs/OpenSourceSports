@@ -1,0 +1,21 @@
+{
+  "name": "Cribbage",
+  "category": "Card Games",
+  "type": "OFFICIAL",
+  "description": "Two-player card game scored by pegging around a board, with an extra hand — the crib — belonging to the dealer. Sanctioned play governed by the American Cribbage Congress.",
+  "governing_bodies": [
+    "ACC"
+  ],
+  "files": [
+    "ACC_Tournament_Rules.html"
+  ],
+  "tags": [
+    "card game",
+    "acc",
+    "tournament",
+    "pegging",
+    "classic"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

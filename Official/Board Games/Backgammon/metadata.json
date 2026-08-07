@@ -1,0 +1,23 @@
+{
+  "name": "Backgammon",
+  "category": "Board Games",
+  "type": "OFFICIAL",
+  "description": "Two-player race game on a 24-point board, played with dice and a doubling cube. Tournament play regulated by the WBGF internationally and the USBGF in the United States.",
+  "governing_bodies": [
+    "USBGF",
+    "WBGF"
+  ],
+  "files": [
+    "USBGF_Tournament_Rules.html"
+  ],
+  "tags": [
+    "board game",
+    "usbgf",
+    "wbgf",
+    "tournament",
+    "dice",
+    "mind sport"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

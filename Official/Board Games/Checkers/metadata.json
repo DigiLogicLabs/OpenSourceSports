@@ -1,0 +1,24 @@
+{
+  "name": "Checkers",
+  "category": "Board Games",
+  "type": "OFFICIAL",
+  "description": "Two-player abstract strategy game on an 8x8 board with compulsory capture and crowned kings. Governed internationally by the WCDF and in the United States by the ACF.",
+  "governing_bodies": [
+    "WCDF",
+    "ACF"
+  ],
+  "files": [
+    "WCDF_Rules_of_Draughts.html"
+  ],
+  "base_sport": "Draughts",
+  "tags": [
+    "board game",
+    "wcdf",
+    "acf",
+    "draughts",
+    "abstract",
+    "mind sport"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
