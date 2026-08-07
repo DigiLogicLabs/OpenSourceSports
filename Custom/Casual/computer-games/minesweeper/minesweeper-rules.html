@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Minesweeper - Game Rules</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../../../../assets/images/favicon.ico">
+  <link rel="stylesheet" href="../../../../assets/css/opensourcesports.css">
+</head>
+<body>
+  <!--
+  METADATA
+  {
+    "sport": "Minesweeper",
+    "category": "Computer Games",
+    "type": "CUSTOM",
+    "governingBody": "",
+    "version": "1.0",
+    "lastUpdated": "2026-08-07",
+    "author": "OpenSourceSports",
+    "contest_format": "individual",
+    "equipment": [
+      "computer",
+      "mouse"
+    ],
+    "players_min": 1,
+    "players_max": 1,
+    "vibe": "chill",
+    "time_estimate": "quick",
+    "tags": [
+      "computer game",
+      "classic",
+      "puzzle",
+      "logic",
+      "single-player"
+    ],
+    "source_name": "Traditional computer puzzle — describes the standard Windows implementation",
+    "source_url": "https://en.wikipedia.org/wiki/Minesweeper_(video_game)",
+    "last_verified_at": "2026-08-07"
+  }
+  -->
+
+  <header id="top">
+    <img src="../../../../assets/images/logo.png" alt="OpenSourceSports" class="oss-header-logo">
+    <div class="oss-header-text">
+      <h1>Minesweeper - Game Rules</h1>
+      <p class="last-updated">Last Updated: August 07, 2026</p>
+    </div>
+  </header>
+
+  <nav class="oss-toc" id="toc">
+    <details open>
+      <summary>Table of Contents</summary>
+      <ol>
+        <li><a href="#introduction"><span class="toc-number">1.</span> Introduction</a></li>
+        <li><a href="#platform-setup"><span class="toc-number">2.</span> Platform &amp; Setup</a></li>
+        <li><a href="#objective"><span class="toc-number">3.</span> Objective</a></li>
+        <li><a href="#gameplay"><span class="toc-number">4.</span> Gameplay &amp; Modes</a></li>
+        <li><a href="#scoring"><span class="toc-number">5.</span> Scoring &amp; Winning</a></li>
+        <li><a href="#competitive-rules"><span class="toc-number">6.</span> Competitive Rules</a></li>
+      </ol>
+    </details>
+  </nav>
+
+  <main>
+
+    <section id="introduction">
+      <h2>Section 1: Introduction</h2>
+      <p><strong>Minesweeper</strong> is a single-player logic puzzle on a grid of covered cells, some containing hidden mines. Uncovering a safe cell reveals a number: how many mines touch it. From those numbers the rest is deduction.</p>
+      <p>The game predates its most famous version and has no owner as a concept; this page describes the <strong>standard implementation</strong> bundled with Windows from 1990, which set the conventions almost every version still follows.</p>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+    <section id="platform-setup">
+      <h2>Section 2: Platform &amp; Setup</h2>
+      <ul>
+        <li><strong>Beginner:</strong> 9&times;9 grid, 10 mines.</li>
+        <li><strong>Intermediate:</strong> 16&times;16 grid, 40 mines.</li>
+        <li><strong>Expert:</strong> 30&times;16 grid, 99 mines.</li>
+        <li><strong>Controls:</strong> left click to uncover, right click to flag a suspected mine, and (in most versions) a middle click or both buttons to <strong>chord</strong>.</li>
+        <li>A timer starts on the first click; a counter shows mines remaining minus flags placed.</li>
+      </ul>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+    <section id="objective">
+      <h2>Section 3: Objective</h2>
+      <p>Uncover <strong>every cell that does not contain a mine</strong>. Flagging is an aid only &mdash; the game is won by clearing safe cells, not by flagging mines correctly. Uncovering a mine ends the game immediately.</p>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+    <section id="gameplay">
+      <h2>Section 4: Gameplay &amp; Modes</h2>
+      <h3>Reading the Numbers</h3>
+      <ul>
+        <li>A revealed number is the count of mines in the <strong>eight surrounding cells</strong>.</li>
+        <li>A cell with no adjacent mines shows blank and <strong>cascades</strong>, auto-revealing its neighbours until numbers are reached.</li>
+        <li>If a number already touches that many flags, its remaining neighbours are provably safe.</li>
+        <li>If a number's unrevealed neighbours equal its value, all of them are mines.</li>
+      </ul>
+      <h3>Chording</h3>
+      <p>Clicking a satisfied number &mdash; one with the correct count of flags around it &mdash; uncovers all its remaining neighbours at once. This is where most of the speed in expert play comes from, and misplacing a flag beforehand makes it instantly fatal.</p>
+      <h3>The First Click</h3>
+      <p>In the standard implementation the <strong>first click is always safe</strong>; the board is generated or adjusted around it. Older versions did not guarantee this, which is why very old Minesweeper could end on move one.</p>
+      <h3>Guessing</h3>
+      <p>Not every board is fully solvable by logic. Some positions reduce to a genuine coin flip, which is why "no-guess" board generation is a common modern option.</p>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+    <section id="scoring">
+      <h2>Section 5: Scoring &amp; Winning</h2>
+      <p>There is no score. The metric is <strong>time to clear the board</strong>, recorded separately per difficulty.</p>
+      <ul>
+        <li><strong>Win:</strong> every non-mine cell uncovered.</li>
+        <li><strong>Loss:</strong> a mine uncovered &mdash; immediate, with no lives.</li>
+      </ul>
+      <p>Flag count is not part of the result: a board cleared with no flags placed at all is a legitimate win, and flagless play is a recognised style.</p>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+    <section id="competitive-rules">
+      <h2>Section 6: Competitive Rules</h2>
+      <p>No governing body exists; competitive Minesweeper is organised around community ranking sites and their conventions:</p>
+      <ul>
+        <li><strong>Standard board sizes</strong> (beginner, intermediate, expert) are the only recognised categories for records.</li>
+        <li><strong>Timing</strong> runs from first click to final safe cell.</li>
+        <li><strong>No-guess boards</strong> are usually a separate category, since guaranteed solvability changes the discipline.</li>
+        <li><strong>Flagging vs non-flagging</strong> styles are commonly ranked separately, as is 3BV/s efficiency.</li>
+        <li><strong>Verification</strong> relies on video capture or replay files, since the game keeps no signed record.</li>
+      </ul>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="oss-footer-top">
+      <p>&copy; 2026 OpenSourceSports</p>
+      <div class="oss-footer-meta">
+        <span>&#183;</span> Automated by <a href="https://github.com/DigiLogicLabs/OpenSourceSports">OpenClaw</a>
+      </div>
+    </div>
+    <a href="https://digilogiclabs.com" target="_blank" rel="noopener" class="oss-footer-brand">
+      <img src="../../../../assets/images/dll-logo.png" alt="Digi Logic Labs" width="36" height="36">
+      <div class="oss-footer-brand-text">
+        <span class="oss-footer-brand-name">Digi Logic Labs</span>
+        <span class="oss-footer-brand-tagline">A Workshop for Digital Craftsmanship</span>
+      </div>
+    </a>
+  </footer>
+</body>
+</html>

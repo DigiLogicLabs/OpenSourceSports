@@ -1,0 +1,16 @@
+{
+  "name": "Yahtzee",
+  "category": "Dice Games",
+  "type": "CUSTOM",
+  "description": "Roll five dice up to three times per turn and commit the result to one of thirteen scorecard boxes — each usable exactly once.",
+  "governing_bodies": [],
+  "tags": [
+    "dice game",
+    "classic",
+    "family",
+    "scorecard",
+    "set collection"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

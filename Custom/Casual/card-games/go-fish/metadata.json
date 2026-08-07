@@ -1,0 +1,16 @@
+{
+  "name": "Go Fish",
+  "category": "Card Games",
+  "type": "CUSTOM",
+  "description": "Ask opponents for ranks to complete four-of-a-kind books; guess wrong and you go fish. The simplest classic in the deck.",
+  "governing_bodies": [],
+  "tags": [
+    "card game",
+    "classic",
+    "family",
+    "children",
+    "matching"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

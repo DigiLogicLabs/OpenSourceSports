@@ -1,0 +1,16 @@
+{
+  "name": "Farkle",
+  "category": "Dice Games",
+  "type": "CUSTOM",
+  "description": "A push-your-luck dice game: set aside scoring dice and reroll the rest, but roll nothing scoring and you lose everything banked that turn.",
+  "governing_bodies": [],
+  "tags": [
+    "dice game",
+    "classic",
+    "push your luck",
+    "family",
+    "public domain"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

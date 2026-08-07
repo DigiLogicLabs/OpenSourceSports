@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pac-Man - Game Rules</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../../../../assets/images/favicon.ico">
+  <link rel="stylesheet" href="../../../../assets/css/opensourcesports.css">
+</head>
+<body>
+  <!--
+  METADATA
+  {
+    "sport": "Pac-Man",
+    "category": "Video Games",
+    "type": "CUSTOM",
+    "governingBody": "",
+    "version": "1.0",
+    "lastUpdated": "2026-08-07",
+    "author": "OpenSourceSports",
+    "contest_format": "individual",
+    "equipment": [
+      "controller",
+      "monitor"
+    ],
+    "players_min": 1,
+    "players_max": 1,
+    "vibe": "chill",
+    "time_estimate": "quick",
+    "tags": [
+      "video game",
+      "classic",
+      "arcade",
+      "maze",
+      "single-player"
+    ],
+    "source_name": "Bandai Namco — Pac-Man (original arcade release, 1980)",
+    "source_url": "https://www.pacman.com/en/",
+    "last_verified_at": "2026-08-07"
+  }
+  -->
+
+  <header id="top">
+    <img src="../../../../assets/images/logo.png" alt="OpenSourceSports" class="oss-header-logo">
+    <div class="oss-header-text">
+      <h1>Pac-Man - Game Rules</h1>
+      <p class="last-updated">Last Updated: August 07, 2026</p>
+    </div>
+  </header>
+
+  <nav class="oss-toc" id="toc">
+    <details open>
+      <summary>Table of Contents</summary>
+      <ol>
+        <li><a href="#introduction"><span class="toc-number">1.</span> Introduction</a></li>
+        <li><a href="#platform-setup"><span class="toc-number">2.</span> Platform &amp; Setup</a></li>
+        <li><a href="#objective"><span class="toc-number">3.</span> Objective</a></li>
+        <li><a href="#gameplay"><span class="toc-number">4.</span> Gameplay &amp; Modes</a></li>
+        <li><a href="#scoring"><span class="toc-number">5.</span> Scoring &amp; Winning</a></li>
+        <li><a href="#competitive-rules"><span class="toc-number">6.</span> Competitive Rules</a></li>
+      </ol>
+    </details>
+  </nav>
+
+  <main>
+
+    <section id="introduction">
+      <h2>Section 1: Introduction</h2>
+      <p><strong>Pac-Man</strong> is a maze arcade game released by Namco in 1980. The player guides Pac-Man through a maze eating every dot while avoiding four ghosts. Eating a <strong>power pellet</strong> briefly reverses the situation, letting Pac-Man eat the ghosts instead.</p>
+      <p>It is published by <strong>Bandai Namco</strong> and has no governing body; competitive play is organised by individual events and record-keeping bodies rather than a federation.</p>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+    <section id="platform-setup">
+      <h2>Section 2: Platform &amp; Setup</h2>
+      <ul>
+        <li><strong>Original platform:</strong> upright arcade cabinet with a four-way joystick and no buttons.</li>
+        <li><strong>Maze:</strong> a single fixed layout containing <strong>240 dots</strong> and <strong>4 power pellets</strong>.</li>
+        <li><strong>Ghosts:</strong> Blinky (red), Pinky (pink), Inky (cyan) and Clyde (orange), each with distinct pursuit behaviour.</li>
+        <li><strong>Warp tunnel:</strong> a side passage connecting left and right edges; ghosts move more slowly through it.</li>
+        <li>The player starts with a set number of lives and earns an extra one at a score threshold.</li>
+      </ul>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+    <section id="objective">
+      <h2>Section 3: Objective</h2>
+      <p>Clear the maze by eating <strong>every dot and power pellet</strong>. Doing so advances to the next level, which uses the same maze at higher difficulty. Contact with a ghost, unless it is frightened, costs a life.</p>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+    <section id="gameplay">
+      <h2>Section 4: Gameplay &amp; Modes</h2>
+      <h3>The Ghosts</h3>
+      <p>The four ghosts are not random. Each uses a distinct targeting rule, which is why the game is learnable rather than luck-based:</p>
+      <ul>
+        <li><strong>Blinky</strong> pursues Pac-Man directly, and speeds up as dots are eaten.</li>
+        <li><strong>Pinky</strong> targets ahead of Pac-Man rather than at him.</li>
+        <li><strong>Inky</strong> uses both Pac-Man's position and Blinky's, making him the least predictable.</li>
+        <li><strong>Clyde</strong> chases when far away and retreats when close.</li>
+      </ul>
+      <h3>Scatter and Chase</h3>
+      <p>Ghosts alternate between <strong>chase</strong> and <strong>scatter</strong> phases on a timer, retreating to their home corners during scatter. Learning these cycles is the foundation of pattern play.</p>
+      <h3>Power Pellets</h3>
+      <ul>
+        <li>Eating one turns the ghosts <strong>blue and vulnerable</strong> for a limited time.</li>
+        <li>Ghosts reverse direction the moment a pellet is eaten.</li>
+        <li>An eaten ghost returns to the centre as eyes and regenerates.</li>
+        <li>The vulnerable period <strong>shortens as levels progress</strong>, and eventually stops working altogether.</li>
+      </ul>
+      <h3>Fruit</h3>
+      <p>Bonus items appear beneath the ghost house at intervals, worth increasing points by level.</p>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+    <section id="scoring">
+      <h2>Section 5: Scoring &amp; Winning</h2>
+      <ul>
+        <li><strong>Dot:</strong> 10 points &middot; <strong>Power pellet:</strong> 50 points</li>
+        <li><strong>Ghosts</strong> eaten during one power pellet: <strong>200, 400, 800, 1600</strong> &mdash; eating all four is worth 3,000</li>
+        <li><strong>Fruit:</strong> from 100 points (cherry) upward by level</li>
+      </ul>
+      <p>There is no win condition in the usual sense. The original arcade game has a <strong>level 256 "kill screen"</strong>, where an integer overflow corrupts half the maze and makes it impossible to complete &mdash; which is the de facto end of the game and the basis of the perfect-score record.</p>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+    <section id="competitive-rules">
+      <h2>Section 6: Competitive Rules</h2>
+      <p>No federation governs Pac-Man. Competition is defined by record-keeping conventions:</p>
+      <ul>
+        <li><strong>Which build:</strong> original arcade ROM versus later ports, which differ in ghost behaviour and timing.</li>
+        <li><strong>Perfect score:</strong> the recognised maximum on the original arcade game, achieved by eating every available point through level 256.</li>
+        <li><strong>Pattern play:</strong> because ghost behaviour is deterministic, memorised routes are a legitimate technique rather than an exploit.</li>
+        <li><strong>Verification:</strong> record attempts are validated by third-party scoreboards, not by the publisher.</li>
+      </ul>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="oss-footer-top">
+      <p>&copy; 2026 OpenSourceSports</p>
+      <div class="oss-footer-meta">
+        <span>&#183;</span> Automated by <a href="https://github.com/DigiLogicLabs/OpenSourceSports">OpenClaw</a>
+      </div>
+    </div>
+    <a href="https://digilogiclabs.com" target="_blank" rel="noopener" class="oss-footer-brand">
+      <img src="../../../../assets/images/dll-logo.png" alt="Digi Logic Labs" width="36" height="36">
+      <div class="oss-footer-brand-text">
+        <span class="oss-footer-brand-name">Digi Logic Labs</span>
+        <span class="oss-footer-brand-tagline">A Workshop for Digital Craftsmanship</span>
+      </div>
+    </a>
+  </footer>
+</body>
+</html>

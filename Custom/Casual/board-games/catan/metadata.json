@@ -1,0 +1,16 @@
+{
+  "name": "Catan",
+  "category": "Board Games",
+  "type": "CUSTOM",
+  "description": "Collect and trade resources to build roads, settlements and cities on a modular island, racing to ten victory points.",
+  "governing_bodies": [],
+  "tags": [
+    "board game",
+    "modern classic",
+    "trading",
+    "resource management",
+    "eurogame"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Liar's Dice",
+  "category": "Dice Games",
+  "type": "CUSTOM",
+  "description": "Bid on how many dice of a value are hidden under every cup at the table, raise or call the bluff, and lose a die each time you are wrong.",
+  "governing_bodies": [],
+  "tags": [
+    "dice game",
+    "classic",
+    "bluffing",
+    "party",
+    "public domain"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

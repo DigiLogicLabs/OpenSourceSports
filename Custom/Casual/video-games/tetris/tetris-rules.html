@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tetris - Game Rules</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../../../../assets/images/favicon.ico">
+  <link rel="stylesheet" href="../../../../assets/css/opensourcesports.css">
+</head>
+<body>
+  <!--
+  METADATA
+  {
+    "sport": "Tetris",
+    "category": "Video Games",
+    "type": "CUSTOM",
+    "governingBody": "",
+    "version": "1.0",
+    "lastUpdated": "2026-08-07",
+    "author": "OpenSourceSports",
+    "contest_format": "individual",
+    "equipment": [
+      "controller",
+      "monitor"
+    ],
+    "players_min": 1,
+    "players_max": 1,
+    "vibe": "competitive",
+    "time_estimate": "quick",
+    "tags": [
+      "video game",
+      "classic",
+      "puzzle",
+      "falling block",
+      "single-player"
+    ],
+    "source_name": "The Tetris Company — Tetris Guideline (the licensed standard for modern versions)",
+    "source_url": "https://tetris.com/play-tetris",
+    "last_verified_at": "2026-08-07"
+  }
+  -->
+
+  <header id="top">
+    <img src="../../../../assets/images/logo.png" alt="OpenSourceSports" class="oss-header-logo">
+    <div class="oss-header-text">
+      <h1>Tetris - Game Rules</h1>
+      <p class="last-updated">Last Updated: August 07, 2026</p>
+    </div>
+  </header>
+
+  <nav class="oss-toc" id="toc">
+    <details open>
+      <summary>Table of Contents</summary>
+      <ol>
+        <li><a href="#introduction"><span class="toc-number">1.</span> Introduction</a></li>
+        <li><a href="#platform-setup"><span class="toc-number">2.</span> Platform &amp; Setup</a></li>
+        <li><a href="#objective"><span class="toc-number">3.</span> Objective</a></li>
+        <li><a href="#gameplay"><span class="toc-number">4.</span> Gameplay &amp; Modes</a></li>
+        <li><a href="#scoring"><span class="toc-number">5.</span> Scoring &amp; Winning</a></li>
+        <li><a href="#competitive-rules"><span class="toc-number">6.</span> Competitive Rules</a></li>
+      </ol>
+    </details>
+  </nav>
+
+  <main>
+
+    <section id="introduction">
+      <h2>Section 1: Introduction</h2>
+      <p><strong>Tetris</strong> is a falling-block puzzle game created by Alexey Pajitnov in 1984. Seven piece shapes &mdash; <strong>tetrominoes</strong> &mdash; fall into a rectangular well, and the player rotates and positions each one to complete horizontal lines, which then clear.</p>
+      <p>Modern licensed versions follow the <strong>Tetris Guideline</strong>, a standard maintained by <strong>The Tetris Company</strong> covering piece colours, the rotation system, randomisation and scoring. There is no independent governing body &mdash; the standard is the licensor's &mdash; so this is a community entry.</p>
+      <p>Note that <strong>older versions predate the Guideline</strong> and differ materially: the NES version used a different rotation system and no hold or ghost piece, which is why classic-era play looks so different from modern play.</p>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+    <section id="platform-setup">
+      <h2>Section 2: Platform &amp; Setup</h2>
+      <ul>
+        <li><strong>Playfield:</strong> a well conventionally <strong>10 cells wide</strong> and 20 or more visible rows tall.</li>
+        <li><strong>Seven tetrominoes:</strong> I, O, T, S, Z, J and L, each four cells.</li>
+        <li><strong>Controls:</strong> move left and right, soft drop, hard drop, rotate clockwise and anticlockwise, and hold.</li>
+        <li>Under the Guideline, pieces are drawn from a <strong>7-bag randomiser</strong>: each set of seven contains every piece once, so a long drought of a given piece is impossible.</li>
+        <li>Guideline versions show a <strong>ghost piece</strong> marking where the current piece will land, and a <strong>hold</strong> slot to set one piece aside.</li>
+      </ul>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+    <section id="objective">
+      <h2>Section 3: Objective</h2>
+      <p>Complete horizontal lines to clear them and keep the stack from reaching the top of the well. Tetris has <strong>no win condition</strong> in its endless form &mdash; play continues until the stack tops out, so the objective is to maximise score and survive rising speed.</p>
+      <ul>
+        <li>A line clears when <strong>all ten cells in a row</strong> are filled.</li>
+        <li>Clearing lines lowers everything above them.</li>
+        <li>The game ends when a new piece cannot be placed &mdash; a <strong>top out</strong>.</li>
+      </ul>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+    <section id="gameplay">
+      <h2>Section 4: Gameplay &amp; Modes</h2>
+      <h3>Core Loop</h3>
+      <ul>
+        <li>A piece spawns at the top and falls at the current gravity speed.</li>
+        <li>Move and rotate it; a <strong>soft drop</strong> speeds descent, a <strong>hard drop</strong> places it instantly.</li>
+        <li>Once it lands and locks, any completed lines clear and the next piece spawns.</li>
+        <li>Gravity increases with level, and at the highest levels pieces lock almost immediately.</li>
+      </ul>
+      <h3>Rotation and Kicks</h3>
+      <p>The Guideline defines the <strong>Super Rotation System</strong>, in which a rotation blocked by a wall or the stack is retried at offset positions &mdash; a <strong>wall kick</strong>. This is what makes T-spins possible and is the clearest single difference from classic-era versions.</p>
+      <h3>Common Modes</h3>
+      <ul>
+        <li><strong>Marathon / endless:</strong> play until top out.</li>
+        <li><strong>Sprint:</strong> clear 40 lines as fast as possible.</li>
+        <li><strong>Ultra:</strong> maximise score in a fixed time.</li>
+        <li><strong>Versus:</strong> line clears send garbage rows to an opponent.</li>
+      </ul>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+    <section id="scoring">
+      <h2>Section 5: Scoring &amp; Winning</h2>
+      <p>Scoring rewards clearing more lines at once. Under the Guideline, a single clear scores least per line and a four-line clear &mdash; a <strong>"Tetris"</strong> &mdash; scores most, with values multiplied by the current level.</p>
+      <ul>
+        <li><strong>Single, double, triple, Tetris:</strong> increasing value per line cleared simultaneously.</li>
+        <li><strong>T-spin:</strong> rotating a T piece into a gap it could not otherwise reach scores substantially more than the same number of lines cleared normally.</li>
+        <li><strong>Back-to-back:</strong> consecutive Tetrises or T-spins, with no ordinary clear between, earn a bonus.</li>
+        <li><strong>Combo:</strong> clearing lines on consecutive pieces.</li>
+        <li><strong>Hard drop</strong> awards a small bonus per cell dropped.</li>
+      </ul>
+      <p>In sprint modes the metric is <strong>time</strong> rather than score, and in versus modes it is <strong>lines sent</strong>.</p>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+    <section id="competitive-rules">
+      <h2>Section 6: Competitive Rules</h2>
+      <p>There is no sanctioning federation. Competitive play is organised by event, and the rules that matter are the ones each event fixes:</p>
+      <ul>
+        <li><strong>Which version:</strong> classic NES play and Guideline-era play are effectively different games. Events specify the exact build.</li>
+        <li><strong>Randomiser:</strong> the 7-bag is standard under the Guideline; classic versions use a different, less forgiving randomiser.</li>
+        <li><strong>Rollover and kill screens:</strong> classic-era competition contends with the score counter and level behaviour breaking down at high levels, which is part of the challenge rather than a bug to patch.</li>
+        <li><strong>Input method:</strong> controller and technique restrictions (such as hypertapping or rolling) are set per event.</li>
+        <li>The <strong>Classic Tetris World Championship</strong> is the best known event, but it is an independent competition, not a governing body.</li>
+      </ul>
+        <div class="oss-section-foot"><a href="#toc" class="oss-back-top">&#8593; Back to Contents</a></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="oss-footer-top">
+      <p>&copy; 2026 OpenSourceSports</p>
+      <div class="oss-footer-meta">
+        <span>&#183;</span> Automated by <a href="https://github.com/DigiLogicLabs/OpenSourceSports">OpenClaw</a>
+      </div>
+    </div>
+    <a href="https://digilogiclabs.com" target="_blank" rel="noopener" class="oss-footer-brand">
+      <img src="../../../../assets/images/dll-logo.png" alt="Digi Logic Labs" width="36" height="36">
+      <div class="oss-footer-brand-text">
+        <span class="oss-footer-brand-name">Digi Logic Labs</span>
+        <span class="oss-footer-brand-tagline">A Workshop for Digital Craftsmanship</span>
+      </div>
+    </a>
+  </footer>
+</body>
+</html>

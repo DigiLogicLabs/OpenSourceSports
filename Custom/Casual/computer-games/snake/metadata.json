@@ -1,0 +1,16 @@
+{
+  "name": "Snake",
+  "category": "Computer Games",
+  "type": "CUSTOM",
+  "description": "Steer a growing line to eat food without colliding with the walls or yourself — the growth is what eventually kills you.",
+  "governing_bodies": [],
+  "tags": [
+    "computer game",
+    "classic",
+    "arcade",
+    "single-player",
+    "public domain concept"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

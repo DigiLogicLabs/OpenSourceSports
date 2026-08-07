@@ -1,0 +1,10 @@
+{
+  "name": "UNO",
+  "category": "Card Games",
+  "type": "CUSTOM",
+  "description": "A shedding card game for 2-10 players: match the top of the discard pile by colour, number or symbol, and be first to empty your hand.",
+  "governing_bodies": [],
+  "tags": ["card game", "family", "party", "classic", "shedding"],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

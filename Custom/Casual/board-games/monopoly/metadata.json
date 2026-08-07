@@ -1,0 +1,16 @@
+{
+  "name": "Monopoly",
+  "category": "Board Games",
+  "type": "CUSTOM",
+  "description": "Buy, trade and develop properties around the board, collecting rent until every opponent is bankrupt.",
+  "governing_bodies": [],
+  "tags": [
+    "board game",
+    "classic",
+    "family",
+    "trading",
+    "economic"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

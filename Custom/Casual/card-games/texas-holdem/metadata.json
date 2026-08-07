@@ -1,0 +1,16 @@
+{
+  "name": "Texas Hold'em",
+  "category": "Card Games",
+  "type": "CUSTOM",
+  "description": "The most widely played poker variant: two private cards, five shared community cards, four betting rounds, best five-card hand takes the pot.",
+  "governing_bodies": [],
+  "tags": [
+    "card game",
+    "poker",
+    "classic",
+    "betting",
+    "community cards"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

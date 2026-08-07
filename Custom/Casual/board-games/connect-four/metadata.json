@@ -1,0 +1,16 @@
+{
+  "name": "Connect Four",
+  "category": "Board Games",
+  "type": "CUSTOM",
+  "description": "Drop discs into a seven-column grid and be first to line up four — a solved game in which the first player wins with perfect play.",
+  "governing_bodies": [],
+  "tags": [
+    "board game",
+    "classic",
+    "family",
+    "abstract",
+    "two-player"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

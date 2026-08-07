@@ -1,0 +1,16 @@
+{
+  "name": "Crazy Eights",
+  "category": "Card Games",
+  "type": "CUSTOM",
+  "description": "Match the discard by rank or suit and shed your hand first; eights are wild and let you name the suit.",
+  "governing_bodies": [],
+  "tags": [
+    "card game",
+    "classic",
+    "family",
+    "shedding",
+    "matching"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

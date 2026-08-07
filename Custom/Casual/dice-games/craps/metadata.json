@@ -1,0 +1,16 @@
+{
+  "name": "Craps",
+  "category": "Dice Games",
+  "type": "CUSTOM",
+  "description": "The casino dice game: bet the pass line, roll a come-out, then chase the point before a seven arrives.",
+  "governing_bodies": [],
+  "tags": [
+    "dice game",
+    "classic",
+    "casino",
+    "betting",
+    "public domain"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

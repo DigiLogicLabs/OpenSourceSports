@@ -1,0 +1,16 @@
+{
+  "name": "Minesweeper",
+  "category": "Computer Games",
+  "type": "CUSTOM",
+  "description": "Clear a grid without detonating hidden mines, using the numbers revealed to deduce where they are.",
+  "governing_bodies": [],
+  "tags": [
+    "computer game",
+    "classic",
+    "puzzle",
+    "logic",
+    "single-player"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "War",
+  "category": "Card Games",
+  "type": "CUSTOM",
+  "description": "Flip cards, higher rank takes both; ties trigger a war. A two-player classic with no decisions at all — the outcome is fixed at the shuffle.",
+  "governing_bodies": [],
+  "tags": [
+    "card game",
+    "classic",
+    "children",
+    "no decisions",
+    "two-player"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

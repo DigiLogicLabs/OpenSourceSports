@@ -1,0 +1,16 @@
+{
+  "name": "Solitaire (Klondike)",
+  "category": "Card Games",
+  "type": "CUSTOM",
+  "description": "The classic one-player patience: build four foundations ace to king while ordering a seven-column tableau in alternating colours.",
+  "governing_bodies": [],
+  "tags": [
+    "card game",
+    "classic",
+    "solitaire",
+    "patience",
+    "single-player"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

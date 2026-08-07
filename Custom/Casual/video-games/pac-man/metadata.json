@@ -1,0 +1,16 @@
+{
+  "name": "Pac-Man",
+  "category": "Video Games",
+  "type": "CUSTOM",
+  "description": "Clear a maze of dots while evading four ghosts, using power pellets to turn the chase around.",
+  "governing_bodies": [],
+  "tags": [
+    "video game",
+    "classic",
+    "arcade",
+    "maze",
+    "single-player"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

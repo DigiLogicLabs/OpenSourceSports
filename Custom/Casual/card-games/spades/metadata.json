@@ -1,0 +1,16 @@
+{
+  "name": "Spades",
+  "category": "Card Games",
+  "type": "CUSTOM",
+  "description": "Partnership trick-taking with spades always trump: bid the tricks you expect, then make exactly that many — overtricks eventually cost you.",
+  "governing_bodies": [],
+  "tags": [
+    "card game",
+    "classic",
+    "trick-taking",
+    "partnership",
+    "bidding"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

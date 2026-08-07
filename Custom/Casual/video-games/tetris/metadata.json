@@ -1,0 +1,16 @@
+{
+  "name": "Tetris",
+  "category": "Video Games",
+  "type": "CUSTOM",
+  "description": "Rotate and place falling tetromino pieces to complete horizontal lines; the speed rises until the stack reaches the top.",
+  "governing_bodies": [],
+  "tags": [
+    "video game",
+    "classic",
+    "puzzle",
+    "falling block",
+    "single-player"
+  ],
+  "created_at": "2026-08-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
