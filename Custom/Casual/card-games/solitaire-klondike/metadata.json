@@ -11,6 +11,7 @@
     "patience",
     "single-player"
   ],
+  "base_sport": "Solitaire",
   "created_at": "2026-08-07T00:00:00Z",
   "created_by": "OpenSourceSports"
 }

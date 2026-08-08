@@ -11,6 +11,7 @@
     "betting",
     "community cards"
   ],
+  "base_sport": "Poker",
   "created_at": "2026-08-07T00:00:00Z",
   "created_by": "OpenSourceSports"
 }
