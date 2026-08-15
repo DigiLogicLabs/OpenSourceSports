@@ -7,25 +7,82 @@ on:
       - 'Official/**'
       - 'Custom/**'
       - 'metadata.json'
+  workflow_dispatch:
+
+env:
+  # Hetzner origin behind Cloudflare. The sync trigger resolves straight to it
+  # (see "Why origin-direct" below).
+  ORIGIN_IP: 5.161.41.110
+  HOST: opensourcesports.io
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      # ─────────────────────────────────────────────────────────────────────
+      # Why origin-direct (`curl --resolve`) rather than the public URL:
+      #
+      # Cloudflare 403s GitHub Actions runner IPs. This workflow failed on
+      # every one of its last 5 runs (2026-08-09 .. 2026-08-15) — each one a
+      # `403` returned in ~0.2s, far too fast to have reached the origin. The
+      # route's own bearer check returns 401, not 403, so this was never an
+      # auth problem: the request never arrived.
+      #
+      # The consequence was silent. Merges landed on main, the workflow ran,
+      # went red, and no rulebook correction reached the site — the two most
+      # recent (judo yuko, badminton citations) had to be synced by hand.
+      #
+      # The sibling repo's deploy-verify.yml hit the identical wall (red on 16
+      # of 20 runs) and was fixed the same way. Keep the two in step: if one
+      # changes how it reaches the origin, change the other.
+      #
+      # TLS still validates against ${HOST} because --resolve only overrides
+      # DNS, not SNI or certificate verification.
+      # ─────────────────────────────────────────────────────────────────────
       - name: Trigger sync
         run: |
-          response=$(curl -s -o /dev/null -w "%{http_code}" \
-            -X POST "https://opensourcesports.io/api/sync" \
+          echo "Triggering sync at origin ${ORIGIN_IP} (host ${HOST})..."
+
+          # Deliberately NOT force=true. A plain sync uses content-hash change
+          # detection and touches only files that actually changed; a forced
+          # sync rewrites every rulebook row and appends a spurious
+          # rule_versions entry to all ~195 sports.
+          resp=$(curl -s --max-time 170 -w $'\n%{http_code}' \
+            --resolve "${HOST}:443:${ORIGIN_IP}" \
+            -X POST "https://${HOST}/api/sync" \
             -H "Authorization: Bearer ${{ secrets.SYNC_SECRET }}" \
-            -H "Content-Type: application/json" \
-            --max-time 120)
-          echo "Sync response: $response"
-          if [ "$response" -ge 200 ] && [ "$response" -lt 300 ]; then
-            echo "Sync triggered successfully"
-          elif [ "$response" = "409" ]; then
-            echo "Sync already in progress — OK"
-          else
-            echo "Sync failed with status $response"
-            exit 1
-          fi
+            -H "Content-Type: application/json" 2>/dev/null || printf '\n000')
+
+          status="${resp##*$'\n'}"
+          body="${resp%$'\n'*}"
+
+          echo "Sync response: ${status}"
+          echo "Body: ${body}"
+
+          case "$status" in
+            2??)
+              echo "Sync triggered successfully"
+              ;;
+            409)
+              echo "Sync already in progress — OK"
+              ;;
+            403)
+              # Should be unreachable now that we bypass the edge. If it fires,
+              # the origin itself is rejecting us — do not paper over it.
+              echo "::error::403 from the ORIGIN, not the edge. The bypass is working but the origin refused the request."
+              exit 1
+              ;;
+            401)
+              echo "::error::401 Unauthorized — the SYNC_SECRET repo secret no longer matches the value in the app container."
+              exit 1
+              ;;
+            000)
+              echo "::error::No response (timeout or connection failure) from ${ORIGIN_IP}. Check the origin is up and ORIGIN_IP is current."
+              exit 1
+              ;;
+            *)
+              echo "::error::Sync failed with status ${status}"
+              exit 1
+              ;;
+          esac
