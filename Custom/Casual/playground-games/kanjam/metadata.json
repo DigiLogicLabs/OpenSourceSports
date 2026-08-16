@@ -1,0 +1,10 @@
+{
+  "name": "KanJam",
+  "category": "ball-games",
+  "type": "CUSTOM",
+  "description": "Rules for KanJam",
+  "governing_bodies": [],
+  "tags": ["casual", "outdoor", "disc sport", "team game", "lawn game"]  ,
+  "created_at": "2026-08-16T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
