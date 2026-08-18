@@ -3,8 +3,19 @@
   "category": "Combat Sports",
   "type": "OFFICIAL",
   "description": "Official rules for Karate as governed by WKF",
-  "governing_bodies": ["WKF"],
-  "tags": ["olympic", "professional", "karate", "wkf", "martial arts"],
+  "governing_bodies": [
+    "WKF"
+  ],
+  "tags": [
+    "olympic",
+    "professional",
+    "karate",
+    "wkf",
+    "martial arts"
+  ],
+  "files": [
+    "karate-wkf-rules.html"
+  ],
   "created_at": "2026-08-16T00:00:00Z",
   "created_by": "OpenSourceSports"
 }

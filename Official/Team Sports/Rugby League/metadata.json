@@ -5,8 +5,18 @@
   "description": "Official rules for Rugby League as governed by IRL",
   "source_name": "",
   "source_url": "",
-  "governing_bodies": ["IRL"],
-  "tags": ["professional", "rugby league", "irl", "team sport"],
+  "governing_bodies": [
+    "IRL"
+  ],
+  "tags": [
+    "professional",
+    "rugby league",
+    "irl",
+    "team sport"
+  ],
+  "files": [
+    "IRL_Laws_of_the_Game.html"
+  ],
   "created_at": "2026-08-18T00:00:00Z",
   "created_by": "OpenSourceSports"
 }
