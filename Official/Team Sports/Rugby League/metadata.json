@@ -1,0 +1,12 @@
+{
+  "name": "Rugby League",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Rugby League as governed by IRL",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": ["IRL"],
+  "tags": ["professional", "rugby league", "irl", "team sport"],
+  "created_at": "2026-08-18T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
