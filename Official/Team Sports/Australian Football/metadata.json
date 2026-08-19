@@ -1,0 +1,13 @@
+{
+  "name": "Australian Football",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Australian Football as governed by AFL",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": ["AFL"],
+  "tags": ["professional", "australian rules", "afl", "team sport"],
+  "files": ["AFL_Laws_of_the_Game.html"],
+  "created_at": "2026-08-19T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
