@@ -118,22 +118,20 @@ jobs:
           OSS_DATA_REPO: ${{ github.workspace }}/data-repo
         run: npm run data-repo:validate:strict
 
-      # --- reporting-only, for now -----------------------------------------
-      # rulebook:confidence FAILS today: 15 provenance errors across Karate
-      # WKF, Rugby League (IRL) and Australian Football (AFL). Those files are
-      # already in production; backfilling them needs real source URLs from
-      # each governing body, which is research, not a code change.
+      # --- blocking as of 2026-08-19 -------------------------------------
+      # This was reporting-only because it failed on pre-existing debt: 15
+      # provenance errors, then 3 citation-density errors, across Karate WKF,
+      # Rugby League (IRL) and Australian Football (AFL). Blocking on a
+      # condition nobody can fix in the moment trains people to ignore the
+      # workflow, so it reported instead.
       #
-      # Blocking on it now would red-X every push for a pre-existing condition
-      # and train everyone to ignore this workflow. So it reports.
-      #
-      # FLIP THIS TO BLOCKING (delete continue-on-error) the moment
-      # `npm run rulebook:confidence` exits 0 against the corpus. That is the
-      # single most valuable line in this file, because provenance is what
-      # makes an official rulebook auditable rather than merely asserted.
-      - name: Rulebook confidence (reporting only — see comment)
+      # That debt is now cleared — the corpus sits at 0 errors, verified
+      # against each governing body's own published document. So this becomes
+      # a real gate, which is the whole point: provenance and citation density
+      # are what make an Official rulebook auditable rather than merely
+      # asserted, and this is the only check that enforces them.
+      - name: Rulebook confidence
         if: steps.gate.outputs.have_token == 'true'
-        continue-on-error: true
         working-directory: app-repo
         env:
           OSS_DATA_REPO: ${{ github.workspace }}/data-repo
