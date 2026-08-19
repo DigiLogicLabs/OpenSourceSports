@@ -1,0 +1,140 @@
+name: Validate Content
+
+# Accuracy gate for the rulebook corpus.
+#
+# WHY THIS EXISTS
+#   Until 2026-08-19 this repo had exactly ONE workflow — sync-app.yml, which
+#   pushes content straight to production. The guards that check accuracy
+#   (provenance, equipment vocabulary, archetype sections, naming conventions)
+#   all live in the PRIVATE app repo and run on APP pull requests. OSSAgent
+#   commits rulebooks directly to main here, so nothing ever validated the
+#   daily content path between authoring and a live page.
+#
+#   Measured the day this was written: 15 provenance errors across three
+#   Official rulebooks, two of them authored in the preceding 48 hours, all
+#   already serving in production.
+#
+# WHY IT DOES NOT BLOCK THE SYNC
+#   sync-app.yml is deliberately left alone. Content that fails here is still
+#   ingested, because a broken gate that halts ingestion is worse than a late
+#   warning — and because the corpus carries pre-existing debt that would
+#   otherwise block every push. This surfaces problems loudly; it does not
+#   hold the pipeline hostage. Gating the sync is a follow-up once the
+#   confidence guard is green (see below).
+
+on:
+  # On demand — the push trigger below is path-filtered to content, so a change
+  # to this workflow itself never exercises it. Without this you cannot verify
+  # the gate works except by pushing a rulebook.
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - 'Official/**'
+      - 'Custom/**'
+
+concurrency:
+  group: validate-content-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Rulebook guards
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out data repo
+        uses: actions/checkout@v4
+        with:
+          path: data-repo
+          fetch-depth: 1
+
+      # The guards live in the private app repo, so this needs a token with
+      # read access to it. Without the secret the job SKIPS with a notice
+      # rather than failing — a red X nobody can fix teaches people to ignore
+      # red X's, which is how the original gap survived.
+      - name: Check for app-repo token
+        id: gate
+        run: |
+          if [ -n "${{ secrets.APP_REPO_TOKEN }}" ]; then
+            echo "have_token=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "have_token=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::APP_REPO_TOKEN not set — content validation skipped. Add a read-only PAT for DigiLogicLabs/open-source-sports to enable it."
+          fi
+
+      - name: Check out app repo (guards live there)
+        if: steps.gate.outputs.have_token == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: DigiLogicLabs/open-source-sports
+          token: ${{ secrets.APP_REPO_TOKEN }}
+          path: app-repo
+          fetch-depth: 1
+
+      - name: Set up Node
+        if: steps.gate.outputs.have_token == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app-repo/package-lock.json
+
+      - name: Install app dependencies
+        if: steps.gate.outputs.have_token == 'true'
+        working-directory: app-repo
+        run: npm ci
+
+      # --- blocking guards -------------------------------------------------
+      # All four measured green against the live corpus on 2026-08-19, so
+      # making them blocking costs nothing today and catches the next
+      # regression. Equipment in particular has already caught real bugs:
+      # KanJam tagged `ball` when its rulebook says "disc" seven times.
+      - name: Equipment guard
+        if: steps.gate.outputs.have_token == 'true'
+        working-directory: app-repo
+        env:
+          OSS_DATA_REPO: ${{ github.workspace }}/data-repo
+        run: npm run equipment:guard
+
+      - name: Archetype guard
+        if: steps.gate.outputs.have_token == 'true'
+        working-directory: app-repo
+        env:
+          OSS_DATA_REPO: ${{ github.workspace }}/data-repo
+        run: npm run archetype:guard
+
+      - name: Category guard
+        if: steps.gate.outputs.have_token == 'true'
+        working-directory: app-repo
+        env:
+          OSS_DATA_REPO: ${{ github.workspace }}/data-repo
+        run: npm run category:guard
+
+      - name: Convention validation
+        if: steps.gate.outputs.have_token == 'true'
+        working-directory: app-repo
+        env:
+          OSS_DATA_REPO: ${{ github.workspace }}/data-repo
+        run: npm run data-repo:validate:strict
+
+      # --- reporting-only, for now -----------------------------------------
+      # rulebook:confidence FAILS today: 15 provenance errors across Karate
+      # WKF, Rugby League (IRL) and Australian Football (AFL). Those files are
+      # already in production; backfilling them needs real source URLs from
+      # each governing body, which is research, not a code change.
+      #
+      # Blocking on it now would red-X every push for a pre-existing condition
+      # and train everyone to ignore this workflow. So it reports.
+      #
+      # FLIP THIS TO BLOCKING (delete continue-on-error) the moment
+      # `npm run rulebook:confidence` exits 0 against the corpus. That is the
+      # single most valuable line in this file, because provenance is what
+      # makes an official rulebook auditable rather than merely asserted.
+      - name: Rulebook confidence (reporting only — see comment)
+        if: steps.gate.outputs.have_token == 'true'
+        continue-on-error: true
+        working-directory: app-repo
+        env:
+          OSS_DATA_REPO: ${{ github.workspace }}/data-repo
+        run: npm run rulebook:confidence
