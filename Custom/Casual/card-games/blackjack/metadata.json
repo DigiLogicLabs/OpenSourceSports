@@ -1,0 +1,13 @@
+{
+  "name": "Blackjack",
+  "category": "card-games",
+  "type": "CUSTOM",
+  "description": "Rules for Blackjack",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "card game", "casino", "gambling"]  ,
+  "files": ["blackjack-rules.html"],
+  "created_at": "2026-08-21T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
