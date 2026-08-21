@@ -1,0 +1,13 @@
+{
+  "name": "Gaelic Football",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Gaelic Football as governed by GAA",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": ["GAA"],
+  "tags": ["amateur", "gaelic games", "gaa", "team sport"],
+  "files": ["GAA_Official_Guide.html"],
+  "created_at": "2026-08-21T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
