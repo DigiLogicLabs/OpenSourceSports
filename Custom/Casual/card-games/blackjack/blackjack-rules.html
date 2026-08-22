@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Blackjack - Rules</title>
+  <title>Blackjack - Official Rulebook</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="../../../../assets/images/favicon.ico">
   <link rel="stylesheet" href="../../../../assets/css/opensourcesports.css">
@@ -11,25 +11,27 @@
   <!--
   METADATA
   {
-    "version_label": "1.0.0",
-    "effective_date": "2026-08-21",
     "sport": "Blackjack",
-    "category": "Casual",
+    "category": "Card Games",
     "type": "CUSTOM",
-    "governingBody": "",
-    "version": "1.0.0",
+    "governingBody": "Queensland Office of Liquor and Gaming Regulation",
+    "version": "2026.1",
     "lastUpdated": "2026-08-21",
+    "source_name": "Casino Gaming Rule",
+    "source_url": "https://www.publications.qld.gov.au/dataset/a2d5b837-0ec3-4bd9-84f1-b429db4ad2c0/resource/b3bf8085-db9e-404f-b468-0216027d00e8/download/casino-gaming-rule-qld-24-december-2025.pdf",
+    "version_label": "CGR 2023 v1",
+    "last_verified_at": "2026-08-21",
     "author": "OpenSourceSports",
     "tags": ["casual", "card game", "casino", "gambling"],
-    "equipment": ["deck"]
+    "equipment": ["deck", "table", "chip"]
   }
   -->
 
   <header id="top">
     <img src="../../../../assets/images/logo.png" alt="OpenSourceSports" class="oss-header-logo">
     <div class="oss-header-text">
-      <h1>Blackjack - Rules</h1>
-      
+      <h1>Blackjack - Official Rulebook</h1>
+      <p class="governing-body">Governing Body: Queensland Office of Liquor and Gaming Regulation</p>
       <p class="last-updated">Last Updated: August 21, 2026</p>
     </div>
   </header>
@@ -39,13 +41,11 @@
       <summary>Table of Contents</summary>
       <ol>
         <li><a href="#introduction"><span class="toc-number">1.</span> Introduction</a></li>
-        <li><a href="#equipment"><span class="toc-number">2.</span> Equipment</a></li>
-        <li><a href="#playing-area"><span class="toc-number">3.</span> Playing Area</a></li>
-        <li><a href="#players-officials"><span class="toc-number">4.</span> Players &amp; Officials</a></li>
-        <li><a href="#rules-of-play"><span class="toc-number">5.</span> Rules of Play</a></li>
-        <li><a href="#scoring"><span class="toc-number">6.</span> Scoring</a></li>
-        <li><a href="#violations-penalties"><span class="toc-number">7.</span> Violations &amp; Penalties</a></li>
-        <li><a href="#safety-considerations"><span class="toc-number">8.</span> Safety Considerations</a></li>
+        <li><a href="#the-deck"><span class="toc-number">2.</span> The Deck</a></li>
+        <li><a href="#setup"><span class="toc-number">3.</span> Setup &amp; Deal</a></li>
+        <li><a href="#gameplay"><span class="toc-number">4.</span> Gameplay</a></li>
+        <li><a href="#scoring"><span class="toc-number">5.</span> Scoring &amp; Winning</a></li>
+        <li><a href="#variants"><span class="toc-number">6.</span> Variants &amp; House Rules</a></li>
       </ol>
     </details>
   </nav>
@@ -53,199 +53,206 @@
   <main>
     <section id="introduction">
       <h2>Section 1: Introduction</h2>
-      <p>Blackjack is a comparing card game in which each player tries to finish with a hand closer to 21 than the dealer’s hand without exceeding 21. Players compete independently against the dealer, not against one another. A player can therefore win even when another player loses during the same round.</p>
-      <p>This rulebook presents a complete recreational version suitable for homes, clubs, and casual events. Because blackjack has many established local variations, the dealer must announce the table rules before play begins. Once a round has started, those rules remain in effect until the round is settled.</p>
-      <h3>Basic objective</h3>
+
+      <p>This rulebook summarizes the standard blackjack game prescribed by Schedule 2 of Queensland’s <cite>Casino Gaming Rule</cite>, made under section 63 of the <cite>Casino Control Act 1982</cite> and effective from 24 December 2025. Schedule 2, section 1 identifies blackjack as the casino game governed by that schedule.</p>
+
+      <p>Schedule 2, section 2 defines a <strong>blackjack</strong> as an ace and a card with a point value of 10 dealt as the first two cards to a player or the dealer. A later multi-card total of 21 is therefore not a blackjack under the official terminology.</p>
+
+      <p>Under Schedule 2, section 2, a <strong>hard total</strong> is the total of a hand containing no aces or containing only aces counted as 1. A <strong>soft total</strong> is the total of a hand containing an ace counted as 11.</p>
+
+      <p>Schedule 2, section 14 provides that each player competes against the dealer through an original wager. A hand wins by finishing at 21 or less while the dealer exceeds 21, by finishing with a higher valid total than the dealer, or by holding a blackjack when the dealer does not.</p>
+
+      <h3>Official objective</h3>
       <ul>
-        <li>Build a hand whose value is 21 or as close to 21 as possible without going over.</li>
-        <li>Win when the dealer busts while the player remains at 21 or below.</li>
-        <li>Win by holding a higher valid total than the dealer after both hands are complete.</li>
-        <li>Avoid busting: a hand over 21 loses immediately, even if the dealer later busts.</li>
+        <li>Schedule 2, section 14(2)(a) awards the wager when the player has no more than 21 and the dealer exceeds 21.</li>
+        <li>Schedule 2, section 14(2)(b) awards the wager when the player has the higher total and neither hand exceeds 21.</li>
+        <li>Schedule 2, section 14(2)(c) awards the wager when the player has blackjack and the dealer does not.</li>
+        <li>Schedule 2, section 14(2)(f) makes a player total above 21 an immediate losing result.</li>
+        <li>Schedule 2, section 14(2)(e) makes equal totals, and matching player and dealer blackjacks, void wagers rather than wins or losses.</li>
       </ul>
-      <p>A two-card hand consisting of an ace and any ten-value card is a <strong>blackjack</strong>, also called a natural. It is different from a hand totaling 21 with three or more cards and normally receives special priority and payout treatment.</p>
-      <h3>Recommended casual format</h3>
-      <p>For a simple game, use one standard deck, allow one to five players, have the dealer stand on all 17s, permit doubling on any initial two cards, permit one split per hand, and pay a blackjack at 3 to 2. Points, counters, or a written score may replace money. No purchase or wager is necessary to enjoy the game.</p>
+
+      <p>Schedule 2, section 12 makes each player responsible for correctly computing the point total of that player’s hand. The player may not rely solely on a total announced by the dealer.</p>
+
       <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
     </section>
 
-    <section id="equipment">
-      <h2>Section 2: Equipment</h2>
+    <section id="the-deck">
+      <h2>Section 2: The Deck</h2>
+
       <h3>Required equipment</h3>
-      <p>Blackjack requires a standard 52-card <strong>deck</strong> containing four suits, with thirteen cards in each suit. Jokers and advertising cards are removed. One deck is sufficient for recreational play; multiple combined decks are a common variation but are not required.</p>
-      <p>The deck must be complete, distinguishable, and capable of being randomized fairly. Cards with marks, bends, tears, transparent backs, or other identifying features should be replaced before play. If multiple decks are used, their backs should match so that individual cards cannot be identified while face down.</p>
-      <h3>Card composition</h3>
+      <p>Schedule 2, section 4 requires blackjack to be played with five to eight standard decks of cards and two additional cutting cards. The combined decks form the stack from which the game is dealt.</p>
+
+      <p>Schedule 2, section 3(1) requires a blackjack table with a dealer position on one side and player positions on the opposite side. Section 3(3) requires the layout to be substantially the same as Diagram 2 unless the chief executive approves another layout.</p>
+
+      <p>Schedule 2, sections 13 and 14 require a player’s original wager to be made with chips placed in the appropriate betting area before the first card is dealt. An oral declaration does not constitute a wager under section 13(2).</p>
+
+      <h3>Card values</h3>
       <ul>
-        <li>Number cards 2 through 10 have their printed values.</li>
-        <li>Jacks, queens, and kings are each worth 10.</li>
-        <li>Aces may count as either 1 or 11, whichever gives the hand its best legal value.</li>
-        <li>Suits have no rank and do not affect scoring.</li>
+        <li>Under Schedule 2, section 5(1)(a), cards numbered 2 through 10 have their face values.</li>
+        <li>Under Schedule 2, section 5(1)(b), jacks, queens, and kings each have a value of 10.</li>
+        <li>Under Schedule 2, section 5(1)(c), an ace normally has a value of 11.</li>
+        <li>Under Schedule 2, section 5(2), an ace instead has a value of 1 when counting it as 11 would produce a total greater than 21.</li>
       </ul>
-      <h3>Optional accessories</h3>
-      <p>Players may use chips, tokens, a score sheet, or another agreed scoring method, but none is necessary to play. A discard holder or dealing shoe may help organize multi-deck games. These accessories do not alter the rules or determine the winner.</p>
-      <h3>Deck preparation</h3>
-      <p>Before the first round, verify the deck’s contents and shuffle thoroughly. The dealer may offer another participant an opportunity to cut the deck. When too few cards remain to complete a likely round, reshuffle before dealing rather than during an active hand.</p>
+
+      <h3>Table markings</h3>
+      <p>Schedule 2, section 3(2) requires the layout to state that blackjack pays 3 to 2, that the dealer must stand on 17 and draw to 16, and that insurance pays 2 to 1.</p>
+
+      <h3>Cutting and shoe preparation</h3>
+      <p>Schedule 2, section 6 requires the dealer to place the first cutting card at the back of the stack and offer the cards to be cut. If the selected player refuses, the cut is offered clockwise; if no player accepts, the dealer or a gaming supervisor cuts the cards.</p>
+
+      <p>Schedule 2, section 6(8) directs the dealer to insert the first cutting card approximately one deck or more from the back of the stack. At a gaming supervisor’s discretion, it may instead be inserted between approximately one deck and approximately two-thirds of the way in from the back.</p>
+
+      <p>Schedule 2, section 20 requires all cards to be dealt from a purpose-designed dealing shoe positioned on the table to the dealer’s left. Cards are removed with the dealer’s left hand and placed face up in the proper layout area with the right hand.</p>
+
+      <p>Under Schedule 2, section 23, reaching the cutting card during a round does not interrupt that round. The dealer completes the round and then reshuffles; if the cutting card is the first card drawn for a new round, the cards are shuffled immediately.</p>
+
       <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
     </section>
 
-    <section id="playing-area">
-      <h2>Section 3: Playing Area</h2>
-      <p>Blackjack may be played on any clean, stable surface with enough room to keep every hand separate. Arrange the players along one side or around the surface and designate a clear dealer position. Each player receives a distinct playing spot directly in front of them.</p>
-      <h3>Suggested layout</h3>
-      <ul>
-        <li>Keep undealt cards near the dealer and away from completed hands.</li>
-        <li>Place the dealer’s hand in a central area visible to every participant.</li>
-        <li>Keep each player’s cards within that player’s own space.</li>
-        <li>Create a separate discard area so used cards cannot be confused with the live deck.</li>
-        <li>If wagers or scoring counters are used, place them clearly with the corresponding hand before the deal.</li>
-      </ul>
-      <p>Cards may be dealt face up for a simple recreational game. If a face-down format is chosen, everyone must understand who may touch the cards and how decisions will be signaled. Face-up dealing is recommended because it reduces handling errors and makes totals easy to verify.</p>
-      <h3>Seat order</h3>
-      <p>Play proceeds from the dealer’s left to right, or in another fixed direction announced before the first deal. A player’s position does not change the value of a hand. However, the order must remain consistent throughout each round because cards are drawn sequentially from the same shuffled deck.</p>
-      <p>The playing area should remain free of unrelated cards, drinks that might spill, and objects that obscure cards or wagers. Spectators must remain far enough away that they cannot see concealed information or interfere with decisions.</p>
+    <section id="setup">
+      <h2>Section 3: Setup &amp; Deal</h2>
+
+      <h3>Player positions and wagers</h3>
+      <p>Schedule 2, section 7 ordinarily permits only one player to control each betting box. Under section 8, however, a casino operator may allow as many as three players to place blackjack wagers on one box.</p>
+
+      <p>When several players wager on one box, Schedule 2, section 9 requires the dealer to designate the controlling player. Only that player makes decisions about cards dealt to the box, while the other wagers are positioned immediately behind the controlling wager in a straight line.</p>
+
+      <p>Schedule 2, section 10 permits a casino operator to allow one player to wager on more than one box, subject to surrendering boxes to accommodate other players. The player must make at least the table minimum wager on every hand played.</p>
+
+      <p>Schedule 2, section 14(1) requires every participating player to make an original wager against the dealer before the first card of the round is dealt. Section 18 requires every wager to remain between the displayed table minimum and maximum.</p>
+
+      <p>Under Schedule 2, section 16, a player must not handle, remove, or alter the original wager after the first card has been exposed. Confirmed insurance, double-down, and split wagers likewise remain untouched until their outcomes have taken effect.</p>
+
+      <h3>Initial deal</h3>
+      <p>Schedule 2, section 21(1) requires the dealer to begin on the dealer’s left and proceed around the table. One face-up card is dealt to every box containing an original wager, followed by one face-up card to the dealer and then a second face-up card to each active player box.</p>
+
+      <p>Under Schedule 2, section 21(2), each player therefore begins with two face-up cards while the dealer initially has one face-up card. The dealer’s second card is not dealt until all players have completed their decisions, as required by section 21(5).</p>
+
+      <p>Schedule 2, section 21(2) requires the dealer to announce each player’s point total after the initial cards have been dealt. Beginning from the dealer’s left, each player then indicates whether to double down, split, stand, or draw.</p>
+
+      <p>Schedule 2, section 21(3) requires an additional wager to signal a double down or split. A player communicates a stand or draw decision by hand signal.</p>
+
+      <p>Schedule 2, section 11 prohibits players and spectators from handling, removing, or altering cards used in the game. Cards remain under the dealer’s control throughout the round.</p>
+
       <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
     </section>
 
-    <section id="players-officials">
-      <h2>Section 4: Players/Officials</h2>
-      <p>One participant serves as dealer, and one or more others serve as players. For comfortable single-deck play, one to five players is recommended. A participant may rotate into the dealer role after a fixed number of rounds, after each shuffle, or according to a schedule agreed before play.</p>
-      <h3>Dealer responsibilities</h3>
-      <ul>
-        <li>Shuffle, deal, and protect the deck.</li>
-        <li>Announce the applicable house rules before play.</li>
-        <li>Expose and complete the dealer hand according to the fixed drawing rule.</li>
-        <li>Resolve each player’s result separately and accurately.</li>
-        <li>Correct dealing or scoring errors openly and consistently.</li>
-      </ul>
-      <h3>Player responsibilities</h3>
-      <ul>
-        <li>Act only when it is their turn.</li>
-        <li>State or signal decisions clearly.</li>
-        <li>Keep cards and any score markers associated with the correct hand.</li>
-        <li>Avoid touching the deck, dealer’s cards, discards, or another player’s hand.</li>
-        <li>Check the settlement of their hand before the next round begins.</li>
-      </ul>
-      <h3>Officials</h3>
-      <p>No separate official is required for casual blackjack. The dealer administers the game and applies the announced rules. For an organized recreational event, a neutral host may settle disputes, verify the deck, and record scores. The host should not change a valid result merely because a different house rule is common elsewhere.</p>
-      <h3>Advice and cooperation</h3>
-      <p>Players may discuss strategy only if the group allows it. The acting player always makes the final decision for their own hand. No player may reveal a concealed card, manipulate the draw order, or coordinate decisions to gain access to unavailable information.</p>
-      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
-    </section>
+    <section id="gameplay">
+      <h2>Section 4: Gameplay</h2>
 
-    <section id="rules-of-play">
-      <h2>Section 5: Rules of Play</h2>
-      <h3>Starting a round</h3>
-      <ol>
-        <li>Players enter the round and, if applicable, commit their wager or scoring stake before cards are dealt.</li>
-        <li>The dealer gives two cards to each participating player and two cards to the dealer, dealing one card at a time in the established direction.</li>
-        <li>In the common face-up format, both player cards are exposed. One dealer card is exposed as the upcard, and the other remains face down as the hole card.</li>
-        <li>If the dealer’s upcard is an ace or ten-value card, the dealer may check the hole card immediately for blackjack. If the game uses no-hole-card dealing, the dealer receives or reveals the second card only after players act.</li>
-      </ol>
-      <h3>Player decisions</h3>
-      <p>Beginning with the first player in order, each player completes their hand before the next player acts. The usual choices are:</p>
+      <h3>Drawing and standing</h3>
+      <p>Schedule 2, section 28(1) permits a player whose total is below 21 to draw additional cards. Section 28(3) permits a player to stand on any hand containing two or more cards.</p>
+
+      <p>Schedule 2, section 21(4) requires every additional player card to be dealt face up. After each card, the dealer announces the player’s new point total before the player makes any further permitted decision.</p>
+
+      <h3>Doubling down</h3>
+      <p>Schedule 2, section 26(1) permits doubling down only when the first two cards of an original or split hand total 9, 10, or 11. The additional wager may not exceed the amount of the player’s original wager.</p>
+
+      <p>Schedule 2, section 26(2) allows exactly one additional card after a double down. Section 26(3) requires that card to be dealt face up and placed sideways on the layout.</p>
+
+      <p>For a double down, Schedule 2, section 26(4) assigns an ace in the first two cards a value of 1 rather than 11. If the dealer subsequently obtains blackjack, section 26(5) permits collection only of the original wager; the additional double-down wager is not collected.</p>
+
+      <h3>Splitting</h3>
+      <p>Schedule 2, section 27(1) permits a split when the player’s first two cards are identical in value. Each card becomes the first card of a separate hand, and section 27(2) requires an additional wager equal to the original wager.</p>
+
+      <p>Under Schedule 2, section 27(3), the dealer gives a second card to the first split hand and completes all decisions for that hand before dealing to the second split hand.</p>
+
       <ul>
-        <li><strong>Hit:</strong> Take one additional card. The player may continue hitting until standing, busting, or reaching a total that ends the hand.</li>
-        <li><strong>Stand:</strong> Take no more cards and keep the current total.</li>
-        <li><strong>Double down:</strong> Increase the initial stake by an amount up to the original stake, receive exactly one additional card, and then stand. In a non-wagering game, record the result as double points instead.</li>
-        <li><strong>Split:</strong> When the first two cards have the same value, separate them into two hands, supply an equal stake for the new hand if wagers are used, and deal an additional card to each hand. Each hand then plays separately.</li>
-        <li><strong>Surrender:</strong> If this optional rule was announced, surrender the initial two-card hand before taking another card and lose half the stake. Late surrender is normally available only after the dealer has checked for blackjack.</li>
+        <li>Schedule 2, section 27(4)(a) prohibits resplitting.</li>
+        <li>Schedule 2, section 27(4)(b) allows only one additional card on each split ace and prohibits further draws to those hands.</li>
+        <li>Schedule 2, section 27(4)(c) provides that splitting aces or 10-value cards cannot produce a blackjack.</li>
+        <li>Schedule 2, section 27(4) otherwise permits the player to stand, draw, or double down after the second card is dealt to a split hand.</li>
       </ul>
-      <h3>Aces and soft hands</h3>
-      <p>A hand is <strong>soft</strong> when an ace currently counts as 11 without making the total exceed 21. It is <strong>hard</strong> when no ace counts as 11. Ace values adjust automatically: for example, ace-6 is soft 17, while ace-6-10 becomes hard 17 because the ace changes from 11 to 1.</p>
-      <h3>Split-hand details</h3>
-      <p>Unless a different rule is announced, each split hand may be hit, stood on, or doubled in the same way as an ordinary hand. Split aces commonly receive only one additional card per hand. An ace and a ten-value card formed after a split normally counts as 21 rather than as a blackjack. The group should announce whether resplitting and doubling after a split are allowed.</p>
-      <h3>Dealer’s turn</h3>
-      <p>After every active player has completed a hand, the dealer reveals the hole card. The dealer must hit totals of 16 or less and stand on totals of 17 or more. Under the recommended rule, the dealer also stands on soft 17. A variation may require the dealer to hit soft 17, but this must be announced in advance.</p>
-      <h3>Completing the round</h3>
-      <p>After the dealer stands or busts, compare the dealer’s hand separately with every player hand that has not already busted or surrendered. Settle blackjacks, wins, losses, and pushes, then collect all used cards into the discard area before beginning the next round.</p>
-      <h3>Common house rules and variations</h3>
-      <ul>
-        <li><strong>Dealer hits soft 17:</strong> The dealer draws on an ace-6 or equivalent soft total.</li>
-        <li><strong>Six-to-five blackjack:</strong> A natural pays 6 to 5 rather than 3 to 2. This is less favorable to players and must be disclosed clearly.</li>
-        <li><strong>Five-card Charlie:</strong> A player holding five cards without busting wins automatically, unless the group gives dealer blackjack priority.</li>
-        <li><strong>Spanish-style deck:</strong> All tens are removed while face cards remain. This changes probabilities and should be treated as a separate announced variation.</li>
-        <li><strong>Continuous dealer rotation:</strong> The dealer role passes after every round so all participants have equal turns administering the game.</li>
-        <li><strong>Tournament points:</strong> Players begin with equal points and play a fixed number of rounds; the highest remaining score wins the session.</li>
-      </ul>
+
+      <h3>Insurance and even-money settlement</h3>
+      <p>Schedule 2, section 25(1) requires the dealer to call for insurance wagers when the dealer’s first card is an ace. Under section 25(2), insurance may not exceed one-half of the amount staked on the player’s original wager.</p>
+
+      <p>Schedule 2, section 25(4) provides that insurance wins at odds of 2 to 1 when the dealer’s second card has a value of 10. Insurance loses if the dealer’s second card is an ace or a card valued from 2 through 9.</p>
+
+      <p>Schedule 2, section 24(4) permits a player holding blackjack against a dealer ace to request immediate payment at odds of 1 to 1 as full settlement of the original wager.</p>
+
+      <h3>Dealer’s hand</h3>
+      <p>After every player has acted, Schedule 2, sections 21(5) and 21(6) require the dealer to take a second face-up card, deal any further dealer cards face up, and announce the resulting total.</p>
+
+      <p>Schedule 2, section 29(1) requires the dealer to draw until reaching a hard or soft total from 17 through 21, after which no further card may be drawn. Thus, under the standard Schedule 2 game, the dealer stands on soft 17 as well as hard 17.</p>
+
+      <p>Schedule 2, section 29(2) prohibits unnecessary dealer draws when all player-hand decisions have been made and another card could have no effect on the round’s outcome.</p>
+
       <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
     </section>
 
     <section id="scoring">
-      <h2>Section 6: Scoring</h2>
-      <h3>Hand values</h3>
-      <p>Add the values of all cards in the hand. Number cards count at face value, face cards count as 10, and each ace counts as 11 unless that would make the hand exceed 21, in which case it counts as 1. With multiple aces, use the combination of 1s and 11s that produces the highest total not exceeding 21.</p>
+      <h2>Section 5: Scoring &amp; Winning</h2>
+
+      <h3>Determining the total</h3>
+      <p>Schedule 2, section 5 requires the values of all cards in a hand to be added. Each ace counts as 11 unless that would take the total above 21, in which case the ace counts as 1.</p>
+
+      <p>Schedule 2, section 2 gives blackjack priority as a specifically defined opening hand: an ace and a 10-value card received as the first two cards. A three-card total of 21 is a valid total but is not a blackjack.</p>
+
+      <h3>Outcomes</h3>
       <ul>
-        <li>Ace-king is a blackjack: a two-card total of 21.</li>
-        <li>7-7-7 totals 21 but is not a blackjack under the standard game.</li>
-        <li>Ace-ace-8 totals 20 because one ace counts as 11 and the other as 1.</li>
-        <li>King-6-8 totals 24 and is a bust.</li>
+        <li>Under Schedule 2, section 14(2)(a), the player wins when the player has 21 or less and the dealer exceeds 21.</li>
+        <li>Under Schedule 2, section 14(2)(b), the player wins when the player has the higher total and neither total exceeds 21.</li>
+        <li>Under Schedule 2, section 14(2)(c), a player blackjack wins when the dealer does not have blackjack.</li>
+        <li>Under Schedule 2, section 14(2)(d), a dealer blackjack defeats a player hand that is not blackjack.</li>
+        <li>Under Schedule 2, section 14(2)(e), equal totals and simultaneous blackjacks make the original wager void.</li>
+        <li>Under Schedule 2, section 14(2)(f), a player total above 21 loses.</li>
+        <li>Under Schedule 2, section 14(2)(g), the player loses when the dealer has the higher total and neither total exceeds 21.</li>
       </ul>
-      <h3>Result priority</h3>
-      <ol>
-        <li>A player who busts loses immediately.</li>
-        <li>An unsplit two-card blackjack beats any dealer hand other than a dealer blackjack.</li>
-        <li>If both the player and dealer have blackjack, the result is a push.</li>
-        <li>If the dealer busts, every remaining player hand wins.</li>
-        <li>If neither hand busts, the higher total wins.</li>
-        <li>Equal totals are a push unless an announced variation says otherwise.</li>
-      </ol>
-      <h3>Standard recreational payouts</h3>
-      <ul>
-        <li>An ordinary winning hand pays 1 to 1.</li>
-        <li>A blackjack pays 3 to 2.</li>
-        <li>A push returns the player’s stake with no profit or loss.</li>
-        <li>A surrendered hand returns half the stake and loses the other half.</li>
-        <li>A doubled hand settles at the doubled amount.</li>
-        <li>Each split hand is settled independently.</li>
-      </ul>
-      <p>For example, a 10-point stake returns 20 points in total after an ordinary win: the original 10 plus 10 profit. A blackjack on a 10-point stake returns 25 points in total: the original 10 plus 15 profit.</p>
-      <h3>Insurance and even money</h3>
-      <p>If the dealer shows an ace, a table may offer insurance before checking for blackjack. Insurance is a separate wager of no more than half the original stake. It pays 2 to 1 if the dealer has blackjack and loses otherwise. Even money is the equivalent settlement sometimes offered when a player has blackjack against a dealer ace: the player accepts a guaranteed 1-to-1 profit instead of waiting for the dealer check. Insurance and even money are optional rules and should be omitted from beginner games unless explained beforehand.</p>
-      <h3>Non-gambling scoring</h3>
-      <p>A family-friendly game may award 1 point for an ordinary win, 1.5 points for a blackjack, 0 points for a push, and deduct 1 point for a loss. Alternatively, begin each player with equal counters that have no cash value. Agree on the number of rounds and tie-breaking method before play.</p>
+
+      <h3>Payouts</h3>
+      <p>Schedule 2, section 15(1) pays every ordinary winning blackjack wager at odds of 1 to 1. Section 15(2) pays a winning blackjack at odds of 3 to 2.</p>
+
+      <p>Under Schedule 2, section 24(1), a player blackjack is announced and paid immediately at 3 to 2 when the dealer’s first card is valued from 2 through 9. The cards are removed before another player receives a third card.</p>
+
+      <p>When the dealer shows an ace or a 10-value card, Schedule 2, sections 24(2) and 24(3) delay blackjack payment until the dealer receives a second card. If the dealer does not also have blackjack, the player’s blackjack is paid at 3 to 2.</p>
+
+      <p>Schedule 2, section 14(3) governs doubled and split hands when the dealer obtains blackjack. The original wager loses, but the additional wager made to double down or split is void.</p>
+
+      <p>Schedule 2, section 25(4) makes insurance a separate wager paying 2 to 1 when the dealer completes blackjack with a 10-value second card. Section 25(5) requires losing insurance wagers to be collected before the dealer draws any additional card.</p>
+
+      <h3>Completion of the round</h3>
+      <p>Schedule 2, section 22 requires the dealer to collect the cards remaining on the layout in order and place them face down in the discard rack. They must remain arranged so that each hand can be reconstructed if a question or dispute arises, unless an approved electronic review system is available.</p>
+
       <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
     </section>
 
-    <section id="violations-penalties">
-      <h2>Section 7: Violations/Penalties</h2>
-      <p>Casual blackjack works best when mistakes are corrected consistently rather than punished harshly. The dealer should pause play as soon as an error is noticed, preserve the known card order when practical, and choose the remedy that restores the intended state without giving anyone a strategic advantage.</p>
-      <h3>Common errors and remedies</h3>
-      <ul>
-        <li><strong>Acting out of turn:</strong> Pause the game. If no card was exposed and the action can be withdrawn cleanly, restore the proper turn. If a card was exposed, keep it visible and apply an agreed neutral correction.</li>
-        <li><strong>Taking a card after standing:</strong> If the card has not been exposed, return it to the top of the deck. If exposed, the group may require the player to accept it or void the hand; use the same remedy for every participant.</li>
-        <li><strong>Incorrect number of initial cards:</strong> Correct the hand before decisions begin. If substantial play has occurred, finish unaffected hands and void only the compromised hand when a fair reconstruction is impossible.</li>
-        <li><strong>Exposed dealer hole card:</strong> Continue with the card visible only if every player agrees no one has yet acted; otherwise redeal the round. Never secretly substitute another card.</li>
-        <li><strong>Misread total:</strong> The actual card values control. Correct the total immediately. A hand that truly exceeded 21 is busted even if it was initially announced otherwise.</li>
-        <li><strong>Illegal double or split:</strong> If discovered before another card is dealt, undo the action. If a card has already been exposed, apply the announced house remedy, normally treating the action as a hit and returning any added stake.</li>
-        <li><strong>Premature dealer draw:</strong> Preserve the card order and complete all outstanding player decisions without revealing additional information when possible. If the exposed card materially influenced a decision, the affected hand may be voided by agreement.</li>
-      </ul>
-      <h3>Unfair conduct</h3>
-      <p>Marking cards, stacking or controlling the deck, peeking at concealed cards, secretly changing a stake, deliberately misreporting a hand, or signaling hidden information is cheating. Stop the round, return unsettled stakes when the fair result cannot be established, remove the participant from the game if appropriate, and replace or reshuffle compromised cards.</p>
-      <h3>Disputes</h3>
-      <p>First consult the rules announced before the round. If the situation was not covered, the dealer or neutral host should select the fairest consistent remedy. A majority vote may be used in a friendly game, but participants directly benefiting from the disputed outcome should disclose that interest. Record any new house rule and apply it only to future rounds.</p>
-      <h3>Dead hands and redeals</h3>
-      <p>A hand should be declared dead only when it cannot be reconstructed fairly or when deliberate misconduct has compromised it. A full redeal is appropriate when the wrong deck was used, the deck was not randomized, multiple opening cards were exposed incorrectly, or the integrity of the entire round is uncertain.</p>
-      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
-    </section>
+    <section id="variants">
+      <h2>Section 6: Variants &amp; House Rules</h2>
 
-    <section id="safety-considerations">
-      <h2>Section 8: Safety Considerations</h2>
-      <h3>Responsible play</h3>
-      <p>Blackjack does not require gambling. For casual and youth play, use points or valueless counters. Where money is involved, every participant must satisfy local age and legal requirements. Set firm spending and time limits before starting, never borrow money to continue, and stop when play is no longer enjoyable.</p>
+      <p>The standard rules in this file come from Schedule 2 of the <cite>Casino Gaming Rule</cite>. Schedule 2, section 3(3) permits a layout or betting-area change only when approved by the chief executive; a casino may not silently substitute an unapproved house rule for the published game.</p>
+
+      <h3>Published blackjack variants</h3>
+      <p>Schedule 2(a) establishes <strong>Spanish blackjack</strong> as a distinct game. Its separately numbered provisions address the number of decks, wagers and results, surrender, doubling, splitting, dealer play, and irregularities; those provisions govern wherever they differ from standard Schedule 2 blackjack.</p>
+
+      <p>Schedule 2(b) establishes <strong>Blackjack Challenge</strong> as a separate variant. Schedule 2(b), sections 4 through 11 provide its card ranking, wager results, blackjack treatment, doubling, splitting, insurance, five-card-trick settlement, and final settlement rules.</p>
+
+      <p>Schedule 2(c) establishes <strong>Blackjack Switch</strong>. Schedule 2(c), sections 5 through 11 separately regulate its paired wagers, winning and losing results, payout odds, deal, player blackjack, insurance, and dealer play.</p>
+
+      <p>Schedule 2(d), section 3 establishes <strong>Soft 17 Blackjack</strong> as the published variation affecting the dealer’s additional-card rule. It must not be confused with standard Schedule 2, section 29, under which the dealer stands after reaching either a hard or soft 17.</p>
+
+      <p>Schedule 2(e) establishes <strong>Electronic Blackjack</strong> for play through a player terminal. Schedule 2(e), sections 3 through 8 regulate electronic play, wager results, named additional wagers, and their payout odds.</p>
+
+      <h3>Permitted operational choices</h3>
+      <p>Schedule 2, section 4 permits a game to use any number from five through eight decks, but never fewer than five or more than eight under the standard rules. The selected deck count is therefore an operational choice within an exact official range.</p>
+
+      <p>Schedule 2, section 8 permits, but does not require, as many as three players to wager on one box. When that option is used, Schedule 2, section 9 preserves one controlling player’s authority over all card decisions for the box.</p>
+
+      <p>Schedule 2, section 10 permits a casino operator to allow a player to occupy more than one box, while retaining authority to require the player to release boxes for other participants. This affects table participation but does not change card values or winning totals.</p>
+
+      <p>Schedule 2, section 23(3) allows a gaming supervisor to direct one further round after the cutting card appears before the cards are shuffled. This is a supervised dealing option, not a change to the scoring rules.</p>
+
+      <h3>Rules that remain fixed in standard play</h3>
       <ul>
-        <li>Do not chase losses or pressure anyone to increase a stake.</li>
-        <li>Allow any participant to leave between rounds without criticism.</li>
-        <li>Keep essential expenses and shared funds completely separate from game money.</li>
-        <li>Do not play for money while impaired by alcohol, medication, fatigue, or distress.</li>
-        <li>Seek support from an appropriate responsible-gambling service if play becomes difficult to control.</li>
+        <li>Schedule 2, section 15 fixes ordinary wins at 1 to 1 and blackjack at 3 to 2.</li>
+        <li>Schedule 2, section 25 fixes winning insurance at 2 to 1 and caps the insurance stake at half the original wager.</li>
+        <li>Schedule 2, section 26 restricts doubling to initial totals of 9, 10, or 11 and permits only one additional card.</li>
+        <li>Schedule 2, section 27 prohibits resplitting and limits each split ace to one additional card.</li>
+        <li>Schedule 2, section 29 requires the standard dealer to stand on both hard and soft totals from 17 through 21.</li>
       </ul>
-      <h3>Physical safety</h3>
-      <p>Use a stable, well-lit playing surface and supportive seating. Keep walkways clear and place drinks away from the deck to prevent spills and slips. Take regular breaks during long sessions to rest the eyes, hands, neck, and back.</p>
-      <p>Cards can cause minor paper cuts. Deal smoothly across the surface rather than throwing cards toward faces or hands. Replace badly damaged cards and collect dropped cards without reaching under unstable furniture.</p>
-      <h3>Health and accessibility</h3>
-      <p>Participants should wash or sanitize hands as appropriate when sharing a deck. Do not share food residue, smoke, or other contaminants through frequently handled cards. Anyone who is unwell may use a separate dealing method or postpone play.</p>
-      <p>Use large-print cards, high-contrast markings, verbal announcements, additional decision time, or another reasonable accommodation when needed. Confirm that all players can distinguish suits and values, understand the chosen signals, and follow the action comfortably.</p>
-      <h3>Respectful environment</h3>
-      <p>Keep the game welcoming and free from harassment, intimidation, and deceptive pressure. Explain unfamiliar options before play, protect personal financial information, and do not photograph participants, hands, or scores without consent. A host should end the session if conflict, unsafe behavior, or suspected exploitation cannot be resolved calmly.</p>
+
+      <p>Any event or recreational adaptation should identify itself as an adaptation rather than claiming to use the official Schedule 2 game when it changes these fixed provisions. Officially published variants must be identified by their applicable schedule so players know which rules govern before wagering begins.</p>
+
       <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
     </section>
   </main>
