@@ -1,0 +1,13 @@
+{
+  "name": "Hurling",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Hurling as governed by GAA",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": ["GAA"],
+  "tags": ["amateur", "gaelic games", "gaa", "team sport"],
+  "files": ["GAA_Official_Guide.html"],
+  "created_at": "2026-08-22T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
