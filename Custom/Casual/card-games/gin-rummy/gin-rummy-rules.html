@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gin Rummy - Game Rules</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../../../../assets/images/favicon.ico">
+  <link rel="stylesheet" href="../../../../assets/css/opensourcesports.css">
+</head>
+<body>
+  <!--
+  METADATA
+  {
+    "sport": "Gin Rummy",
+    "category": "Card Games",
+    "type": "CUSTOM",
+    "governingBody": "",
+    "version": "1.0.0",
+    "lastUpdated": "2026-08-23",
+    "author": "OpenSourceSports",
+    "tags": ["casual", "card game", "two player", "melding"],
+    "equipment": ["deck"]
+  }
+  -->
+
+  <header id="top">
+    <img src="../../../../assets/images/logo.png" alt="OpenSourceSports" class="oss-header-logo">
+    <div class="oss-header-text">
+      <h1>Gin Rummy - Game Rules</h1>
+      
+      <p class="last-updated">Last Updated: August 23, 2026</p>
+    </div>
+  </header>
+
+  <nav class="oss-toc" id="toc">
+    <details open>
+      <summary>Table of Contents</summary>
+      <ol>
+        <li><a href="#introduction"><span class="toc-number">1.</span> Introduction</a></li>
+        <li><a href="#the-deck"><span class="toc-number">2.</span> The Deck</a></li>
+        <li><a href="#setup"><span class="toc-number">3.</span> Setup &amp; Deal</a></li>
+        <li><a href="#gameplay"><span class="toc-number">4.</span> Gameplay</a></li>
+        <li><a href="#scoring"><span class="toc-number">5.</span> Scoring &amp; Winning</a></li>
+        <li><a href="#variants"><span class="toc-number">6.</span> Variants &amp; House Rules</a></li>
+      </ol>
+    </details>
+  </nav>
+
+  <main>
+    <section id="introduction">
+      <h2>Section 1: Introduction</h2>
+
+      <p>Gin Rummy is a two-player card game in which each player improves a ten-card hand by drawing and discarding. The goal is to arrange cards into melds while keeping the point value of unmatched cards, called <strong>deadwood</strong>, as low as possible.</p>
+
+      <p>A hand may end when a player knocks with no more than 10 points of deadwood, or when a player forms melds using all ten cards and declares gin. Players compare their remaining deadwood after the opponent has had any permitted opportunity to lay off cards. Points accumulate over a series of hands until the agreed target score is reached.</p>
+
+      <h3>Key Terms</h3>
+      <dl>
+        <dt>Meld</dt>
+        <dd>A valid set or run containing at least three cards.</dd>
+        <dt>Set</dt>
+        <dd>Three or four cards of the same rank, such as 8 of clubs, 8 of diamonds, and 8 of hearts.</dd>
+        <dt>Run</dt>
+        <dd>Three or more consecutive cards of the same suit, such as 4, 5, and 6 of spades.</dd>
+        <dt>Deadwood</dt>
+        <dd>Cards that are not included in any meld when the hand is scored.</dd>
+        <dt>Knock</dt>
+        <dd>End the hand with a deadwood total of 10 points or fewer after discarding.</dd>
+        <dt>Gin</dt>
+        <dd>End the hand with all ten retained cards in melds and no deadwood.</dd>
+        <dt>Layoff</dt>
+        <dd>Add an unmatched card to one of the knocker's melds during scoring.</dd>
+        <dt>Undercut</dt>
+        <dd>When the defending player has deadwood equal to or lower than the knocking player's deadwood after legal layoffs.</dd>
+      </dl>
+
+      <h3>Players and Objective</h3>
+      <p>The standard game is for exactly two players. Each player keeps their hand hidden from the opponent but may inspect and rearrange it at any time. The object is to score points by making melds, knocking at an advantageous moment, declaring gin, or undercutting an opponent who knocks too early.</p>
+
+      <p>Gin Rummy combines planning with memory. Players should watch the discard pile, notice which cards the opponent takes or rejects, and balance the value of waiting for a stronger hand against the risk that the opponent will end the hand first.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="the-deck">
+      <h2>Section 2: The Deck</h2>
+
+      <h3>Required Equipment</h3>
+      <p>Gin Rummy requires one standard <strong>deck</strong> containing 52 cards divided into four suits: clubs, diamonds, hearts, and spades. Remove all jokers and advertising cards before play. No other equipment is required, although players may use paper or another convenient method to record scores.</p>
+
+      <h3>Card Rank</h3>
+      <p>For forming runs, cards rank from low to high as follows:</p>
+      <p><strong>Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, jack, queen, king.</strong></p>
+
+      <p>An ace is low only. It may begin a run such as ace-2-3 of hearts, but it may not follow a king. Queen-king-ace and king-ace-2 are not valid runs. Suits have no relative rank.</p>
+
+      <h3>Deadwood Values</h3>
+      <ul>
+        <li>Aces count as 1 point each.</li>
+        <li>Cards from 2 through 10 count at their printed value.</li>
+        <li>Jacks, queens, and kings count as 10 points each.</li>
+        <li>Cards included in valid melds count as zero deadwood.</li>
+      </ul>
+
+      <h3>Meld Requirements</h3>
+      <p>A set must contain three or four cards of one rank. A run must contain at least three consecutive cards of one suit. A single card cannot belong to two melds at the same time. For example, the 7 of hearts cannot simultaneously complete a set of sevens and a 5-6-7 run in hearts.</p>
+
+      <p>A player may choose the arrangement that produces the lowest deadwood total. Suppose a hand contains the 4, 5, 6, and 7 of clubs together with three 7s of other suits. The player may use the 7 of clubs in either the run or the set, but not both, and should select the combination that best reduces deadwood.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="setup">
+      <h2>Section 3: Setup &amp; Deal</h2>
+
+      <h3>Choosing the First Dealer</h3>
+      <p>Choose the first dealer by mutual agreement or by drawing cards from the shuffled deck. If cards are drawn, the player drawing the lower-ranked card deals first; an ace is low. Redraw ties. The deal normally alternates after every hand, including a hand that ends without a score.</p>
+
+      <h3>Shuffling and Dealing</h3>
+      <ol>
+        <li>The dealer thoroughly shuffles the deck.</li>
+        <li>The nondealer may cut the deck.</li>
+        <li>The dealer gives each player ten cards, one card at a time, face down. Dealing may proceed clockwise or by alternating cards directly between the two players, provided both receive ten cards.</li>
+        <li>Each player picks up and privately examines their hand.</li>
+        <li>The dealer places the next card face up to begin the discard pile.</li>
+        <li>The remaining cards are placed face down as the stock pile.</li>
+      </ol>
+
+      <p>Keep the discard pile beside the stock so its top card is clearly visible. Earlier discards may remain slightly spread or squared into one pile, but only the top card is normally available to be drawn.</p>
+
+      <h3>Opening Choice</h3>
+      <p>The nondealer receives the first opportunity to take the initial face-up card. If the nondealer declines it, the dealer may take it. A player who takes the initial upcard completes the turn by discarding one card.</p>
+
+      <p>If both players decline the initial upcard, the nondealer begins regular play by drawing the top card of the face-down stock. The nondealer then discards normally. Neither player draws from the stock during the opening offer until both have declined the upcard.</p>
+
+      <h3>Incorrect Deals</h3>
+      <p>If an incorrect number of cards is discovered before regular play begins, gather the cards, reshuffle, and redeal with the same dealer. If play has already begun, casual groups should stop and redeal unless the problem can be corrected immediately without revealing hidden information or changing meaningful decisions.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="gameplay">
+      <h2>Section 4: Gameplay</h2>
+
+      <h3>Normal Turn</h3>
+      <p>After the opening choice, players alternate turns. Every normal turn has two parts:</p>
+      <ol>
+        <li><strong>Draw:</strong> Take either the top face-up card of the discard pile or the top face-down card of the stock.</li>
+        <li><strong>Discard:</strong> Place one card face up on top of the discard pile.</li>
+      </ol>
+
+      <p>A player temporarily holds eleven cards after drawing and must return to ten cards by discarding. A card taken from the discard pile may not be immediately returned as that turn's discard. A card drawn unseen from the stock may be discarded immediately.</p>
+
+      <p>Players do not expose or announce melds during ordinary play. Melds remain in the hand until someone ends the hand. Once a discard has been released face up and the opponent has drawn, the previous turn cannot be changed.</p>
+
+      <h3>Knocking</h3>
+      <p>After drawing, a player may knock if the ten cards that will remain after the discard contain no more than 10 deadwood points. The player announces the knock and places the final discard separately or turns it sideways so the end of the hand is unmistakable. Both players then expose their cards.</p>
+
+      <p>The knocker arranges the ten retained cards into melds and deadwood. The defender also arranges their own melds, then may lay off unmatched cards on the knocker's melds. A layoff must leave a valid meld. For example, a fourth queen may be added to a set of three queens, and the 4 or 8 of diamonds may extend a displayed 5-6-7 run in diamonds.</p>
+
+      <p>Layoffs may be made in a useful sequence. If the knocker has 6-7-8 of clubs, the defender may lay off the 5 of clubs and then the 4 of clubs. The defender may not rearrange the knocker's cards, break the knocker's melds, or use one card in more than one meld.</p>
+
+      <h3>Declaring Gin</h3>
+      <p>A player declares gin when all ten retained cards form valid melds after the discard, leaving zero deadwood. The opponent exposes their hand and counts all unmatched cards without laying any cards off on the gin player's melds.</p>
+
+      <p>The discarded eleventh card is not part of the gin hand. A player who can arrange all eleven cards into melds has an especially strong holding sometimes called big gin, but it counts as ordinary gin unless the players adopted the big-gin variation before play.</p>
+
+      <h3>Exhausted Stock</h3>
+      <p>If no player has ended the hand and only two face-down cards remain in the stock after a discard, the hand ends as a draw. Neither player scores, and the next hand is dealt. Do not turn over and reuse the discard pile unless that procedure was agreed as a house rule before the game.</p>
+
+      <h3>Exposed Cards and Honest Play</h3>
+      <p>A player who accidentally exposes a card should return it to the hand and continue unless the exposure makes fair play impossible. Deliberately showing cards, looking through the stock, taking a buried discard, or changing the order of the stock is not allowed. For casual play, resolve honest mistakes by restoring the known position when possible; otherwise redeal the hand without a score.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="scoring">
+      <h2>Section 5: Scoring &amp; Winning</h2>
+
+      <h3>Ordinary Knock</h3>
+      <p>After legal layoffs, total each player's deadwood. If the knocker's total is lower, the knocker scores the difference between the two totals.</p>
+
+      <p>Example: Avery knocks with 7 points of deadwood. After laying off one card, Blake has 18 points of deadwood. Avery scores 11 points.</p>
+
+      <h3>Gin</h3>
+      <p>If a player declares gin, that player scores a 25-point gin bonus plus the full value of the opponent's deadwood. The opponent may not lay off cards when gin has been declared.</p>
+
+      <p>Example: Casey goes gin and Drew has 32 points of unmatched cards. Casey scores 57 points: 25 for gin plus 32 for Drew's deadwood.</p>
+
+      <h3>Undercut</h3>
+      <p>If the defender's deadwood is equal to or lower than the knocker's after all legal layoffs, the defender undercuts the knocker. The defender scores a 25-point undercut bonus plus the difference between the two deadwood totals.</p>
+
+      <p>Example: Morgan knocks with 8 deadwood, but Riley reduces their hand to 5 deadwood after laying off. Riley scores 28 points: the 25-point bonus plus the 3-point difference. If both players have 8 deadwood, the defender scores the 25-point bonus with no additional difference.</p>
+
+      <h3>Winning the Game</h3>
+      <p>Keep a running total after each scored hand. The first player to reach or exceed 100 points wins the game. A hand is completed and fully scored even if its points carry the winner beyond 100.</p>
+
+      <h3>Optional Match Bonuses</h3>
+      <p>Some groups use traditional end-of-game bonuses. These are not needed for a simple recreational game and should be agreed before the first deal. A common system adds 100 points to the game winner, adds a further 100-point shutout bonus if the opponent scored no points, and awards each player 25 points for every hand they won. These bonuses determine the final margin but do not change who first won the game by reaching the target.</p>
+
+      <h3>Score Disputes</h3>
+      <p>Both players should verify melds, layoffs, and deadwood before the cards are gathered. Correct any arithmetic error as soon as it is noticed. Once the next hand has been dealt, an agreed score normally stands unless both players can reconstruct and confirm the mistake.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="variants">
+      <h2>Section 6: Variants &amp; House Rules</h2>
+
+      <p>Gin Rummy has many local variations. Players should choose any changes before dealing and use them consistently for the entire game. If no variation is announced, use the standard procedures described in the preceding sections.</p>
+
+      <h3>Straight Gin</h3>
+      <p>Players may not knock with deadwood. A hand ends only when a player goes gin, so every retained card must be part of a meld. This variation usually produces longer hands and makes high deadwood cards more dangerous.</p>
+
+      <h3>Oklahoma Gin</h3>
+      <p>The rank of the initial face-up card sets the maximum deadwood permitted for a knock during that hand. Number cards use their printed value, while face cards normally set a limit of 10. An ace usually requires gin because it sets the limit at 1 only if the group permits one-point knocks; some groups instead treat an ace as requiring zero deadwood.</p>
+
+      <p>A popular Oklahoma Gin rule doubles the score for the hand when the initial upcard is a spade. Decide in advance whether this doubles bonuses as well as deadwood points.</p>
+
+      <h3>Big Gin</h3>
+      <p>Under this variation, a player who draws and finds that all eleven cards can be arranged into melds may declare big gin before discarding. A common award is 31 bonus points plus the opponent's deadwood. Because bonus values differ widely, record the chosen award before play.</p>
+
+      <h3>Alternate Bonuses and Targets</h3>
+      <ul>
+        <li>Use a 20-point or 25-point gin bonus.</li>
+        <li>Use a 10-point, 20-point, or 25-point undercut bonus.</li>
+        <li>Play to 50 points for a short game or 150 points for a longer game.</li>
+        <li>Require a player to win by a stated margin, such as 10 points.</li>
+        <li>Omit all end-of-game and hand-win bonuses for simpler scoring.</li>
+      </ul>
+
+      <h3>Stock and Discard Variations</h3>
+      <p>For longer hands, some groups continue until only one stock card remains. Others turn the discard pile over to form a new stock when the original stock is exhausted, leaving the current top discard in place. If recycling the pile, do not shuffle it unless that was part of the agreement, and make sure neither player can identify the next card from marked or exposed backs.</p>
+
+      <p>Some casual groups permit a player to take more than one card from the discard pile, provided the player takes every card above the desired card and immediately uses the chosen buried card in a meld. This changes the character of Gin Rummy substantially and is best treated as a separate house variation.</p>
+
+      <h3>Three or Four Players</h3>
+      <p>The standard game is designed for two. With three players, one player may sit out each hand while the other two play, rotating after every deal and keeping individual scores. With four players, two simultaneous two-player games or a partnership rotation works better than attempting to use the standard turn sequence with all four players.</p>
+
+      <h3>Friendly Play Conventions</h3>
+      <ul>
+        <li>Allow a new player to ask whether a proposed meld is valid before committing to a knock.</li>
+        <li>Place a knocking discard sideways to prevent confusion.</li>
+        <li>Count deadwood aloud and let both players verify the total.</li>
+        <li>Pause before gathering the cards so legal layoffs and scoring can be checked.</li>
+        <li>Agree whether advice, note-taking, or visible discard spreading is permitted.</li>
+      </ul>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="oss-footer-top">
+      <p>&copy; 2026 OpenSourceSports</p>
+      <div class="oss-footer-meta">
+        <span>&middot;</span> Automated by <a href="https://github.com/DigiLogicLabs/OpenSourceSports">OpenClaw</a>
+      </div>
+    </div>
+    <a href="https://digilogiclabs.com" target="_blank" rel="noopener" class="oss-footer-brand">
+      <img src="../../../../assets/images/dll-logo.png" alt="Digi Logic Labs" width="36" height="36">
+      <div class="oss-footer-brand-text">
+        <span class="oss-footer-brand-name">Digi Logic Labs</span>
+        <span class="oss-footer-brand-tagline">A Workshop for Digital Craftsmanship</span>
+      </div>
+    </a>
+  </footer>
+</body>
+</html>

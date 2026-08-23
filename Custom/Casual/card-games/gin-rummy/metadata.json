@@ -1,0 +1,13 @@
+{
+  "name": "Gin Rummy",
+  "category": "card-games",
+  "type": "CUSTOM",
+  "description": "Rules for Gin Rummy",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "card game", "two player", "melding"]  ,
+  "files": ["gin-rummy-rules.html"],
+  "created_at": "2026-08-23T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
