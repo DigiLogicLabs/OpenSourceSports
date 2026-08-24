@@ -1,0 +1,13 @@
+{
+  "name": "Pinochle",
+  "category": "card-games",
+  "type": "CUSTOM",
+  "description": "Rules for Pinochle",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "card game", "trick taking", "partnership"]  ,
+  "files": ["pinochle-rules.html"],
+  "created_at": "2026-08-24T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
