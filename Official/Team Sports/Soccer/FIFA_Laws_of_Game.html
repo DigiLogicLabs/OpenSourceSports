@@ -1,8 +1,10 @@
+The task calls for outputting the complete HTML directly rather than editing the file in place, and file-write permission wasn't granted anyway. I'll output the full updated HTML now.
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>FIFA - Official Rulebook</title>
+  <title>FIFA - Laws of the Game</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="../../../assets/images/favicon.ico">
   <link rel="stylesheet" href="../../../assets/css/opensourcesports.css">
@@ -11,22 +13,24 @@
   <!--
   METADATA
   {
-    "sport": "Association Football (Soccer)",
+    "sport_name": "Association Football (Soccer)",
     "category": "Team Sports",
-    "type": "OFFICIAL",
-    "governingBody": "FIFA",
-    "version": "2026.1",
-    "lastUpdated": "2026-08-24",
-    "source_name": "Laws of the Game 2026/27",
+    "type": "official",
+    "organization": "FIFA",
+    "source_name": "IFAB — Laws of the Game (authored by IFAB; enforced by FIFA and confederations)",
     "source_url": "https://www.theifab.com/laws-of-the-game-documents/",
-    "version_label": "IFAB Laws of the Game 2026/27",
-    "last_verified_at": "2026-08-24",
+    "version_label": "IFAB Laws of the Game 2026/27 (key changes: five-second throw-in/goal-kick delay countdown, DOGSO caution removed when advantage is played and a goal is scored)",
     "effective_date": "2026-07-01",
+    "last_verified_at": "2026-08-24",
     "confidence": 0.95,
+    "equipment": ["soccer ball", "goal", "jersey", "shorts", "sock", "shin guard", "footwear", "field"],
     "contest_format": "head-to-head",
-    "author": "OpenSourceSports",
     "tags": ["professional", "soccer", "football", "fifa", "team sport"],
-    "equipment": ["soccer ball", "jersey", "shorts", "sock", "shin guard", "footwear"]
+    "sport": "Association Football (Soccer)",
+    "governingBody": "FIFA",
+    "version": "2026-2027",
+    "lastUpdated": "2026-08-24",
+    "author": "OpenSourceSports"
   }
   -->
 
@@ -46,10 +50,10 @@
         <li><a href="#introduction"><span class="toc-number">1.</span> Introduction</a></li>
         <li><a href="#equipment"><span class="toc-number">2.</span> Equipment</a></li>
         <li><a href="#playing-area"><span class="toc-number">3.</span> Playing Area</a></li>
-        <li><a href="#players-officials"><span class="toc-number">4.</span> Players &amp; Officials</a></li>
+        <li><a href="#players-officials"><span class="toc-number">4.</span> Players & Officials</a></li>
         <li><a href="#rules-of-play"><span class="toc-number">5.</span> Rules of Play</a></li>
         <li><a href="#scoring"><span class="toc-number">6.</span> Scoring</a></li>
-        <li><a href="#violations-penalties"><span class="toc-number">7.</span> Violations &amp; Penalties</a></li>
+        <li><a href="#violations-penalties"><span class="toc-number">7.</span> Violations & Penalties</a></li>
         <li><a href="#safety-considerations"><span class="toc-number">8.</span> Safety Considerations</a></li>
       </ol>
     </details>
@@ -62,7 +66,7 @@
       <p>Association football, known as soccer in several countries, is the world's most popular sport, played by an estimated 250 million players in over 200 countries. The Laws of the Game are maintained by the International Football Association Board (IFAB), which was founded in 1886 and consists of FIFA and the four British football associations (England, Scotland, Wales, and Northern Ireland).</p>
       <p>The Laws of the Game consist of 17 laws that govern all aspects of the sport at every level, from professional FIFA World Cup matches to grassroots community football. While the Laws are universal, IFAB permits certain modifications for youth, veteran, disability, and grassroots football where appropriate.</p>
       <p>FIFA (Fédération Internationale de Football Association), founded in 1904 and headquartered in Zurich, Switzerland, is the international governing body responsible for organizing major international tournaments including the FIFA World Cup, FIFA Women's World Cup, and the FIFA Club World Cup. FIFA administers the Laws of the Game in conjunction with IFAB and oversees the global development and regulation of the sport.</p>
-      <p>The Laws of the Game 2026/27 edition, approved at IFAB's 140th Annual General Meeting in Hensol, Wales, took effect on July 1, 2026 (competitions already underway may implement the changes at their next available opportunity). The 2026/27 edition builds on the goalkeeper 8-second hold rule and permanent concussion substitution protocol introduced in 2025/26, adding a further package of measures aimed at improving match flow and reducing time-wasting, including visual countdowns at throw-ins and goal kicks and revised guidance on cautions for advantage played after a Denial of an Obvious Goal-Scoring Opportunity (DOGSO). The 2026 FIFA World Cup expands to 48 teams for the first time, hosted across the United States, Canada, and Mexico.</p>
+      <p>The current Laws of the Game reflect ongoing refinements including the use of Video Assistant Referee (VAR) technology, semi-automated offside technology (SAOT), and concussion substitution protocols (made permanent in 2025). Notable changes effective July 1, 2025 include a new 8-second goalkeeper time limit, permanent concussion substitutions, and the optional "captain only" communication rule. The Laws of the Game 2026/27, effective July 1, 2026, introduced a visible five-second countdown for delayed throw-ins and goal kicks (Laws 15 and 16) and removed the mandatory caution for a Denial of an Obvious Goal-Scoring Opportunity when the referee plays advantage and a goal is subsequently scored (Law 12). The 2026 FIFA World Cup expands to 48 teams for the first time, hosted across the United States, Canada, and Mexico.</p>
         <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
     </section>
 
@@ -141,8 +145,8 @@
       <h2>Section 5: Rules of Play</h2>
       <h3>Duration of the Match (Law 7)</h3>
       <p>A match consists of two equal halves of 45 minutes each, with a half-time interval not exceeding 15 minutes. The referee adds time at the end of each half for all time lost due to substitutions, assessment and/or removal of injured players, wasting time, disciplinary sanctions, medical stoppages, VAR reviews, goal celebrations, and any other cause. Penalty kicks awarded at the end of a half are completed even if time has expired.</p>
-      <h3>Goalkeeper Time Limit (Law 12)</h3>
-      <p>Goalkeepers have a maximum of 8 seconds to release the ball from their hands. If the goalkeeper holds the ball for longer than 8 seconds, the opposing team is awarded a corner kick. This replaced the previous 6-second rule (which was rarely enforced) and is designed to reduce time-wasting.</p>
+      <h3>Goalkeeper Time Limit (effective July 2025)</h3>
+      <p>Goalkeepers now have a maximum of 8 seconds to release the ball from their hands. If the goalkeeper holds the ball for longer than 8 seconds, the opposing team is awarded a corner kick. This replaces the previous 6-second rule (which was rarely enforced) and is designed to reduce time-wasting.</p>
       <h3>Start and Restart of Play (Law 8)</h3>
       <p>A kick-off starts both halves and restarts play after a goal. The team that wins the coin toss decides which goal to attack in the first half; the other team takes the kick-off. A goal may be scored directly from the kick-off. Dropped ball restarts play when the referee stops play for any reason not mentioned in the Laws.</p>
       <h3>Ball In and Out of Play (Law 9)</h3>
@@ -156,8 +160,8 @@
       <ul>
         <li><strong>Free Kicks (Law 13):</strong> Awarded for fouls and misconduct. Direct free kicks allow a goal to be scored directly; indirect free kicks require the ball to touch another player before a goal can be scored.</li>
         <li><strong>Penalty Kick (Law 14):</strong> Awarded when a foul punishable by a direct free kick is committed inside the penalty area. The kick is taken from the penalty mark with only the goalkeeper and kicker in the penalty area.</li>
-        <li><strong>Throw-in (Law 15):</strong> Awarded when the ball wholly crosses the touchline. The thrower must face the field, have part of each foot on or behind the touchline, and throw the ball with both hands from behind and over the head. Under the Laws of the Game 2026/27, if the referee considers the throw-in is being unduly delayed, a visible five-second countdown is started; if the throw-in has not been taken by the time the countdown ends, the throw-in is awarded to the opposing team.</li>
-        <li><strong>Goal Kick (Law 16):</strong> Awarded when the ball wholly crosses the goal line (not a goal) having last been touched by an attacking player. The ball is kicked from anywhere within the goal area. The ball is in play when it is kicked and clearly moves. Opponents must remain outside the penalty area until the ball is in play. Under the Laws of the Game 2026/27, if the referee considers the goal kick is being unduly delayed, a visible five-second countdown is started; if the goal kick has not been taken by the time the countdown ends, the opposing team is awarded a corner kick.</li>
+        <li><strong>Throw-in (Law 15):</strong> Awarded when the ball wholly crosses the touchline. The thrower must face the field, have part of each foot on or behind the touchline, and throw the ball with both hands from behind and over the head. Under the Laws of the Game 2026/27, if a team delays taking a throw-in, the referee applies a visible five-second countdown; if the throw-in has not been taken by the time the count expires, the throw-in is awarded to the opposing team.</li>
+        <li><strong>Goal Kick (Law 16):</strong> Awarded when the ball wholly crosses the goal line (not a goal) having last been touched by an attacking player. The ball is kicked from anywhere within the goal area. The ball is in play when it is kicked and clearly moves. Opponents must remain outside the penalty area until the ball is in play. Under the Laws of the Game 2026/27, the same five-second countdown for deliberate delay applies to the goal kick; if the kick has not been taken by the time the count expires, a corner kick is awarded to the opposing team.</li>
         <li><strong>Corner Kick (Law 17):</strong> Awarded when the ball wholly crosses the goal line (not a goal) having last been touched by a defending player. A goal may be scored directly from a corner kick, but only against the opposing team.</li>
       </ul>
         <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
@@ -216,8 +220,8 @@
         <li><strong>Yellow Card (Caution):</strong> Issued for unsporting behavior, dissent, persistent infringement, delaying the restart of play, failing to respect the required distance at set pieces, entering/leaving the field without permission, or deliberate handball to stop a promising attack (if outside the penalty area, the offense now results in a yellow card rather than a red under certain conditions).</li>
         <li><strong>Red Card (Sending-off):</strong> Issued for serious foul play, violent conduct, spitting at or biting another person, denying an obvious goal-scoring opportunity by handling the ball (for non-goalkeepers), denying an obvious goal-scoring opportunity with a foul (outside the penalty area), using offensive/insulting/abusive language or gestures, or receiving a second yellow card. A player who is sent off must leave the field and its surroundings immediately.</li>
       </ul>
-      <h3>Advantage (Law 5)</h3>
-      <p>The referee may allow play to continue when a team against which an offense has been committed would benefit from the advantage. If the anticipated advantage does not materialize within a few seconds, the referee penalizes the original offense. Disciplinary action (yellow or red card) may still be taken at the next stoppage even if advantage is played. Under the Laws of the Game 2026/27, where advantage is played for an offense that denied an obvious goal-scoring opportunity (DOGSO), the offending player is no longer cautioned if a goal is scored as a direct result of the advantage, since the offense did not, in the end, prevent the goal.</p>
+      <h3>Advantage</h3>
+      <p>The referee may allow play to continue when a team against which an offense has been committed would benefit from the advantage. If the anticipated advantage does not materialize within a few seconds, the referee penalizes the original offense. Disciplinary action (yellow or red card) may still be taken at the next stoppage even if advantage is played. Under Law 12 of the Laws of the Game 2026/27, this last point now carries an exception for Denial of an Obvious Goal-Scoring Opportunity (DOGSO): if the referee applies advantage following a DOGSO offense and a goal is subsequently scored as a direct result of that passage of play, no caution is issued to the offending player, even though the original offense would otherwise have warranted a yellow card.</p>
         <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
     </section>
 
