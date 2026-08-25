@@ -1,0 +1,13 @@
+{
+  "name": "Canasta",
+  "category": "card-games",
+  "type": "CUSTOM",
+  "description": "Rules for Canasta",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "card game", "melding", "partnership"]  ,
+  "files": ["canasta-rules.html"],
+  "created_at": "2026-08-25T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

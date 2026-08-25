@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Canasta - Game Rules</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../../../../assets/images/favicon.ico">
+  <link rel="stylesheet" href="../../../../assets/css/opensourcesports.css">
+</head>
+<body>
+  <!--
+  METADATA
+  {
+    "sport": "Canasta",
+    "category": "Card Games",
+    "type": "CUSTOM",
+    "governingBody": "",
+    "version": "1.0.0",
+    "lastUpdated": "2026-08-25",
+    "author": "OpenSourceSports",
+    "tags": ["casual", "card game", "melding", "partnership"],
+    "equipment": ["deck"]
+  }
+  -->
+
+  <header id="top">
+    <img src="../../../../assets/images/logo.png" alt="OpenSourceSports" class="oss-header-logo">
+    <div class="oss-header-text">
+      <h1>Canasta - Game Rules</h1>
+      
+      <p class="last-updated">Last Updated: August 25, 2026</p>
+    </div>
+  </header>
+
+  <nav class="oss-toc" id="toc">
+    <details open>
+      <summary>Table of Contents</summary>
+      <ol>
+        <li><a href="#introduction"><span class="toc-number">1.</span> Introduction</a></li>
+        <li><a href="#the-deck"><span class="toc-number">2.</span> The Deck</a></li>
+        <li><a href="#setup"><span class="toc-number">3.</span> Setup &amp; Deal</a></li>
+        <li><a href="#gameplay"><span class="toc-number">4.</span> Gameplay</a></li>
+        <li><a href="#scoring"><span class="toc-number">5.</span> Scoring &amp; Winning</a></li>
+        <li><a href="#variants"><span class="toc-number">6.</span> Variants &amp; House Rules</a></li>
+      </ol>
+    </details>
+  </nav>
+
+  <main>
+    <section id="introduction">
+      <h2>Section 1: Introduction</h2>
+      <p>Canasta is a rummy-style card game in which players collect cards of the same rank and place them face up as melds. The name “canasta” is commonly used for a meld containing at least seven cards. The classic game is played by four people in two partnerships, with partners seated opposite one another.</p>
+      <p>The central challenge is deciding when to expose cards, when to pursue the discard pile, and how to manage wild cards without weakening a potential natural canasta. Partners share their face-up melds and their score, but each player keeps a separate hand and may not reveal or privately describe its contents.</p>
+
+      <h3>Objective</h3>
+      <p>A partnership scores by making melds, completing canastas, collecting red threes, and going out. It loses points for cards left in either partner’s hand. The first partnership to reach 5,000 points at the end of a hand wins the game; if both sides reach that total together, the higher score wins.</p>
+
+      <h3>Core Terms</h3>
+      <dl>
+        <dt><strong>Meld</strong></dt>
+        <dd>Three or more cards of one rank placed face up by a partnership, such as three queens. Suits have no effect on an ordinary meld.</dd>
+        <dt><strong>Natural card</strong></dt>
+        <dd>Any card other than a joker or deuce. Red and black threes have special restrictions.</dd>
+        <dt><strong>Wild card</strong></dt>
+        <dd>A joker or deuce used as a substitute in most ordinary melds.</dd>
+        <dt><strong>Canasta</strong></dt>
+        <dd>A meld of seven or more cards. A natural canasta contains no wild cards; a mixed canasta contains one or more wild cards.</dd>
+        <dt><strong>Going out</strong></dt>
+        <dd>Ending the hand by legally playing or discarding the final card from one’s hand.</dd>
+        <dt><strong>Frozen discard pile</strong></dt>
+        <dd>A discard pile subject to stricter pickup requirements, normally because it contains a wild card or a red three.</dd>
+      </dl>
+
+      <h3>Players and Partnerships</h3>
+      <p>Four-player partnership Canasta is the standard format described here. Two- and three-player adaptations are included in Section 6. Partners may discuss general tactics before play, but during a hand they must not identify cards in their hands, signal desired discards, or advise one another except for the permitted going-out question.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="the-deck">
+      <h2>Section 2: The Deck</h2>
+      <h3>Required Equipment</h3>
+      <p>Canasta requires one combined <strong>deck</strong> of 108 cards: two standard 52-card decks shuffled together with four jokers. Cards should have matching backs so that no card can be identified while face down.</p>
+
+      <h3>Card Values</h3>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Cards</th>
+            <th scope="col">Value per Card</th>
+            <th scope="col">Special Use</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Jokers</td>
+            <td>50 points</td>
+            <td>Wild cards</td>
+          </tr>
+          <tr>
+            <td>Deuces</td>
+            <td>20 points</td>
+            <td>Wild cards</td>
+          </tr>
+          <tr>
+            <td>Aces</td>
+            <td>20 points</td>
+            <td>Natural cards</td>
+          </tr>
+          <tr>
+            <td>Kings, queens, jacks, tens, nines, and eights</td>
+            <td>10 points</td>
+            <td>Natural cards</td>
+          </tr>
+          <tr>
+            <td>Sevens, sixes, fives, and fours</td>
+            <td>5 points</td>
+            <td>Natural cards</td>
+          </tr>
+          <tr>
+            <td>Black threes</td>
+            <td>5 points</td>
+            <td>Stop the next player from taking the discard pile</td>
+          </tr>
+          <tr>
+            <td>Red threes</td>
+            <td>100-point bonus or penalty each</td>
+            <td>Displayed immediately and replaced from the stock</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Wild Cards</h3>
+      <p>Jokers and deuces may be added to most melds as substitutes for the meld’s rank. A meld must always contain at least two natural cards and may contain no more than three wild cards. It must never contain more wild cards than natural cards. Once a wild card has been placed in a meld, it cannot be moved to another meld or exchanged for a natural card.</p>
+      <p>A partnership may not keep two separate melds of the same rank. All later cards of that rank must be added to the existing meld. A completed canasta may continue to receive matching natural cards and, if doing so remains legal, wild cards.</p>
+
+      <h3>Special Threes</h3>
+      <p>A red three is not kept in the hand or used in an ordinary meld. Whenever a player receives or draws one, the player places it face up with the partnership’s meld area and immediately draws a replacement from the stock. A red three exposed during the deal is likewise displayed and replaced before normal play begins.</p>
+      <p>A black three placed on the discard pile prevents the next player from taking that pile, though it does not permanently freeze it. Black threes normally cannot be melded. A player who is going out may meld three or four black threes as a set, without wild cards, during that final turn.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="setup">
+      <h2>Section 3: Setup &amp; Deal</h2>
+      <h3>Choose Partners and Dealer</h3>
+      <p>Choose partners by agreement or by drawing cards, with the two highest cards playing against the two lowest. Partners sit opposite each other. Select the first dealer at random; the deal then passes clockwise after every hand.</p>
+
+      <h3>Shuffle and Deal</h3>
+      <p>The dealer thoroughly shuffles all 108 cards and deals 11 cards face down to each player, one card at a time clockwise. Players may pick up and arrange their hands after the deal is complete.</p>
+      <p>Place the undealt cards face down in the center as the stock. Turn the next card face up beside it to begin the discard pile. If that card is a red three or a wild card, turn it sideways and expose additional cards until a natural card other than a red three is on top. All exposed cards remain in the discard pile, which begins frozen.</p>
+
+      <h3>Deal Corrections</h3>
+      <p>Before play begins, correct a hand with too few cards by dealing the missing cards from the stock. A player with too many cards returns the excess at random to the stock without exposing them. If the error cannot be corrected fairly because players have seen one another’s cards or play has substantially begun, reshuffle and redeal.</p>
+
+      <h3>Red Threes in the Initial Hands</h3>
+      <p>Before the first turn, each player exposes every red three in their hand and draws one replacement for each. If a replacement is another red three, it is also exposed and replaced. Red threes are kept face up near the partnership’s other cards but do not count toward the partnership’s opening meld requirement.</p>
+
+      <h3>Opening Meld Requirement</h3>
+      <p>The first time a partnership lays down melds in a hand, the total face value of the cards laid down during that turn must meet the threshold determined by the partnership’s score before the hand began.</p>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Partnership Score Before the Hand</th>
+            <th scope="col">Required Opening Meld</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Below 0</td>
+            <td>15 points</td>
+          </tr>
+          <tr>
+            <td>0 through 1,495</td>
+            <td>50 points</td>
+          </tr>
+          <tr>
+            <td>1,500 through 2,995</td>
+            <td>90 points</td>
+          </tr>
+          <tr>
+            <td>3,000 or more</td>
+            <td>120 points</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>Several new melds may be combined to reach the requirement, but cards added on a later turn cannot repair an insufficient opening. Canasta bonuses, red-three bonuses, and the going-out bonus do not count toward the opening threshold. When opening by taking the discard pile, only cards from the player’s hand and the top discard used in the qualifying meld count toward the threshold; buried cards acquired with the pile do not.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="gameplay">
+      <h2>Section 4: Gameplay</h2>
+      <h3>Turn Sequence</h3>
+      <p>The player to the dealer’s left takes the first turn, and play continues clockwise. A normal turn has three stages:</p>
+      <ol>
+        <li>Draw the top card of the stock, or legally take the entire discard pile.</li>
+        <li>Optionally lay down new melds or add cards to the partnership’s existing melds.</li>
+        <li>Discard one card face up onto the discard pile, unless the player has gone out by melding every remaining card.</li>
+      </ol>
+      <p>A player who draws a red three immediately displays it and draws another card. This continues until the player draws a card that is not a red three. If the last stock card is a red three, it is displayed but cannot be replaced.</p>
+
+      <h3>Making Melds</h3>
+      <p>A new meld consists of at least three cards of the same rank. It must have at least two natural cards and may use up to three wild cards. Examples of legal starting melds include three nines, or two kings with one deuce. A king with two wild cards is illegal because it has only one natural card.</p>
+      <p>Both partners own and may extend every meld their side has placed. Cards in melds remain face up and should be overlapped so everyone can see their ranks and wild cards. When a meld reaches seven cards, stack it neatly to show that it is a canasta. A natural card on top can mark a natural canasta; a wild card on top can mark a mixed canasta.</p>
+
+      <h3>Taking an Unfrozen Discard Pile</h3>
+      <p>A player takes the entire discard pile, not merely its top card. If the pile is not frozen against the player’s partnership, its top natural card may be taken in either of these ways:</p>
+      <ul>
+        <li>Combine the top discard with two matching natural cards from the player’s hand to make a new meld.</li>
+        <li>Add the top discard immediately to an existing meld of that rank belonging to the player’s partnership.</li>
+      </ul>
+      <p>The top discard must be used at once in the qualifying meld. After doing so, the player adds all remaining cards from the discard pile to their hand and may make further legal plays.</p>
+
+      <h3>Taking a Frozen Discard Pile</h3>
+      <p>A pile containing a wild card or red three is frozen against both partnerships. A pile can also be treated as frozen against a partnership until that side has made its opening meld. To take a frozen pile, the player must hold two natural cards matching the top discard and meld those two cards with that discard. An existing meld does not remove this requirement.</p>
+      <p>If the partnership has not yet opened, the new meld containing the top discard may contribute to the opening requirement. Other cards played from the hand on that turn may also contribute. Cards buried in the pile cannot be counted toward the opening requirement, even though they enter the player’s hand after the pickup.</p>
+
+      <h3>Discard-Pile Restrictions</h3>
+      <p>A wild card may be discarded, but it freezes the pile and should be placed sideways so its presence remains visible. A black three blocks only the next player from taking the pile. A red three is never deliberately discarded; it must be exposed and replaced when found.</p>
+      <p>A wild card or black three on top of the pile cannot be picked up. If the top card cannot legally be used, the player must draw from the stock instead.</p>
+
+      <h3>Going Out</h3>
+      <p>A player may go out only if their partnership has completed at least one canasta. The player ends the hand by melding every remaining card or by melding all but one card and discarding the last card. A player may complete the required canasta during the same turn in which they go out.</p>
+      <p>Before going out, a player may ask, “Partner, may I go out?” The partner must answer yes or no, and the answer is binding for that turn. Asking is optional. No other discussion of either hand is allowed.</p>
+      <p>Going out concealed means a player melds their entire original hand during one turn without having previously melded or added a card to the partnership’s melds. Taking the discard pile generally prevents a concealed out because the acquired cards become part of the hand before the player finishes the turn.</p>
+
+      <h3>Exhausting the Stock</h3>
+      <p>If the stock runs out, play may continue while players can legally take the discard pile. A player who can legally take an unfrozen pile by adding its top card to an existing meld must do so; a player who would need to use a pair from hand may decline. The hand ends when a player cannot draw from the empty stock and does not take the discard pile.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="scoring">
+      <h2>Section 5: Scoring &amp; Winning</h2>
+      <h3>Scoring a Hand</h3>
+      <p>After the hand ends, each partnership calculates one combined score. Begin with bonuses, add the face value of every card in the partnership’s melds, and subtract the face value of every card remaining in both partners’ hands.</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Achievement</th>
+            <th scope="col">Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Natural canasta</td>
+            <td>500 points</td>
+          </tr>
+          <tr>
+            <td>Mixed canasta</td>
+            <td>300 points</td>
+          </tr>
+          <tr>
+            <td>Going out</td>
+            <td>100 points</td>
+          </tr>
+          <tr>
+            <td>Going out concealed</td>
+            <td>100 additional points</td>
+          </tr>
+          <tr>
+            <td>Each red three, when the partnership has made at least one meld</td>
+            <td>100 points</td>
+          </tr>
+          <tr>
+            <td>All four red threes, when the partnership has made at least one meld</td>
+            <td>800 points total</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>The cards within a canasta score their ordinary face values in addition to the canasta bonus. For example, a natural canasta of seven kings is worth 500 bonus points plus 70 points for its seven cards, for a total of 570 points before other cards and bonuses are counted.</p>
+
+      <h3>Red-Three Penalties</h3>
+      <p>If a partnership has exposed red threes but has made no meld by the end of the hand, the red-three score is negative instead of positive. Each red three costs 100 points, while possessing all four costs 800 points. Red threes do not count toward the opening meld requirement.</p>
+
+      <h3>Cards Left in Hand</h3>
+      <p>Every unplayed card is deducted at its ordinary card value. This includes wild cards, natural cards, and black threes. A red three that was mistakenly retained in a hand should be exposed when discovered and treated according to the group’s agreed error policy; for casual play, applying its normal red-three bonus or penalty is the simplest remedy.</p>
+
+      <h3>Example Score</h3>
+      <p>A partnership finishes with one natural canasta, one mixed canasta, two red threes, and the 100-point going-out bonus. Its melded cards have a combined face value of 420, and its partner holds 35 points in unplayed cards. The hand scores 500 + 300 + 200 + 100 + 420 − 35 = 1,485 points.</p>
+
+      <h3>Winning the Game</h3>
+      <p>Record cumulative scores after every hand. The game ends after a hand in which at least one partnership has 5,000 or more points. The partnership with the higher total wins, even if both crossed 5,000 during the same hand. Equal totals produce a tie unless the group agrees to play one additional hand as a tiebreaker.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="variants">
+      <h2>Section 6: Variants &amp; House Rules</h2>
+      <p>Canasta has many regional traditions. Agree on variations before dealing, especially rules affecting the discard pile, wild-card melds, and the number of canastas required to go out.</p>
+
+      <h3>Two-Player Canasta</h3>
+      <p>Deal 15 cards to each player. Each player draws two cards from the stock at the start of a turn and discards one card at the end. A player generally needs two completed canastas before going out. There are no partnerships, so each player owns only their own melds and score.</p>
+
+      <h3>Three-Player Canasta</h3>
+      <p>Deal 13 cards to each player and play individually. A common format has each player draw two cards and discard one per turn, with two canastas required to go out. Another casual format uses the four-player turn structure of drawing one and discarding one; decide which version applies before play.</p>
+
+      <h3>Six-Player Partnership Game</h3>
+      <p>Six players may form two teams of three, with seating alternating between teams. Add another standard deck with its jokers if the group wants a larger stock and longer hand. Because the additional deck is a variation rather than a requirement for the standard game, determine the number of jokers and the target score in advance.</p>
+
+      <h3>Wild-Card Melds</h3>
+      <p>Some groups permit melds made entirely of wild cards. A common requirement is at least three wild cards to begin the meld and seven to complete a wild-card canasta. Groups using this variation often score a seven-card wild canasta at 1,000 or 2,000 points. State the chosen value and whether additional wild cards may be added before the deal.</p>
+
+      <h3>Canastas Required to Go Out</h3>
+      <p>For a longer game, require two canastas before a partnership may go out. Some groups require one of those canastas to be natural. This makes wild-card management more important and reduces the chance of a very short hand.</p>
+
+      <h3>Three-Meld Limit</h3>
+      <p>A strategic house rule limits a partnership to three incomplete melds at one time. Completed canastas do not count against the limit. This discourages players from spreading cards across many ranks and makes discard choices more consequential.</p>
+
+      <h3>Discard-Pile Pickup Options</h3>
+      <p>For easier recreational play, allow an unfrozen pile to be taken whenever its top card can be added to an existing meld, as described in the main rules. For a stricter game, require two matching natural cards from the hand for every pickup, whether or not the pile is frozen. The stricter rule makes large discard piles harder to capture.</p>
+
+      <h3>Opening Canasta Bonus</h3>
+      <p>Some groups allow a complete canasta laid down in the partnership’s opening turn to satisfy any opening threshold automatically. Under the standard rules in this file, the face values of the cards must still meet the threshold and the canasta bonus does not count. Choose one approach before starting.</p>
+
+      <h3>Short Game</h3>
+      <p>For a quicker session, play to 3,000 points or agree to play a fixed number of hands. In a fixed-hand game, the partnership with the higher cumulative score after the last scheduled hand wins.</p>
+
+      <h3>Friendly Error Handling</h3>
+      <p>For casual games, correct accidental rule errors as soon as they are noticed. Return an illegal meld to the player’s hand if no hidden information has been revealed, restore an improperly taken discard pile when its order is known, and redeal only when a fair reconstruction is impossible. Apply the same remedy consistently to both partnerships.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="oss-footer-top">
+      <p>&copy; 2026 OpenSourceSports</p>
+      <div class="oss-footer-meta">
+        <span>&middot;</span> Automated by <a href="https://github.com/DigiLogicLabs/OpenSourceSports">OpenClaw</a>
+      </div>
+    </div>
+    <a href="https://digilogiclabs.com" target="_blank" rel="noopener" class="oss-footer-brand">
+      <img src="../../../../assets/images/dll-logo.png" alt="Digi Logic Labs" width="36" height="36">
+      <div class="oss-footer-brand-text">
+        <span class="oss-footer-brand-name">Digi Logic Labs</span>
+        <span class="oss-footer-brand-tagline">A Workshop for Digital Craftsmanship</span>
+      </div>
+    </a>
+  </footer>
+</body>
+</html>
