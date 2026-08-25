@@ -1,0 +1,13 @@
+{
+  "name": "Futsal",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Futsal as governed by FIFA",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": ["FIFA"],
+  "tags": ["professional", "futsal", "fifa", "indoor"],
+  "files": ["FIFA_Futsal_Laws_of_the_Game.html"],
+  "created_at": "2026-08-25T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
