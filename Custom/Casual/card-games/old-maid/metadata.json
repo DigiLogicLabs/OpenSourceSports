@@ -1,0 +1,13 @@
+{
+  "name": "Old Maid",
+  "category": "card-games",
+  "type": "CUSTOM",
+  "description": "Rules for Old Maid",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "card game", "kids", "family"]  ,
+  "files": ["old-maid-rules.html"],
+  "created_at": "2026-08-26T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
