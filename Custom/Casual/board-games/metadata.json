@@ -1,0 +1,7 @@
+{
+  "name": "board-games",
+  "description": "Collection of board-games games",
+  "type": "CUSTOM",
+  "maintainers": ["OpenSourceSports"],
+  "created_at": "2026-08-27T00:00:00Z"
+}
