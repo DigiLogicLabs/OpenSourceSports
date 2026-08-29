@@ -1,0 +1,13 @@
+{
+  "name": "Carcassonne",
+  "category": "board-games",
+  "type": "CUSTOM",
+  "description": "Rules for Carcassonne",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "board game", "tile placement", "strategy"]  ,
+  "files": ["carcassonne-rules.html"],
+  "created_at": "2026-08-29T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
