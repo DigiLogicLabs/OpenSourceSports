@@ -1,0 +1,13 @@
+{
+  "name": "Clue",
+  "category": "board-games",
+  "type": "CUSTOM",
+  "description": "Rules for Clue",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "board game", "deduction", "family"]  ,
+  "files": ["clue-rules.html"],
+  "created_at": "2026-08-30T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
