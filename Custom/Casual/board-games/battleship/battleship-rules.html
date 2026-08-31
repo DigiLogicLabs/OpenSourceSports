@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Battleship - Game Rules</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../../../../assets/images/favicon.ico">
+  <link rel="stylesheet" href="../../../../assets/css/opensourcesports.css">
+</head>
+<body>
+  <!--
+  METADATA
+  {
+    "sport": "Battleship",
+    "category": "Board Games",
+    "type": "CUSTOM",
+    "governingBody": "",
+    "version": "1.0.0",
+    "lastUpdated": "2026-08-31",
+    "author": "OpenSourceSports",
+    "tags": ["casual", "board game", "two player", "family"],
+    "equipment": ["game board", "playing piece", "peg"]
+  }
+  -->
+
+  <header id="top">
+    <img src="../../../../assets/images/logo.png" alt="OpenSourceSports" class="oss-header-logo">
+    <div class="oss-header-text">
+      <h1>Battleship - Game Rules</h1>
+      
+      <p class="last-updated">Last Updated: August 31, 2026</p>
+    </div>
+  </header>
+
+  <nav class="oss-toc" id="toc">
+    <details open>
+      <summary>Table of Contents</summary>
+      <ol>
+        <li><a href="#introduction"><span class="toc-number">1.</span> Introduction</a></li>
+        <li><a href="#components"><span class="toc-number">2.</span> Components</a></li>
+        <li><a href="#setup"><span class="toc-number">3.</span> Setup</a></li>
+        <li><a href="#gameplay"><span class="toc-number">4.</span> Gameplay</a></li>
+        <li><a href="#scoring"><span class="toc-number">5.</span> Scoring &amp; Winning</a></li>
+        <li><a href="#variants"><span class="toc-number">6.</span> Variants &amp; House Rules</a></li>
+      </ol>
+    </details>
+  </nav>
+
+  <main>
+    <section id="introduction">
+      <h2>Section 1: Introduction</h2>
+
+      <p>Battleship is a hidden-information strategy game for two players. Each player secretly arranges a fleet on a coordinate grid and then attempts to locate and sink the opposing fleet by calling one coordinate at a time. The first player to sink every opposing ship wins.</p>
+
+      <p>The game rewards deduction, careful recordkeeping, and clever placement. No player may look at the opponent’s fleet grid during play. Information is gained only through announced shots and the truthful responses of “hit,” “miss,” and “sunk.”</p>
+
+      <h3>Standard Playing Area</h3>
+      <p>Each player uses two separate 10-by-10 grids. Columns are labeled A through J and rows are numbered 1 through 10, creating coordinates such as A1, D7, and J10. One grid is the player’s fleet grid, where ships are placed and incoming shots are recorded. The other is the targeting grid, where shots against the opponent are recorded.</p>
+
+      <h3>Players and Playing Time</h3>
+      <ul>
+        <li><strong>Players:</strong> Exactly two in the standard game.</li>
+        <li><strong>Typical duration:</strong> About 15 to 30 minutes.</li>
+        <li><strong>Objective:</strong> Sink all five ships in the opposing fleet before the opponent sinks yours.</li>
+        <li><strong>Required conduct:</strong> Players must announce results honestly and keep their fleets concealed.</li>
+      </ul>
+
+      <p>These rules describe a common recreational version of Battleship. Because editions and homemade sets may differ, players should agree on the fleet, turn order, and any variations before placing ships.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="components">
+      <h2>Section 2: Components</h2>
+
+      <p>A complete two-player setup requires the following equipment. A commercial set may combine the fleet and targeting grids into one folding game board for each player, while a homemade set may reproduce the same information on separate boards.</p>
+
+      <ul>
+        <li><strong>Game boards:</strong> Each player needs a concealed fleet grid and a visible-to-self targeting grid. Every grid has 10 columns labeled A through J and 10 rows labeled 1 through 10.</li>
+        <li><strong>Playing pieces:</strong> Each player needs five ship pieces occupying 17 grid spaces in total.</li>
+        <li><strong>Pegs:</strong> Each player needs enough pegs to record hits and misses. A player also uses hit pegs on ship pieces when the design of the set supports them.</li>
+      </ul>
+
+      <h3>Standard Fleet</h3>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Ship</th>
+            <th scope="col">Length</th>
+            <th scope="col">Grid Spaces Occupied</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Carrier</td>
+            <td>5</td>
+            <td>Five consecutive spaces</td>
+          </tr>
+          <tr>
+            <td>Battleship</td>
+            <td>4</td>
+            <td>Four consecutive spaces</td>
+          </tr>
+          <tr>
+            <td>Cruiser</td>
+            <td>3</td>
+            <td>Three consecutive spaces</td>
+          </tr>
+          <tr>
+            <td>Submarine</td>
+            <td>3</td>
+            <td>Three consecutive spaces</td>
+          </tr>
+          <tr>
+            <td>Destroyer</td>
+            <td>2</td>
+            <td>Two consecutive spaces</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Peg colors vary by set. When two colors are available, use one consistently for hits and the other for misses. If only one peg style is available, players must use another clear method to distinguish the two results without changing previously recorded information.</p>
+
+      <p>All coordinates must be legible and unambiguous. Before play, both players should verify that their game boards use the same orientation and that the intersection of a lettered column and numbered row identifies exactly one space.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="setup">
+      <h2>Section 3: Setup</h2>
+
+      <ol>
+        <li>Seat the players opposite one another and position the game boards so neither fleet grid can be seen by the opponent.</li>
+        <li>Give each player one complete fleet: a Carrier, Battleship, Cruiser, Submarine, and Destroyer.</li>
+        <li>Each player secretly places all five ships on the fleet grid.</li>
+        <li>Choose a starting player by mutual agreement or a fair random method.</li>
+        <li>Confirm that both targeting grids are empty before the first shot.</li>
+      </ol>
+
+      <h3>Ship Placement</h3>
+      <ul>
+        <li>Every ship must lie in a straight horizontal or vertical line.</li>
+        <li>Diagonal placement is not allowed.</li>
+        <li>Every occupied part of a ship must remain within the A–J and 1–10 boundaries.</li>
+        <li>Ships may not overlap or share a grid space.</li>
+        <li>Ships may touch side to side or end to end in the standard recreational game, unless the players adopt a no-touching house rule.</li>
+        <li>Players may place ships along the outer edges or in corners.</li>
+      </ul>
+
+      <p>For example, a length-four Battleship may occupy B3, C3, D3, and E3 horizontally, or H5, H6, H7, and H8 vertically. It may not bend, run diagonally, extend beyond the grid, or pass through another ship.</p>
+
+      <h3>Final Placement Check</h3>
+      <p>Before the first shot, each player should count 17 occupied spaces and confirm that all five ship lengths are correct. Once the first coordinate has been called, no ship may be moved, rotated, exchanged, removed, or added.</p>
+
+      <p>If an illegal placement is discovered during play, pause the game. If it can be corrected without revealing useful information, reposition the affected ship legally and continue. If a fair correction is impossible, restart the game with new placements.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="gameplay">
+      <h2>Section 4: Gameplay</h2>
+
+      <h3>Taking a Turn</h3>
+      <p>Players alternate turns. On a standard turn, the active player calls one coordinate by stating its column letter and row number, such as “F6.” The defending player checks that coordinate on the fleet grid and immediately announces the result.</p>
+
+      <ul>
+        <li><strong>Miss:</strong> If the coordinate contains no ship, the defender announces “miss.”</li>
+        <li><strong>Hit:</strong> If the coordinate contains an unsunk ship, the defender announces “hit.”</li>
+        <li><strong>Sunk:</strong> If the shot hits the final undamaged space of a ship, the defender announces that the ship has been sunk and identifies it by name.</li>
+      </ul>
+
+      <p>After the result is announced, both players record it. The attacker places the appropriate peg on the called coordinate of the targeting grid. The defender records the incoming shot on the fleet grid and, when applicable, places a hit peg in the struck ship.</p>
+
+      <h3>Hits and Sinking</h3>
+      <p>Each space of a ship can be hit only once. A ship is sunk when every space it occupies has been hit. One hit does not damage adjacent spaces and does not transfer to a touching ship. Each coordinate affects only the single space called.</p>
+
+      <p>A hit does not grant another shot under the standard turn sequence. After one valid shot and its result are recorded, the turn passes to the other player, whether the shot was a hit or a miss.</p>
+
+      <h3>Repeated or Unclear Shots</h3>
+      <p>If a player calls a coordinate already targeted, the record on the targeting grid determines the outcome. For friendly play, the attacker should be allowed to choose a new coordinate before the defender reveals any additional information. Players seeking a stricter game may agree before setup that a repeated coordinate wastes the turn.</p>
+
+      <p>If a coordinate is spoken unclearly, the defender should ask for clarification before checking the fleet grid. Once the defender announces a result, the confirmed coordinate stands unless both players agree that a simple verbal mistake occurred.</p>
+
+      <h3>Fair Play</h3>
+      <ul>
+        <li>Players may not look behind the opponent’s screen or inspect the opponent’s fleet grid.</li>
+        <li>Players must not alter ship positions after shooting begins.</li>
+        <li>Every shot and result must be recorded accurately.</li>
+        <li>A defender must identify a newly sunk ship when using the standard rules.</li>
+        <li>Players may review their own targeting records at any time.</li>
+      </ul>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="scoring">
+      <h2>Section 5: Scoring &amp; Winning</h2>
+
+      <h3>Winning a Single Game</h3>
+      <p>The game ends immediately when one player sinks the opponent’s fifth and final ship. The player who fired that shot wins. A standard fleet has 17 occupied spaces, so winning requires successful hits on all 17 distinct ship spaces.</p>
+
+      <p>There is no draw in an ordinary alternating-turn game because only one player fires at a time. The second player does not receive an equalizing final turn after the first player destroys the entire opposing fleet.</p>
+
+      <h3>Verification</h3>
+      <p>After the final ship is sunk, both players reveal their fleet grids. They should confirm that the winning player recorded all required hits and that every ship was placed legally. An honest recording error that did not change the result may be corrected after discussion. Deliberate concealment, movement, or false reporting results in loss of the game.</p>
+
+      <h3>Optional Match Scoring</h3>
+      <p>For a multi-game match, use one of these agreed scoring systems:</p>
+
+      <ul>
+        <li><strong>Best-of series:</strong> Award one game win to the victor. The first player to win two games in a best-of-three series, or three games in a best-of-five series, wins the match.</li>
+        <li><strong>Victory points:</strong> Award one point for each game won. The player with the most points after a predetermined number of games wins.</li>
+        <li><strong>Survival score:</strong> The winner scores one point for every unhit space remaining among the winner’s surviving ships. This can serve as a tiebreaker across several games.</li>
+        <li><strong>Fleet score:</strong> At an agreed stopping time, each player receives one point for every opposing ship space hit. A completely sunk ship may also earn an agreed bonus.</li>
+      </ul>
+
+      <p>When playing several games, alternate the starting player. If using survival or fleet scoring, announce the exact scoring method before the first setup so neither player can adjust the rules after seeing a result.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="variants">
+      <h2>Section 6: Variants &amp; House Rules</h2>
+
+      <p>Variations can make Battleship faster, more tactical, or easier for younger players. Select all house rules before ships are placed and apply them equally to both players.</p>
+
+      <h3>Salvo Play</h3>
+      <p>On each turn, a player calls several different coordinates before receiving or recording the combined results. A common method gives each player one shot for every ship still afloat. A player therefore begins with five shots and loses one shot whenever a ship is sunk. Decide beforehand whether the defender reports only the total number of hits or gives a separate result for each coordinate.</p>
+
+      <h3>Fixed Five-Shot Salvo</h3>
+      <p>Each player calls five different coordinates on every turn regardless of how many ships remain. This produces a faster game and allows a player with a damaged fleet to retain full attacking power. All five coordinates must be announced before any result is revealed.</p>
+
+      <h3>Hit Continues the Turn</h3>
+      <p>A player who scores a hit immediately fires again. The turn ends after a miss or after the opponent’s entire fleet is sunk. This variation rewards finding connected ship spaces and can create long runs of successful shots.</p>
+
+      <h3>No-Touching Fleets</h3>
+      <p>Ships may not occupy horizontally, vertically, or diagonally adjacent spaces. The extra separation makes deduction easier because spaces surrounding a sunk ship can be eliminated. All other placement restrictions remain unchanged.</p>
+
+      <h3>Silent Sinking</h3>
+      <p>The defender reports every successful shot as “hit” but does not announce when a ship sinks or identify its name. The attacker must infer whether a complete ship has been found. The defender still records damage accurately and announces when the entire fleet has been destroyed.</p>
+
+      <h3>Reduced Fleet or Grid</h3>
+      <p>For a shorter game, use a smaller grid or fewer ships. A balanced beginner game can use an 8-by-8 grid with ships of lengths 4, 3, 3, and 2. Both players must use identical fleet sizes and grid dimensions.</p>
+
+      <h3>Expanded Fleet</h3>
+      <p>For a longer game, use a larger shared grid and add matching ship pieces to both fleets. Establish the new coordinate labels, ship lengths, and number of shots before setup. Ships must still be straight, entirely on the grid, and non-overlapping.</p>
+
+      <h3>One-Time Radar</h3>
+      <p>Once per game, instead of firing, a player selects a predetermined search area, such as a 2-by-2 group of spaces. The opponent reports only whether at least one ship space lies in that area. Radar does not count as a hit and does not reveal a ship’s identity or exact location.</p>
+
+      <h3>Team Play</h3>
+      <p>Divide players into two teams controlling one fleet each. Teammates may discuss strategy openly or quietly, as agreed, but one designated caller announces the final coordinate. Rotate the caller after every turn so all teammates participate.</p>
+
+      <h3>Timed Turns</h3>
+      <p>Set a short limit, such as 20 or 30 seconds, for choosing a coordinate. If time expires, the player loses the shot and play passes to the opponent. Apply the same limit to both players and pause timing while resolving disputes or recording results.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="oss-footer-top">
+      <p>&copy; 2026 OpenSourceSports</p>
+      <div class="oss-footer-meta">
+        <span>&middot;</span> Automated by <a href="https://github.com/DigiLogicLabs/OpenSourceSports">OpenClaw</a>
+      </div>
+    </div>
+    <a href="https://digilogiclabs.com" target="_blank" rel="noopener" class="oss-footer-brand">
+      <img src="../../../../assets/images/dll-logo.png" alt="Digi Logic Labs" width="36" height="36">
+      <div class="oss-footer-brand-text">
+        <span class="oss-footer-brand-name">Digi Logic Labs</span>
+        <span class="oss-footer-brand-tagline">A Workshop for Digital Craftsmanship</span>
+      </div>
+    </a>
+  </footer>
+</body>
+</html>

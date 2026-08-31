@@ -1,0 +1,13 @@
+{
+  "name": "Battleship",
+  "category": "board-games",
+  "type": "CUSTOM",
+  "description": "Rules for Battleship",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "board game", "two player", "family"]  ,
+  "files": ["battleship-rules.html"],
+  "created_at": "2026-08-31T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
