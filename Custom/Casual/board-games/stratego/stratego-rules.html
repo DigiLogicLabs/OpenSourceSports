@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stratego - Game Rules</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../../../../assets/images/favicon.ico">
+  <link rel="stylesheet" href="../../../../assets/css/opensourcesports.css">
+</head>
+<body>
+  <!--
+  METADATA
+  {
+    "sport": "Stratego",
+    "category": "Board Games",
+    "type": "CUSTOM",
+    "governingBody": "",
+    "version": "1.0.0",
+    "lastUpdated": "2026-09-01",
+    "author": "OpenSourceSports",
+    "tags": ["casual", "board game", "strategy", "two player"],
+    "equipment": ["game board", "playing piece"]
+  }
+  -->
+
+  <header id="top">
+    <img src="../../../../assets/images/logo.png" alt="OpenSourceSports" class="oss-header-logo">
+    <div class="oss-header-text">
+      <h1>Stratego - Game Rules</h1>
+      
+      <p class="last-updated">Last Updated: September 01, 2026</p>
+    </div>
+  </header>
+
+  <nav class="oss-toc" id="toc">
+    <details open>
+      <summary>Table of Contents</summary>
+      <ol>
+        <li><a href="#introduction"><span class="toc-number">1.</span> Introduction</a></li>
+        <li><a href="#components"><span class="toc-number">2.</span> Components</a></li>
+        <li><a href="#setup"><span class="toc-number">3.</span> Setup</a></li>
+        <li><a href="#gameplay"><span class="toc-number">4.</span> Gameplay</a></li>
+        <li><a href="#scoring"><span class="toc-number">5.</span> Scoring &amp; Winning</a></li>
+        <li><a href="#variants"><span class="toc-number">6.</span> Variants &amp; House Rules</a></li>
+      </ol>
+    </details>
+  </nav>
+
+  <main>
+    <section id="introduction">
+      <h2>Section 1: Introduction</h2>
+      <p>Stratego is a two-player game of hidden information, tactical movement, bluffing, and deduction. Each player commands an army whose identities face toward its owner and remain concealed from the opponent. The goal is to discover and capture the opposing Flag while protecting your own.</p>
+      <p>The armies begin on opposite sides of a 10-by-10 battlefield. Most pieces move one square at a time, but their different ranks and special abilities make every unknown opponent a calculated risk. Battles reveal information: the stronger piece normally survives, equal ranks eliminate one another, and several special pieces can overturn the usual ranking system.</p>
+      <p>These rules describe the commonly played classic game using forty pieces per player. Some editions print rank numbers in the opposite direction, so players should rely on the rank names and the strength guide supplied with their set. In this rulebook, Marshal is the strongest ordinary rank, followed by General, Colonel, Major, Captain, Lieutenant, Sergeant, Miner, and Scout.</p>
+      <h3>Players and Playing Time</h3>
+      <ul>
+        <li><strong>Players:</strong> Exactly two, commanding opposing colors.</li>
+        <li><strong>Typical duration:</strong> About 30 to 60 minutes.</li>
+        <li><strong>Skills emphasized:</strong> Memory, deduction, planning, deception, risk management, and positional play.</li>
+      </ul>
+      <h3>Fair Play</h3>
+      <p>Players may examine their own pieces at any time without showing them to the opponent. Once play begins, neither player may secretly exchange pieces, alter a revealed battle result, move through a lake, or deliberately misstate a piece's identity during combat.</p>
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="components">
+      <h2>Section 2: Components</h2>
+      <h3>Game Board</h3>
+      <p>A classic Stratego game requires one 10-by-10 game board containing 100 squares. Two lake areas occupy the center of the battlefield. Each lake covers a 2-by-2 group of squares, leaving three passable lanes between the players' sides. No playing piece may enter, cross, or occupy a lake square.</p>
+      <h3>Playing Pieces</h3>
+      <p>Each player requires a complete army of 40 playing pieces in one color. The identifying face of every piece must be visible to its owner and hidden from the opponent during ordinary play.</p>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Piece</th>
+            <th scope="col">Quantity per Army</th>
+            <th scope="col">Relative Strength or Ability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Marshal</td><td>1</td><td>Strongest ordinary rank; defeats every ranked piece except when attacked by the Spy.</td></tr>
+          <tr><td>General</td><td>1</td><td>Second-highest rank.</td></tr>
+          <tr><td>Colonel</td><td>2</td><td>Below General and above Major.</td></tr>
+          <tr><td>Major</td><td>3</td><td>Below Colonel and above Captain.</td></tr>
+          <tr><td>Captain</td><td>4</td><td>Below Major and above Lieutenant.</td></tr>
+          <tr><td>Lieutenant</td><td>4</td><td>Below Captain and above Sergeant.</td></tr>
+          <tr><td>Sergeant</td><td>4</td><td>Below Lieutenant and above Miner.</td></tr>
+          <tr><td>Miner</td><td>5</td><td>The only movable piece that defeats a Bomb when attacking it.</td></tr>
+          <tr><td>Scout</td><td>8</td><td>Weakest regular rank, but may move any unobstructed distance in a straight line.</td></tr>
+          <tr><td>Spy</td><td>1</td><td>Defeats the Marshal only when the Spy attacks first.</td></tr>
+          <tr><td>Bomb</td><td>6</td><td>Immobile; defeats every attacking piece except a Miner.</td></tr>
+          <tr><td>Flag</td><td>1</td><td>Immobile objective; its capture ends the game.</td></tr>
+        </tbody>
+      </table>
+      <p>The rank name is decisive when editions use different numbering systems. Before setup, confirm that both players understand which printed number represents the strongest rank.</p>
+      <h3>Component Condition</h3>
+      <p>Piece backs should be indistinguishable within an army so that wear, marks, or orientation do not reveal identities. If a piece is visibly marked, place all pieces in matching opaque holders or agree on another fair remedy before beginning.</p>
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="setup">
+      <h2>Section 3: Setup</h2>
+      <ol>
+        <li>Place the game board between the players so each player sits behind one edge containing four complete deployment rows.</li>
+        <li>Choose colors and give each player all 40 playing pieces of that color.</li>
+        <li>Each player secretly arranges their entire army in the four rows nearest them. Every square in those four rows must contain exactly one piece.</li>
+        <li>Orient every piece so its identity faces its owner and its blank back faces the opponent.</li>
+        <li>Keep the two central rows, including all lake squares, empty at the start.</li>
+        <li>Choose the first player by mutual agreement or a random method. Turns then alternate.</li>
+      </ol>
+      <h3>Placement Restrictions</h3>
+      <p>Any of a player's 40 pieces may occupy any square within that player's four deployment rows. The Flag and Bombs do not have prescribed starting squares. Players may shield the Flag with Bombs, use Bombs as decoys, place powerful pieces near the front, or adopt any other legal arrangement.</p>
+      <p>Setup is private. Players should arrange their forces at the same time or use a screen so neither gains information from the other's placement process. When both players declare themselves ready, the arrangements are fixed and the screen is removed. Pieces may not be rearranged after the first turn.</p>
+      <h3>Setup Advice for New Players</h3>
+      <p>A legal setup is not necessarily a safe one. Because the Flag cannot move, leave a plan for defending it. Because only Miners can remove Bombs, spreading Miners through the army helps preserve access to them. Scouts placed near open files can gather information quickly, while the Spy is usually safest when it has support and room to attack.</p>
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="gameplay">
+      <h2>Section 4: Gameplay</h2>
+      <h3>Taking a Turn</h3>
+      <p>On a turn, a player must move one of their movable pieces. A legal move is either a non-combat move into an empty square or an attack against one adjacent opposing piece. A player may not pass while any legal move is available.</p>
+      <h3>Ordinary Movement</h3>
+      <ul>
+        <li>Marshal, General, Colonel, Major, Captain, Lieutenant, Sergeant, Miner, and Spy move exactly one square horizontally or vertically.</li>
+        <li>Pieces may not move diagonally.</li>
+        <li>A piece may not enter a square occupied by another friendly piece.</li>
+        <li>A piece may not jump over another piece or move through a lake.</li>
+        <li>The Flag and Bombs never move after setup.</li>
+      </ul>
+      <h3>Scout Movement</h3>
+      <p>A Scout may move any number of vacant squares horizontally or vertically in a single turn, like a rook in chess. It may not turn a corner, jump a piece, cross a lake, or move through an occupied square. A Scout may attack an opposing piece at the end of its long move if the path is clear. A one-square Scout move is also legal.</p>
+      <p>A long Scout move reveals that the moving piece is a Scout. A player may instead move a Scout only one square to preserve uncertainty, although later information may still expose its identity.</p>
+      <h3>Attacking and Resolving Battle</h3>
+      <p>To attack, move a piece onto an orthogonally adjacent square occupied by an opponent. Both players reveal the identities of the two pieces and resolve the battle immediately:</p>
+      <ul>
+        <li>If one ordinary rank is stronger, the stronger piece remains on the attacked square and the weaker piece is removed from the board.</li>
+        <li>If the pieces have equal rank, both are removed and the attacked square becomes empty.</li>
+        <li>If a Miner attacks a Bomb, the Bomb is removed and the Miner occupies its square.</li>
+        <li>If any piece other than a Miner attacks a Bomb, the attacker is removed and the Bomb remains in place.</li>
+        <li>If the Spy attacks the Marshal, the Marshal is removed and the Spy occupies its square.</li>
+        <li>If the Marshal attacks the Spy, the Spy is removed. The Spy's special power applies only when the Spy initiates the attack.</li>
+        <li>If any movable piece attacks the Flag, the Flag is captured and the game ends immediately.</li>
+      </ul>
+      <p>After a battle, surviving pieces normally return to concealed status with their identities facing only their owners. Players must remember information gained from earlier battles; note-taking is used only if both players agreed to permit it before the game.</p>
+      <h3>Repetition and Stalling</h3>
+      <p>A piece may not endlessly shuttle between the same two squares. Under the common three-move limit, a player may move the same piece back and forth between the same two squares on no more than three consecutive turns by that player. On the next turn involving that piece, it must move elsewhere or the player must move a different piece.</p>
+      <p>Players should not use repeated cycles solely to prevent progress. If a longer chase repeats without either side changing the position, pause and apply an agreed repetition house rule, such as requiring the pursuing piece to break the cycle.</p>
+      <h3>Touch and Correction</h3>
+      <p>For casual play, a move becomes final when the player releases the piece on a legal destination. An illegal move should be taken back immediately without penalty unless the players established a different rule beforehand. Accidentally exposed pieces should be concealed again, but information already seen cannot realistically be erased.</p>
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="scoring">
+      <h2>Section 5: Scoring &amp; Winning</h2>
+      <h3>Winning the Game</h3>
+      <p>A player wins immediately by attacking and capturing the opposing Flag. It does not matter which movable piece reaches the Flag or how many pieces the winner has lost.</p>
+      <p>A player also wins if the opponent has no legal move. This occurs when the opponent has no movable pieces remaining or when all remaining movable pieces are completely trapped by friendly pieces, lakes, Bombs, or other positions they cannot legally enter.</p>
+      <h3>Resignation</h3>
+      <p>A player may resign when they believe defeat is unavoidable. The opponent is then declared the winner. Players are encouraged to finish uncertain positions because hidden pieces can still create surprising reversals.</p>
+      <h3>Draws</h3>
+      <p>A single casual game normally produces a winner, but the players may declare a draw by mutual agreement. A draw is also reasonable when an unchanged cycle repeats and neither player can force progress under the repetition rule chosen before play.</p>
+      <h3>Match Scoring</h3>
+      <p>Stratego does not require numerical scoring for a single game. For a multi-game match, use a simple system of 1 match point for a win, one-half point for a draw, and 0 points for a loss. Alternate colors and starting player between games. The player with the most match points after the agreed number of games wins the match.</p>
+      <h3>Tiebreakers</h3>
+      <p>If a match must produce one winner, play an additional game with colors selected randomly. For a quicker tiebreak, each player may use a reduced army under the same published setup agreed in advance; do not invent unequal forces after seeing the tied score.</p>
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="variants">
+      <h2>Section 6: Variants &amp; House Rules</h2>
+      <p>Variations should be agreed before setup. Both players must use the same version of every altered rule, and any change affecting piece strength should be explained before armies are arranged.</p>
+      <h3>Beginner Reveal</h3>
+      <p>When a battle ends, leave the surviving piece face-up for the rest of the game. This reduces the memory burden and helps new players learn the rank order. For a gentler version, leave a survivor revealed only until it next moves.</p>
+      <h3>No-Reconcealment Battles</h3>
+      <p>Every piece that participates in combat remains openly identified thereafter. Its owner may still move it normally, but both players can track it. This variation emphasizes tactical positioning over memory and bluffing.</p>
+      <h3>Rescue Variation</h3>
+      <p>Before play, place each player's captured pieces where both players can see them. When a player moves onto one of the opponent's back-row squares, that player may rescue one previously captured movable piece. The rescued piece is returned to an empty square in the rescuer's own back row. Flags and Bombs are normally excluded, and each player should be limited to one rescue per turn.</p>
+      <h3>Aggressor Breaks the Chase</h3>
+      <p>If one piece continuously pursues another through a repeated sequence of board positions, the pursuing player must vary the chase first. This supplements the two-square repetition limit and prevents long loops involving three or more squares.</p>
+      <h3>Quick Stratego</h3>
+      <p>For a shorter game, each player selects the same reduced force and deploys it within an agreed smaller area of the standard game board. A balanced introductory force might include one Flag, two Bombs, one Marshal, one General, two Miners, two Scouts, one Spy, and several middle-ranked pieces. Both armies must contain identical quantities and use the normal battle rules.</p>
+      <h3>Open Flag</h3>
+      <p>After setup, each player reveals the location of their Flag while all other pieces remain hidden. This creates a direct siege-and-defense game and makes Bomb placement easier to infer.</p>
+      <h3>Random Setup</h3>
+      <p>Each player shuffles their own pieces face-down and randomly fills the four deployment rows, turning the pieces toward themselves only after placement. No rearrangement is allowed. This produces fast, unpredictable games but can create awkward or heavily trapped positions.</p>
+      <h3>Timed Play</h3>
+      <p>Agree on an equal total thinking time for each player and use a mutually available timing method. Time runs only while it is that player's turn and pauses while a battle is being verified. A player whose time expires loses unless the players agreed that expiration produces a draw.</p>
+      <h3>Recorded Information</h3>
+      <p>Players who prefer deduction without a memory test may record revealed identities and movements. Both players must have the same opportunity to take notes, and neither may inspect the other's record. This house rule changes the feel of the game but not movement or combat.</p>
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="oss-footer-top">
+      <p>&copy; 2026 OpenSourceSports</p>
+      <div class="oss-footer-meta">
+        <span>&middot;</span> Automated by <a href="https://github.com/DigiLogicLabs/OpenSourceSports">OpenClaw</a>
+      </div>
+    </div>
+    <a href="https://digilogiclabs.com" target="_blank" rel="noopener" class="oss-footer-brand">
+      <img src="../../../../assets/images/dll-logo.png" alt="Digi Logic Labs" width="36" height="36">
+      <div class="oss-footer-brand-text">
+        <span class="oss-footer-brand-name">Digi Logic Labs</span>
+        <span class="oss-footer-brand-tagline">A Workshop for Digital Craftsmanship</span>
+      </div>
+    </a>
+  </footer>
+</body>
+</html>
