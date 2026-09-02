@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chinese Checkers - Game Rules</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../../../../assets/images/favicon.ico">
+  <link rel="stylesheet" href="../../../../assets/css/opensourcesports.css">
+</head>
+<body>
+  <!--
+  METADATA
+  {
+    "sport": "Chinese Checkers",
+    "category": "Board Games",
+    "type": "CUSTOM",
+    "governingBody": "",
+    "version": "1.0.0",
+    "lastUpdated": "2026-09-02",
+    "author": "OpenSourceSports",
+    "tags": ["casual", "board game", "abstract", "family"],
+    "equipment": ["game board", "playing piece"]
+  }
+  -->
+
+  <header id="top">
+    <img src="../../../../assets/images/logo.png" alt="OpenSourceSports" class="oss-header-logo">
+    <div class="oss-header-text">
+      <h1>Chinese Checkers - Game Rules</h1>
+      
+      <p class="last-updated">Last Updated: September 02, 2026</p>
+    </div>
+  </header>
+
+  <nav class="oss-toc" id="toc">
+    <details open>
+      <summary>Table of Contents</summary>
+      <ol>
+        <li><a href="#introduction"><span class="toc-number">1.</span> Introduction</a></li>
+        <li><a href="#components"><span class="toc-number">2.</span> Components</a></li>
+        <li><a href="#setup"><span class="toc-number">3.</span> Setup</a></li>
+        <li><a href="#gameplay"><span class="toc-number">4.</span> Gameplay</a></li>
+        <li><a href="#scoring"><span class="toc-number">5.</span> Scoring &amp; Winning</a></li>
+        <li><a href="#variants"><span class="toc-number">6.</span> Variants &amp; House Rules</a></li>
+      </ol>
+    </details>
+  </nav>
+
+  <main>
+    <section id="introduction">
+      <h2>Section 1: Introduction</h2>
+
+      <p>Chinese Checkers is an abstract strategy game in which players race their playing pieces across a six-pointed, star-shaped game board. Despite its name, it is neither a form of checkers nor a game that originated in China. Pieces are not captured, and every piece remains in play throughout the game.</p>
+
+      <p>Each player begins with a group of matching pieces in one triangular point of the star, called the player's starting triangle or home triangle. The objective is to move the entire group into the triangle directly opposite it, called the destination triangle or target triangle.</p>
+
+      <p>On a turn, a player moves one piece. The move is either a single step into an adjacent empty hole or a sequence of one or more jumps over occupied pieces. Long chains of jumps make the game quick and lively, while careful positioning helps a player create useful routes and avoid helping opponents.</p>
+
+      <h3>Players and Playing Time</h3>
+      <ul>
+        <li>The standard star board supports two, three, four, or six players.</li>
+        <li>Five-player games are possible with an agreed special setup, but they are naturally unbalanced because one point of the star remains unused.</li>
+        <li>A casual game commonly lasts about 15 to 45 minutes, depending on the number and experience of the players.</li>
+        <li>There are no teams unless the players choose a partnership variation before setup.</li>
+      </ul>
+
+      <h3>Important Terms</h3>
+      <dl>
+        <dt>Home triangle</dt>
+        <dd>The triangular point in which a player's pieces begin.</dd>
+        <dt>Destination triangle</dt>
+        <dd>The triangle directly opposite a player's home triangle and the area that player must fill to win.</dd>
+        <dt>Step</dt>
+        <dd>A move from one hole to an immediately adjacent empty hole.</dd>
+        <dt>Jump</dt>
+        <dd>A move over one adjacent occupied hole into the empty hole immediately beyond it on the same line.</dd>
+        <dt>Jump chain</dt>
+        <dd>Two or more legal jumps made by the same piece during one turn.</dd>
+      </dl>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="components">
+      <h2>Section 2: Components</h2>
+
+      <h3>Required Equipment</h3>
+      <ul>
+        <li><strong>One game board:</strong> A Chinese Checkers board has 121 connected positions arranged as a six-pointed star. Each point is a triangle containing 10 positions in rows of one, two, three, and four. The central hexagonal field contains 61 positions.</li>
+        <li><strong>Playing pieces:</strong> Each participant needs a clearly distinguishable set of matching pieces. A typical six-player set provides 10 pieces in each of six colors. Some boards also provide 15 pieces per color for the common two-player large-army game.</li>
+      </ul>
+
+      <p>The positions may be drilled holes for pegs or marbles, printed circles on a flat board, or any equivalent spaces that clearly show the star's diagonal lines. The rules are the same whether the playing pieces are pegs, marbles, counters, or another shape that fits the board.</p>
+
+      <h3>Board Geometry</h3>
+      <p>Every interior position connects to as many as six neighboring positions. These connections form three straight axes across the board. All steps and jumps must follow one of those board lines; pieces never move between positions that merely look close together.</p>
+
+      <p>The six outer triangles occur in three opposite pairs. A player's home and destination must be one such opposite pair. The central hexagon is neutral territory and may be occupied by pieces belonging to any player.</p>
+
+      <h3>Piece Quantities</h3>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Players</th>
+            <th scope="col">Pieces per Player</th>
+            <th scope="col">Usual Arrangement</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2</td>
+            <td>10 or 15, as the set permits</td>
+            <td>Opposite triangles; a 15-piece game also fills the adjacent five-position row extending into the central field.</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>10</td>
+            <td>Alternating triangles, leaving one empty triangle between neighboring players.</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>10</td>
+            <td>Two opposite pairs of triangles, with the remaining opposite pair unused.</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>10</td>
+            <td>All six triangles are occupied.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>If the set's printed instructions specify a different piece count, players may use that count as long as every player has an equal army and a destination with enough positions to hold it.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="setup">
+      <h2>Section 3: Setup</h2>
+
+      <ol>
+        <li>Place the game board where every player can comfortably reach it.</li>
+        <li>Select the arrangement matching the number of players. Every active home triangle must have a destination triangle directly opposite it.</li>
+        <li>Each player chooses a color and places all pieces of that color in the positions of the assigned home triangle.</li>
+        <li>For a standard 10-piece army, fill all four rows of the home triangle: one piece in the tip row, two in the next row, three in the next, and four along the base.</li>
+        <li>If two players use 15 pieces each, place the first 10 in opposite triangles and the other five in the row immediately beyond the base of each home triangle. Both players must use matching, rotationally symmetrical formations.</li>
+        <li>Identify each player's destination before play begins. It is always the point directly across the center from that player's home.</li>
+        <li>Choose the first player by mutual agreement or a random method. Play then proceeds clockwise.</li>
+      </ol>
+
+      <h3>Recommended Player Arrangements</h3>
+      <ul>
+        <li><strong>Two players:</strong> Sit at directly opposite points. This creates equal travel distances and direct competition along the same axis.</li>
+        <li><strong>Three players:</strong> Use every other point of the star. Each player's destination will be one of the three initially empty triangles.</li>
+        <li><strong>Four players:</strong> Use two complete pairs of opposite points. Do not place all four players on consecutive points, because that gives some players empty destinations while others must enter occupied ones.</li>
+        <li><strong>Six players:</strong> Fill every point. Each destination begins occupied by the opponent sitting directly across the board.</li>
+      </ul>
+
+      <h3>Pre-Game Agreements</h3>
+      <p>Before the first move, settle any house rules that could affect strategy. In particular, agree whether players must move pieces out of an opponent's destination, whether entry into unrelated triangles is restricted, and whether finishing places beyond first will be recorded.</p>
+
+      <p>For a learning game, place a spare piece near the board and demonstrate one step, one jump, and a two-jump chain. Return all pieces to their starting positions before beginning.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="gameplay">
+      <h2>Section 4: Gameplay</h2>
+
+      <h3>Turn Sequence</h3>
+      <p>Players take one turn at a time in clockwise order. On a turn, the active player selects one of their pieces and makes exactly one of the following types of move:</p>
+
+      <ul>
+        <li><strong>Single step:</strong> Move the piece to one empty position directly adjacent to it along a printed or implied board line.</li>
+        <li><strong>One or more jumps:</strong> Jump over an adjacent occupied position and land in the empty position immediately beyond it on the same straight line. After landing, the same piece may make another legal jump.</li>
+      </ul>
+
+      <p>A player may not combine a step and a jump in the same turn. A piece that takes a single step stops immediately. A piece making jumps may stop after any completed jump, even when another jump is available.</p>
+
+      <h3>Jump Rules</h3>
+      <ul>
+        <li>The jumped piece may belong to the active player or to any opponent.</li>
+        <li>Exactly one adjacent occupied position is crossed in each jump.</li>
+        <li>The landing position must be empty when the jump is made.</li>
+        <li>The jumped piece is not captured, removed, displaced, or exchanged.</li>
+        <li>A jump must cross the occupied position symmetrically: the starting position, jumped position, and landing position must be consecutive positions on one straight board line.</li>
+        <li>During a jump chain, the moving piece may change direction after each landing.</li>
+        <li>Only the originally selected piece may move during the chain.</li>
+        <li>A player may not land on the same position more than once during a single turn. This prevents circular jump sequences that make no progress.</li>
+      </ul>
+
+      <h3>Movement Across the Board</h3>
+      <p>Pieces may normally move forward, sideways, or backward. They may pass through the central field and may use other pieces as stepping stones. No position belongs permanently to a particular player after setup, although special restrictions can apply to the outer triangles.</p>
+
+      <p>Under the simplest casual rule, a piece may enter any empty outer triangle and leave it later. A widely used restriction instead permits a player to occupy only their own home triangle, their destination triangle, and the central hexagon. Players should choose one interpretation before play because triangle access can change available jump routes.</p>
+
+      <h3>Destination Conduct</h3>
+      <p>Once a player's piece reaches its destination triangle, it may still move within that triangle to arrange the final formation. For a friendlier and faster game, players may agree that a piece which has entered its destination may not leave it. If that rule is used, movement within the destination remains legal.</p>
+
+      <p>A player should not deliberately leave an opposing piece trapped in that opponent's destination solely to prevent completion. The common anti-blocking rule requires a player to move their own piece out of another player's destination whenever a legal move out is available and the piece is preventing that opponent from filling the triangle.</p>
+
+      <h3>Illegal Moves</h3>
+      <p>An illegal move includes landing on an occupied position, jumping over an empty position, jumping across more than one adjacent piece at once, moving between unconnected positions, moving two different pieces in one turn, or combining a step with a jump chain. In casual play, return the piece to its last legal position and let the player complete a legal move. If later turns have already begun, restore the board only when all players can agree on the previous position; otherwise leave the current position and continue.</p>
+
+      <h3>No Legal Move</h3>
+      <p>If a player has no legal step or jump with any piece, that player passes. The other players continue normally. A temporary lack of moves does not eliminate the blocked player, who takes a normal turn again when play returns to them.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="scoring">
+      <h2>Section 5: Scoring &amp; Winning</h2>
+
+      <h3>Winning the Game</h3>
+      <p>A player wins immediately upon occupying every required position in their destination triangle with their own pieces. In a standard game, this means placing all 10 pieces into the 10 destination positions. In a 15-piece game, all 15 pieces must occupy the agreed destination formation.</p>
+
+      <p>The destination must contain the winner's complete army. A piece elsewhere on the board does not count as finished merely because all currently open destination positions are occupied.</p>
+
+      <h3>Blocked Destination</h3>
+      <p>If an opponent's piece remains in a player's destination, use the anti-blocking agreement selected before play. The recommended casual rule is that an opponent may not claim permanent shelter there and must leave when able. If an opposing piece occupies the final needed position and has no legal move out, the waiting player's own piece may be treated as having reached that position once it is directly adjacent and otherwise able to enter. This prevents a player from being denied victory by an immovable blocker.</p>
+
+      <h3>Continuing for Places</h3>
+      <p>In a multiplayer game, play may stop when the first player wins, or the remaining players may continue to determine second, third, and later places. A finished player's pieces stay in the destination triangle and continue to act as jumpable obstacles. The finished player takes no further turns.</p>
+
+      <h3>Optional Match Scoring</h3>
+      <p>Chinese Checkers normally awards a win rather than points. For a series of games, players may use the following simple system:</p>
+
+      <ul>
+        <li>First place receives one match point for every opponent in the game.</li>
+        <li>Second place receives one fewer point, continuing downward by one point per place.</li>
+        <li>Last place receives zero match points.</li>
+        <li>After an agreed number of games, the player with the most match points wins the series.</li>
+      </ul>
+
+      <h3>Ending an Unfinished Game</h3>
+      <p>If the game must end early, count how many of each player's pieces are inside that player's destination. The player with the most destination pieces ranks highest. Break a tie by comparing the tied players' remaining pieces one at a time according to how close they are to the destination, favoring the army with less total travel remaining. Players may instead declare a draw if they do not want to calculate distances.</p>
+
+      <p>If all remaining players repeatedly recreate the same position or agree that no one can make meaningful progress, the game may be declared a draw. Casual groups may also set a turn limit before play and use the unfinished-game comparison when the limit is reached.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="variants">
+      <h2>Section 6: Variants &amp; House Rules</h2>
+
+      <h3>Fast Two-Player Game</h3>
+      <p>Each player uses 10 pieces in opposite triangles. The first player to fill the opposite 10-position triangle wins. This is the simplest setup and is well suited to new players.</p>
+
+      <h3>Fifteen-Piece Duel</h3>
+      <p>Each of two players uses 15 pieces in a symmetrical formation consisting of a complete triangle plus the adjacent five-position row. The destination is the matching 15-position area on the opposite side. This creates a denser game with longer jump chains.</p>
+
+      <h3>Five-Player Game</h3>
+      <p>Five players occupy five points and leave one point empty. Each player still aims for the point directly opposite their home, so one destination begins empty while the others may begin occupied. Rotate the empty starting point between games to share the positional advantage.</p>
+
+      <h3>Partnership Play</h3>
+      <p>With four or six players, divide the table into two teams and seat teammates so the arrangement is balanced. Each player controls only their own color. A team wins when every teammate has completed their destination. Teammates may discuss strategy only if table talk is allowed for both teams.</p>
+
+      <h3>Super Chinese Checkers</h3>
+      <p>Allow long-distance symmetrical jumps. A piece may jump over another piece when the number of empty positions between the moving piece and the obstacle equals the number of empty positions beyond the obstacle before the landing position. The landing position must be empty, and all involved positions must lie on one straight board line. Players may chain these extended jumps and ordinary adjacent jumps in the same jumping turn.</p>
+
+      <h3>Destination Lock</h3>
+      <p>Once a piece enters its destination triangle, it may move only to another position within that triangle. This rewards careful filling from the tip outward and prevents players from using completed pieces for later excursions.</p>
+
+      <h3>No Foreign Triangles</h3>
+      <p>A piece may enter only its own home triangle and its destination triangle. All four unrelated outer triangles are off-limits to that player. A piece may jump over an occupied position at the edge of a forbidden triangle only if its landing position remains legal.</p>
+
+      <h3>Mandatory Jump</h3>
+      <p>If any of the active player's pieces can jump, that player must make a jumping move rather than a step. The player chooses which piece jumps and may stop after any jump. This house rule creates tactical surprises but can force pieces away from their preferred routes.</p>
+
+      <h3>Maximum Jump Chain</h3>
+      <p>When choosing a jumping move, the player must use a route containing the greatest number of jumps available to the selected piece. If several routes tie, the player chooses among them. For a stricter version, compare all pieces and require the longest chain available anywhere in the player's army.</p>
+
+      <h3>Quick Start</h3>
+      <p>Players begin with the rear tip row and the next row already advanced into agreed symmetrical positions near the central field. Every player must use an equivalent formation. This variation shortens the opening but should not be used when comparing results with games played from the normal setup.</p>
+
+      <h3>Timed Play</h3>
+      <p>Agree on an equal time allowance for each player. A player's time runs only while that player is deciding and moving. When time expires, the player loses or receives a fixed penalty chosen before the game. If no timing device is available, use a spoken countdown of equal length on every turn.</p>
+
+      <h3>Beginner Assistance</h3>
+      <p>Allow each player one take-back per game, provided the next player has not moved. Another friendly option is to let the table point out a missed jump chain before the active player ends the turn. These allowances should apply equally to everyone.</p>
+
+      <h3>Choosing House Rules</h3>
+      <p>Use only variations accepted before setup, and apply them consistently for the entire game. A good default for casual play is unrestricted movement, optional jumps, destination lock, and the anti-blocking rule. When teaching children or new players, begin with the standard single-step and adjacent-jump rules before introducing extended jumps or forced movement.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="oss-footer-top">
+      <p>&copy; 2026 OpenSourceSports</p>
+      <div class="oss-footer-meta">
+        <span>&middot;</span> Automated by <a href="https://github.com/DigiLogicLabs/OpenSourceSports">OpenClaw</a>
+      </div>
+    </div>
+    <a href="https://digilogiclabs.com" target="_blank" rel="noopener" class="oss-footer-brand">
+      <img src="../../../../assets/images/dll-logo.png" alt="Digi Logic Labs" width="36" height="36">
+      <div class="oss-footer-brand-text">
+        <span class="oss-footer-brand-name">Digi Logic Labs</span>
+        <span class="oss-footer-brand-tagline">A Workshop for Digital Craftsmanship</span>
+      </div>
+    </a>
+  </footer>
+</body>
+</html>
