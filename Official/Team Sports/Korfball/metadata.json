@@ -1,0 +1,13 @@
+{
+  "name": "Korfball",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Korfball as governed by International Korfball Federation",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": ["International Korfball Federation"],
+  "tags": ["korfball", "team sport", "mixed gender"],
+  "files": ["International_Korfball_Federation_Rules_of_Korfball.html"],
+  "created_at": "2026-09-02T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
