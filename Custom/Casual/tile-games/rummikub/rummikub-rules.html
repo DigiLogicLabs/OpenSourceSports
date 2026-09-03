@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rummikub - Game Rules</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../../../../assets/images/favicon.ico">
+  <link rel="stylesheet" href="../../../../assets/css/opensourcesports.css">
+</head>
+<body>
+  <!--
+  METADATA
+  {
+    "sport": "Rummikub",
+    "category": "Tile Games",
+    "type": "CUSTOM",
+    "governingBody": "",
+    "version": "1.0.0",
+    "lastUpdated": "2026-09-03",
+    "author": "OpenSourceSports",
+    "tags": ["casual", "tile game", "melding", "family"],
+    "equipment": ["tile", "rack"]
+  }
+  -->
+
+  <header id="top">
+    <img src="../../../../assets/images/logo.png" alt="OpenSourceSports" class="oss-header-logo">
+    <div class="oss-header-text">
+      <h1>Rummikub - Game Rules</h1>
+      
+      <p class="last-updated">Last Updated: September 03, 2026</p>
+    </div>
+  </header>
+
+  <nav class="oss-toc" id="toc">
+    <details open>
+      <summary>Table of Contents</summary>
+      <ol>
+        <li><a href="#introduction"><span class="toc-number">1.</span> Introduction</a></li>
+        <li><a href="#components"><span class="toc-number">2.</span> Components</a></li>
+        <li><a href="#setup"><span class="toc-number">3.</span> Setup</a></li>
+        <li><a href="#gameplay"><span class="toc-number">4.</span> Gameplay</a></li>
+        <li><a href="#scoring"><span class="toc-number">5.</span> Scoring &amp; Winning</a></li>
+        <li><a href="#variants"><span class="toc-number">6.</span> Variants &amp; House Rules</a></li>
+      </ol>
+    </details>
+  </nav>
+
+  <main>
+    <section id="introduction">
+      <h2>Section 1: Introduction</h2>
+
+      <p>Rummikub is a tile-melding game in which players build numbered groups and runs on a shared playing area. It combines the pattern-making of traditional rummy games with a distinctive rearrangement mechanic: after completing an opening meld, a player may reorganize tiles already in play, provided every tile forms part of a valid combination when the turn ends.</p>
+
+      <h3>Objective</h3>
+      <p>The immediate objective is to be the first player to place every tile from your rack onto the shared playing area. In a multi-round match, players also record the values of tiles left on opponents’ racks and try to finish with the highest cumulative score.</p>
+
+      <h3>Players and Playing Style</h3>
+      <p>The standard game is suited to two to four players. Everyone plays individually; there are no partners, private trades, or shared racks. A typical game rewards observation, flexible planning, and careful use of the two jokers.</p>
+
+      <h3>Valid Combinations</h3>
+      <p>Every exposed tile must belong to a valid group or run:</p>
+      <ul>
+        <li><strong>Group:</strong> Three or four tiles showing the same number in different colors. A color cannot be repeated within one group. For example, red 8, blue 8, and black 8 form a valid group.</li>
+        <li><strong>Run:</strong> Three or more consecutively numbered tiles of one color. For example, orange 4, orange 5, and orange 6 form a valid run.</li>
+      </ul>
+      <p>The number 1 is used only as the low end of a run. A run may begin with 1, such as 1-2-3, but it may not wrap from 13 back to 1. Combinations containing fewer than three tiles are invalid.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="components">
+      <h2>Section 2: Components</h2>
+
+      <h3>Tiles</h3>
+      <p>A standard Rummikub set contains 106 tiles. There are 104 numbered tiles: two identical copies of each number from 1 through 13 in each of four colors. The particular colors vary between editions, but black, blue, red, and orange are common. The remaining two tiles are jokers.</p>
+
+      <p>Numbered tiles carry their printed point values. A 3 is worth 3 points, a 10 is worth 10 points, and so on. A joker has no fixed value while it is in a combination; it represents the exact number and color needed at its position. A joker left on a player’s rack at the end of a round carries a 30-point penalty.</p>
+
+      <h3>Racks</h3>
+      <p>Each player requires a rack that conceals their tiles from the other players while keeping the faces visible to the owner. Players should keep all unplayed tiles on their own racks and should not reveal, exchange, or deliberately signal them.</p>
+
+      <h3>Tile Pool and Playing Area</h3>
+      <p>The unused tiles form a face-down pool within reach of all players. Although no special board is required, the shared playing area must provide enough room to arrange, split, and rebuild several groups and runs. Keep completed combinations separated clearly so every player can verify them.</p>
+
+      <h3>Checking the Set</h3>
+      <p>Before play, confirm that the set has all 106 tiles and enough racks for every player. Missing numbered tiles alter the available combinations, while a missing joker changes both strategy and scoring. If using an incomplete set for casual play, disclose the missing pieces before the game begins.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="setup">
+      <h2>Section 3: Setup</h2>
+
+      <ol>
+        <li>Place all 106 tiles face down and mix them thoroughly to form the pool.</li>
+        <li>Give each player a rack.</li>
+        <li>Determine the first player by any fair method. A common method is for each player to draw one tile; the player drawing the highest number begins. Treat a joker as the lowest draw for this purpose. Return the drawn tiles and remix the pool.</li>
+        <li>Each player draws 14 tiles and arranges them privately on their rack.</li>
+        <li>Leave the remaining tiles face down as the draw pool.</li>
+        <li>Play proceeds clockwise from the starting player.</li>
+      </ol>
+
+      <h3>Before the First Turn</h3>
+      <p>Players may sort their racks by color, number, or possible combinations. Sorting has no rules effect. Once everyone has 14 tiles, players should agree on whether the game will be a single round or a scored series and whether any optional time limit or house rule will be used.</p>
+
+      <h3>The Opening-Meld Requirement</h3>
+      <p>Each player must make an initial meld before manipulating combinations already on the table. The initial meld consists of one or more valid groups or runs placed from that player’s rack during a single turn. The printed or represented values of those tiles must total at least 30 points.</p>
+
+      <p>For example, a run of blue 9-10-11 totals 30 and qualifies. A group of three 10s also totals 30. A player may combine several new combinations to reach the requirement, such as a group of three 6s plus a run of 3-4-5, for a total of 30.</p>
+
+      <p>Only tiles from the player’s rack count toward the initial meld. The player may not add to, split, borrow from, or rearrange combinations already on the table while satisfying it. A joker may be included and counts as the tile it represents.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="gameplay">
+      <h2>Section 4: Gameplay</h2>
+
+      <h3>Taking a Turn</h3>
+      <p>On a turn, a player who has not yet completed an initial meld may place a qualifying meld from their rack. After that player has completed the requirement, later turns may include any combination of the following actions:</p>
+      <ul>
+        <li>Place a new group or run from the rack.</li>
+        <li>Add one or more rack tiles to combinations already in play.</li>
+        <li>Rearrange, split, combine, or extend table combinations.</li>
+        <li>Replace and reuse a joker as described below.</li>
+      </ul>
+
+      <p>If a player cannot or chooses not to play, that player draws one tile from the pool and ends the turn. The drawn tile goes onto the rack and is normally unavailable for play until the player’s next turn.</p>
+
+      <h3>Rearranging the Table</h3>
+      <p>Once a player has made an initial meld on an earlier turn, all exposed combinations are available for rearrangement. Tiles may move between combinations, and a long run may be split if the resulting pieces remain valid. A fourth tile may be removed from a four-tile group and used elsewhere because the three tiles left behind still form a valid group.</p>
+
+      <p>For example, if the table contains red 4-5-6-7-8, a player holding red 3 may create red 3-4-5 and leave red 6-7-8. If the table contains blue 9, red 9, black 9, and orange 9, one 9 may be moved into another combination while the remaining three stay together.</p>
+
+      <p>A player may perform several connected rearrangements during one turn, but the final layout is what matters. At the end of the turn, every exposed tile must belong to a valid group or run containing at least three tiles. No loose tile, duplicate color within a group, gap within a run, or two-tile combination may remain.</p>
+
+      <h3>Commitment and Failed Rearrangements</h3>
+      <p>Players should plan complex moves before disturbing the table. If a player cannot complete a legal arrangement, restore the table to its condition at the start of the turn. For relaxed play, the player then draws one tile and ends the turn. If restoration is impossible, the group should reconstruct the last agreed layout before continuing.</p>
+
+      <h3>Using Jokers</h3>
+      <p>A joker may represent any numbered tile needed to complete a valid group or run. Its identity is determined by its position. In a blue 6, joker, blue 8 run, the joker represents blue 7. In a group containing red 12, black 12, and a joker, it represents a 12 in an unused color.</p>
+
+      <p>A joker may be moved through a legal table rearrangement, but it may never be left loose. To retrieve a joker directly, replace it with the exact tile needed in its current combination. In a group, the replacement must have the group’s number and an available color; in a run, it must have the required number and color. The replacement comes from the active player’s rack.</p>
+
+      <p>A retrieved joker must be used during the same turn in a new or rearranged valid combination. It does not return to the player’s rack and cannot be saved for later. A combination containing a joker may otherwise be split or rearranged only when all resulting combinations remain legal.</p>
+
+      <h3>Table Etiquette</h3>
+      <ul>
+        <li>Keep combinations aligned and leave visible space between them.</li>
+        <li>Announce complicated changes as they are made so opponents can follow the move.</li>
+        <li>Do not touch another player’s rack or inspect face-down tiles.</li>
+        <li>Resolve an illegal layout before the next player begins.</li>
+        <li>When the pool is nearly empty, keep it clearly separate from discarded or temporarily moved tiles.</li>
+      </ul>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="scoring">
+      <h2>Section 5: Scoring &amp; Winning</h2>
+
+      <h3>Ending a Round</h3>
+      <p>A player wins the round immediately upon legally playing the last tile from their rack. The final table must consist entirely of valid groups and runs. The winner should clearly announce the finish before tiles are gathered for scoring.</p>
+
+      <p>If the draw pool is empty, play continues as long as legal moves are made. When the pool is empty and every player is unable or unwilling to play, the round is blocked. Each player totals the tiles remaining on their rack, and the player with the lowest total wins the blocked round. If the lowest totals are tied, the tied players share the round win or play an agreed tiebreaker.</p>
+
+      <h3>Tile Values</h3>
+      <ul>
+        <li>Each numbered tile is worth its printed number.</li>
+        <li>Each joker left on a rack is worth 30 points.</li>
+        <li>Tiles already played on the table do not count against any player.</li>
+      </ul>
+
+      <h3>Standard Round Scoring</h3>
+      <p>After a player empties their rack, every opponent adds the values of their remaining tiles and records that amount as a negative score. The winner receives a positive score equal to the combined value of all opponents’ remaining tiles.</p>
+
+      <p>For example, if three losing players retain tiles worth 12, 18, and 25 points, they score -12, -18, and -25. The round winner scores +55. The scores for a completed round therefore balance to zero.</p>
+
+      <h3>Scoring a Blocked Round</h3>
+      <p>When no further play is possible, compare rack totals. A practical zero-sum method is to treat the player with the lowest rack total as the winner: each opponent scores the negative difference between their total and the winner’s total, while the winner receives the sum of those differences.</p>
+
+      <p>For example, rack totals of 8, 14, 21, and 30 make the player with 8 the winner. The opponents score -6, -13, and -22, and the winner scores +41. Before beginning a series, players should agree how a tie for the lowest blocked-round total will be recorded.</p>
+
+      <h3>Winning a Match</h3>
+      <p>For a one-round game, the round winner wins the game. For a match, play an agreed number of rounds, rotating or redrawing the starting player each round. Add all positive and negative round scores; the player with the highest cumulative total wins the match. If cumulative scores are tied, the tied players may share the victory or play one additional round.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+
+    <section id="variants">
+      <h2>Section 6: Variants &amp; House Rules</h2>
+
+      <p>Rummikub is often adapted to suit different ages, group sizes, and desired game lengths. Agree on all variations before tiles are drawn, and apply them consistently to every player.</p>
+
+      <h3>Turn Timer</h3>
+      <p>Use a two-minute limit for each turn to keep the game moving. If time expires while a player is rearranging the table, that player must restore the previous layout and draw one tile. For a gentler family game, use three minutes or suspend the timer for beginners.</p>
+
+      <h3>Failed-Move Penalty</h3>
+      <p>For a stricter challenge, a player who leaves an illegal table layout must restore it and draw three penalty tiles instead of one. Only use this rule when the original layout can be tracked reliably. Casual groups may prefer the ordinary one-tile draw.</p>
+
+      <h3>Reduced Opening Total</h3>
+      <p>Young or first-time players may use an opening requirement of 20 points rather than 30. Another teaching option is to waive the point threshold while still requiring the opening combination to use only tiles from the player’s rack.</p>
+
+      <h3>No Opening Threshold</h3>
+      <p>For a faster game, allow every player to begin with any valid group or run. A player must still place at least one legal combination from the rack before gaining permission to rearrange table tiles.</p>
+
+      <h3>Immediate Use of a Drawn Tile</h3>
+      <p>Under this variation, a player who draws may immediately play that tile if it creates a legal move. The turn then ends after that play. This speeds up the game but gives players more information about exactly which tile was drawn.</p>
+
+      <h3>Gentle Joker Rule</h3>
+      <p>For younger players, allow a retrieved joker to return to the rack instead of requiring its immediate reuse. Because this makes jokers easier to save and can lengthen the game, retain the 30-point end-of-round penalty.</p>
+
+      <h3>Flexible Joker Replacement</h3>
+      <p>Some groups allow a joker in a group to be released by adding both missing colors and then rearranging the four numbered tiles. If using this interpretation, require every replacement tile to come from the active player’s rack and require the joker to be reused immediately.</p>
+
+      <h3>Partnership Play</h3>
+      <p>With four players, partners may sit opposite one another and combine their round scores. Partners still maintain separate concealed racks and may not reveal tiles or advise each other. The first player to empty a rack ends the round for everyone.</p>
+
+      <h3>Short Match</h3>
+      <p>Play three rounds and total the scores. Rotate the first player clockwise each round. This format reduces the effect of a single fortunate rack while remaining short enough for casual play.</p>
+
+      <h3>Simple Win Counting</h3>
+      <p>Groups that do not want arithmetic may award one win for each round instead of calculating tile values. After an agreed number of rounds, the player with the most wins is the match winner. Use one extra round to break a tie if desired.</p>
+
+      <h3>Open-Rack Teaching Game</h3>
+      <p>Beginners may play with racks visible to everyone. Experienced players can explain possible groups, runs, and rearrangements without choosing moves for the active player. Once everyone understands the patterns, return to concealed racks for normal play.</p>
+
+      <div class="oss-section-foot"><a href="#toc" class="oss-back-top">↑ Back to Contents</a></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="oss-footer-top">
+      <p>&copy; 2026 OpenSourceSports</p>
+      <div class="oss-footer-meta">
+        <span>&middot;</span> Automated by <a href="https://github.com/DigiLogicLabs/OpenSourceSports">OpenClaw</a>
+      </div>
+    </div>
+    <a href="https://digilogiclabs.com" target="_blank" rel="noopener" class="oss-footer-brand">
+      <img src="../../../../assets/images/dll-logo.png" alt="Digi Logic Labs" width="36" height="36">
+      <div class="oss-footer-brand-text">
+        <span class="oss-footer-brand-name">Digi Logic Labs</span>
+        <span class="oss-footer-brand-tagline">A Workshop for Digital Craftsmanship</span>
+      </div>
+    </a>
+  </footer>
+</body>
+</html>
