@@ -1,0 +1,13 @@
+{
+  "name": "Jenga",
+  "category": "party-games",
+  "type": "CUSTOM",
+  "description": "Rules for Jenga",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "dexterity", "party game", "family"]  ,
+  "files": ["jenga-rules.html"],
+  "created_at": "2026-09-04T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
