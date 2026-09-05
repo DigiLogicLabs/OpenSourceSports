@@ -1,0 +1,13 @@
+{
+  "name": "Flip Cup",
+  "category": "party-games",
+  "type": "CUSTOM",
+  "description": "Rules for Flip Cup",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "party game", "drinking game", "team"]  ,
+  "files": ["flip-cup-rules.html"],
+  "created_at": "2026-09-05T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
