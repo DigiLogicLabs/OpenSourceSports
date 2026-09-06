@@ -1,0 +1,13 @@
+{
+  "name": "Roller Derby",
+  "category": "Team Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Roller Derby as governed by WFTDA",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": ["WFTDA"],
+  "tags": ["roller derby", "wftda", "team sport"],
+  "files": ["WFTDA_Rules_of_Flat_Track_Roller_Derby.html"],
+  "created_at": "2026-09-06T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
