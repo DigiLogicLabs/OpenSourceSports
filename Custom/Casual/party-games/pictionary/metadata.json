@@ -1,0 +1,13 @@
+{
+  "name": "Pictionary",
+  "category": "party-games",
+  "type": "CUSTOM",
+  "description": "Rules for Pictionary",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "party game", "drawing", "family"]  ,
+  "files": ["pictionary-rules.html"],
+  "created_at": "2026-09-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
