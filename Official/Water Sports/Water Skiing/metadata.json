@@ -1,0 +1,13 @@
+{
+  "name": "Water Skiing",
+  "category": "Water Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Water Skiing as governed by IWWF",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": ["IWWF"],
+  "tags": ["water skiing", "iwwf", "water sport"],
+  "files": ["IWWF_Tournament_Rules.html"],
+  "created_at": "2026-09-07T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
