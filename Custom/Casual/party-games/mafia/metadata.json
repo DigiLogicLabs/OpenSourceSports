@@ -1,0 +1,13 @@
+{
+  "name": "Mafia",
+  "category": "party-games",
+  "type": "CUSTOM",
+  "description": "Rules for Mafia",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "party game", "social deduction", "werewolf"]  ,
+  "files": ["mafia-rules.html"],
+  "created_at": "2026-09-08T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
