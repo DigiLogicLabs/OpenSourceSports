@@ -1,0 +1,13 @@
+{
+  "name": "Darts",
+  "category": "Precision Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Darts as governed by PDC",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": ["PDC"],
+  "tags": ["professional", "darts", "pdc", "precision"],
+  "files": ["PDC_Rules_of_Play.html"],
+  "created_at": "2026-09-09T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
