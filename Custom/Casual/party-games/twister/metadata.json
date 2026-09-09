@@ -1,0 +1,13 @@
+{
+  "name": "Twister",
+  "category": "party-games",
+  "type": "CUSTOM",
+  "description": "Rules for Twister",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "party game", "dexterity", "family"]  ,
+  "files": ["twister-rules.html"],
+  "created_at": "2026-09-09T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
