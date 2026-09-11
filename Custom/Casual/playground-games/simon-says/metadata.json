@@ -1,0 +1,13 @@
+{
+  "name": "Simon Says",
+  "category": "playground-games",
+  "type": "CUSTOM",
+  "description": "Rules for Simon Says",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "playground", "kids", "listening"]  ,
+  "files": ["simon-says-rules.html"],
+  "created_at": "2026-09-11T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
