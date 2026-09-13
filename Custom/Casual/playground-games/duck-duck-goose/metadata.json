@@ -1,0 +1,13 @@
+{
+  "name": "Duck Duck Goose",
+  "category": "playground-games",
+  "type": "CUSTOM",
+  "description": "Rules for Duck Duck Goose",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "playground", "kids", "circle game"]  ,
+  "files": ["duck-duck-goose-rules.html"],
+  "created_at": "2026-09-13T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
