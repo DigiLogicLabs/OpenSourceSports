@@ -1,0 +1,13 @@
+{
+  "name": "Sharks and Minnows",
+  "category": "playground-games",
+  "type": "CUSTOM",
+  "description": "Rules for Sharks and Minnows",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "playground", "kids", "tag variant"]  ,
+  "files": ["sharks-and-minnows-rules.html"],
+  "created_at": "2026-09-14T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
