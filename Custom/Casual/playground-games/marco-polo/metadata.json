@@ -1,0 +1,13 @@
+{
+  "name": "Marco Polo",
+  "category": "playground-games",
+  "type": "CUSTOM",
+  "description": "Rules for Marco Polo",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "pool game", "kids", "tag variant"]  ,
+  "files": ["marco-polo-rules.html"],
+  "created_at": "2026-09-15T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
