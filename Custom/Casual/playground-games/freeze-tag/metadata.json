@@ -1,0 +1,13 @@
+{
+  "name": "Freeze Tag",
+  "category": "playground-games",
+  "type": "CUSTOM",
+  "description": "Rules for Freeze Tag",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "playground", "kids", "tag variant"]  ,
+  "files": ["freeze-tag-rules.html"],
+  "created_at": "2026-09-16T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
