@@ -1,0 +1,13 @@
+{
+  "name": "Double Dutch",
+  "category": "playground-games",
+  "type": "CUSTOM",
+  "description": "Rules for Double Dutch",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "playground", "jump rope", "kids"]  ,
+  "files": ["double-dutch-rules.html"],
+  "created_at": "2026-09-18T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
