@@ -1,0 +1,13 @@
+{
+  "name": "Wall Ball",
+  "category": "playground-games",
+  "type": "CUSTOM",
+  "description": "Rules for Wall Ball",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": [],
+  "tags": ["casual", "playground", "kids", "ball game"]  ,
+  "files": ["wall-ball-rules.html"],
+  "created_at": "2026-09-21T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
