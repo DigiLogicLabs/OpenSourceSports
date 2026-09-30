@@ -1,0 +1,13 @@
+{
+  "name": "Axe Throwing",
+  "category": "Precision Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Axe Throwing as governed by WATL",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": ["WATL"],
+  "tags": ["axe throwing", "watl", "precision"],
+  "files": ["WATL_Rulebook.html"],
+  "created_at": "2026-09-30T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}

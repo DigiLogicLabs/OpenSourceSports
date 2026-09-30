@@ -141,6 +141,21 @@ The `METADATA` JSON comment is **required** at the top of `<body>`. It powers au
 | `author` | Yes | `OpenSourceSports` or contributor name |
 | `tags` | Yes | Array of searchable tags |
 
+### Withdrawing a verification claim
+
+For an Official rulebook whose verification is no longer supported, set
+`last_verified_at` explicitly to JSON `null` and supply a nonempty
+`verification_withdrawn_reason`. Record the evidence and previous verification
+date in that reason. Keep the source URL, source name, edition, rule content,
+and historical `lastUpdated` intact. A 403/429 or transient server error alone
+does not establish that a source is gone.
+
+Omitting the field is not a withdrawal: the app preserves existing review dates
+and accepts legacy `lastUpdated` fallbacks. The app must support explicit-null
+withdrawal before these metadata changes are published and synced; otherwise
+an older parser can restore the date. Citation and section requirements still
+apply, and the confidence guard reports withdrawals visibly.
+
 ## Naming Conventions
 
 ### Directories
