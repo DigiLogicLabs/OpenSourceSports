@@ -1,0 +1,13 @@
+{
+  "name": "Mini Golf",
+  "category": "Precision Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Mini Golf as governed by WMF",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": ["WMF"],
+  "tags": ["minigolf", "wmf", "precision"],
+  "files": ["WMF_Rules_of_the_Game.html"],
+  "created_at": "2026-10-02T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
