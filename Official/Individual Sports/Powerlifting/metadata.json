@@ -1,0 +1,13 @@
+{
+  "name": "Powerlifting",
+  "category": "Individual Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Powerlifting as governed by IPF",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": ["IPF"],
+  "tags": ["powerlifting", "ipf", "strength"],
+  "files": ["IPF_Technical_Rules.html"],
+  "created_at": "2026-10-03T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
