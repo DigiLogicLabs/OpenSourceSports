@@ -1,0 +1,13 @@
+{
+  "name": "Rodeo",
+  "category": "Individual Sports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Rodeo as governed by PRCA",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": ["PRCA"],
+  "tags": ["rodeo", "prca", "western"],
+  "files": ["PRCA_Rulebook.html"],
+  "created_at": "2026-10-10T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
