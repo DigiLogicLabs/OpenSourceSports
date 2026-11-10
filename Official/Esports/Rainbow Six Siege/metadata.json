@@ -1,0 +1,13 @@
+{
+  "name": "Rainbow Six Siege",
+  "category": "Esports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Rainbow Six Siege as governed by Ubisoft",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": ["Ubisoft"],
+  "tags": ["esports", "rainbow six", "fps", "tactical"],
+  "files": ["Ubisoft_Esports_Rulebook.html"],
+  "created_at": "2026-11-10T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
