@@ -1,0 +1,13 @@
+{
+  "name": "Apex Legends",
+  "category": "Esports",
+  "type": "OFFICIAL",
+  "description": "Official rules for Apex Legends as governed by Electronic Arts",
+  "source_name": "",
+  "source_url": "",
+  "governing_bodies": ["Electronic Arts"],
+  "tags": ["esports", "apex legends", "algs", "battle royale"],
+  "files": ["Electronic_Arts_ALGS_Rulebook.html"],
+  "created_at": "2026-11-17T00:00:00Z",
+  "created_by": "OpenSourceSports"
+}
